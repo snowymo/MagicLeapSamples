@@ -1,0 +1,190 @@
+[
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.audio_input.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.audio_input.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.audio_output.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.audio_output.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.bluetooth.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.bluetooth.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.connections.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.connections.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.controller.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.controller.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.eye_tracking.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.eye_tracking.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.hand_tracking.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.hand_tracking.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.head_tracking.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.head_tracking.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.image_capture.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.image_capture.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.image_tracking.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.image_tracking.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.lifecycle.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.lifecycle.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.locale.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.locale.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.location.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.location.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.meshing.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.meshing.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.pcf.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.pcf.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.planes.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.planes.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.raycast.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.raycast.mpk"
+ },
+ {
+  "dest": "device_samples/com.magicleap.capi.sample.simple_gl_app.mpk",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/com.magicleap.capi.sample.simple_gl_app.mpk"
+ },
+ {
+  "dest": "native_samples/data/Controller.fbm/Controller.png",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/data/Controller.fbm/Controller.png"
+ },
+ {
+  "dest": "native_samples/data/Controller.fbx",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/data/Controller.fbx"
+ },
+ {
+  "dest": "native_samples/data/DeepSeaExploration.png",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/data/DeepSeaExploration.png"
+ },
+ {
+  "dest": "native_samples/data/DeepSpaceExploration.png",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/data/DeepSpaceExploration.png"
+ },
+ {
+  "dest": "native_samples/data/ML_AUD_Example.raw",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/data/ML_AUD_Example.raw"
+ },
+ {
+  "dest": "native_samples/data/Touchpad_arrow.fbx",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/data/Touchpad_arrow.fbx"
+ },
+ {
+  "dest": "native_samples/data/sphere.blend",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/data/sphere.blend"
+ },
+ {
+  "dest": "native_samples/data/sphere.mtl",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/data/sphere.mtl"
+ },
+ {
+  "dest": "native_samples/data/sphere.obj",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/data/sphere.obj"
+ },
+ {
+  "dest": "native_samples/assimp-vc140-mtd.dll",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/assimp-vc140-mtd.dll"
+ },
+ {
+  "dest": "native_samples/audio_input.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/audio_input.exe"
+ },
+ {
+  "dest": "native_samples/audio_output.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/audio_output.exe"
+ },
+ {
+  "dest": "native_samples/bluetooth.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/bluetooth.exe"
+ },
+ {
+  "dest": "native_samples/controller.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/controller.exe"
+ },
+ {
+  "dest": "native_samples/eye_tracking.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/eye_tracking.exe"
+ },
+ {
+  "dest": "native_samples/gflags_nothreads_debug.dll",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/gflags_nothreads_debug.dll"
+ },
+ {
+  "dest": "native_samples/glfw3d.dll",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/glfw3d.dll"
+ },
+ {
+  "dest": "native_samples/hand_tracking.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/hand_tracking.exe"
+ },
+ {
+  "dest": "native_samples/head_tracking.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/head_tracking.exe"
+ },
+ {
+  "dest": "native_samples/image_capture.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/image_capture.exe"
+ },
+ {
+  "dest": "native_samples/image_tracking.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/image_tracking.exe"
+ },
+ {
+  "dest": "native_samples/lifecycle.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/lifecycle.exe"
+ },
+ {
+  "dest": "native_samples/locale.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/locale.exe"
+ },
+ {
+  "dest": "native_samples/location.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/location.exe"
+ },
+ {
+  "dest": "native_samples/meshing.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/meshing.exe"
+ },
+ {
+  "dest": "native_samples/pcf.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/pcf.exe"
+ },
+ {
+  "dest": "native_samples/planes.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/planes.exe"
+ },
+ {
+  "dest": "native_samples/raycast.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/raycast.exe"
+ },
+ {
+  "dest": "native_samples/simple_gl_app.exe",
+  "src": "C:/Users/snowy/MagicLeap/mlsdk/v0.24.1/samples/c_api/samples/BUILD/debug_win_msvc-2017-15.9_x64/simple_gl_app.exe"
+ }
+]

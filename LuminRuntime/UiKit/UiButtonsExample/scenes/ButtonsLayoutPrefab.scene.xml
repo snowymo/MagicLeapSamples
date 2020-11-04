@@ -1,0 +1,266 @@
+<ObjectModel name="ButtonsLayoutPrefab" version="1">
+    <TransformNode/>
+    <UiGridLayout alignment="Center, Center" columns="2" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Top, Center" name="BLS_GridLayout">
+        <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+            <UiText eclipse="true" eclipseLabelType="T1" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label1" style="Italic" text="Eclipse Buttons:" textSize="0.040513" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform1"/>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.010000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label2" text="Icon Only" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform2">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.020000, 0.010000, 0.020000" name="BLS_LinearLayout1" orientation="Horizontal">
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout1" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiButton eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.048371, 0.048371" labelDisplayMode="Always" labelSide="Top" name="BLS_Button1" size="0.108333, 0.108333" systemIcon="Star"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout2" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label1" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label3" text="Text Only" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform3">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.020000, 0.010000, 0.020000" name="BLS_LinearLayout2" orientation="Horizontal">
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout3" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiButton eclipse="true" eclipseButtonType="Text" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" labelDisplayMode="Always" labelSide="Top" name="BLS_Button2" size="0.433333, 0.108333" systemIcon="Actions" text="Text Only" textSize="0.057622"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout4" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label2" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label4" text="Icon + Label" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform4">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.020000, 0.010000, 0.020000" name="BLS_LinearLayout3" orientation="Horizontal">
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout5" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiButton eclipse="true" eclipseButtonType="IconWithLabel" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.048371, 0.048371" name="BLS_Button3" size="0.433333, 0.108333" systemIcon="Star" text="Label" textSize="0.042325"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout6" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label3" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label5" text="Text + Icon" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform5">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.020000, 0.010000, 0.020000" name="BLS_LinearLayout4" orientation="Horizontal">
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout7" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiButton eclipse="true" eclipseButtonType="TextWithIcon" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.063510, 0.063510" labelDisplayMode="Always" labelSide="Top" name="BLS_Button4" size="0.433333, 0.108333" systemIcon="Star" text="Text" textSize="0.057622"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout8" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label4" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label6" text="Text Only Outlined" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform6">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.020000, 0.010000, 0.020000" name="BLS_LinearLayout5" orientation="Horizontal">
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout9" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiButton eclipse="true" eclipseButtonType="Text" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" labelDisplayMode="Always" labelSide="Top" name="BLS_Button5" outline="true" size="0.433333, 0.108333" systemIcon="Actions" text="Outline" textSize="0.063488"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout10" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label5" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label7" text="Text + Icon Outlined" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform7">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.020000, 0.010000, 0.020000" name="BLS_LinearLayout6" orientation="Horizontal">
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout11" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiButton eclipse="true" eclipseButtonType="TextWithIcon" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.063510, 0.063510" labelDisplayMode="Always" labelSide="Top" name="BLS_Button6" outline="true" size="0.433333, 0.108333" systemIcon="Star" text="Outline" textSize="0.063488"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout12" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label6" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.000000, 0.020000, 0.000000">
+            <LineNode castShadow="false" color="0.9046025,0.9046025,0.9046025,0.9" name="BLS_Line3" opaque="false" points="0.000000, 0.000000, 0.000000, 0.470000, 0.000000, 0.000000" receiveShadow="false" shader="Line"/>
+        </Content>
+        <Content itemAlignment="Top, Left" itemPadding="0.020000, 0.000000, 0.020000, 0.000000">
+            <LineNode castShadow="false" color="0.9046025,0.9046025,0.9046025,0.9" name="BLS_Line4" opaque="false" points="0.000000, 0.000000, 0.000000, 0.470000, 0.000000, 0.000000" receiveShadow="false" shader="Line"/>
+        </Content>
+        <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+            <UiText eclipse="true" eclipseLabelType="T1" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label8" style="Italic" text="Standard Buttons:" textSize="0.040513" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform8"/>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label9" text="Capsule" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform9">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.020000, 0.010000, 0.020000" name="BLS_LinearLayout7" orientation="Horizontal">
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout13" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiButton gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" name="CBS_Button" size="0.433333, 0.108333" text="Capsule" textSize="0.045229"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout14" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label7" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label10" text="Rounded Corner" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform10">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.020000, 0.010000, 0.020000" name="BLS_LinearLayout8" orientation="Horizontal">
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout15" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiButton gravityWellEnabled="true" gravityWellRoundness="0.500000" gravityWellSize="0.000000, 0.000000" name="RCB_Button" roundness="0.500000" size="0.433333, 0.108333" text="Rounded Corner" textSize="0.045229"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout16" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label8" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_Label11" text="Square" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="BLS_Transform11">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.020000, 0.010000, 0.020000" name="BLS_LinearLayout9" orientation="Horizontal">
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout17" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiButton gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" name="SB_Button" roundness="0.000000" size="0.433333, 0.108333" text="Square Corner" textSize="0.045229"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BLS_RectLayout18" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label9" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+    </UiGridLayout>
+</ObjectModel>

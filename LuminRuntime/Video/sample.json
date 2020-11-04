@@ -1,0 +1,7 @@
+{
+	"label": "Video Example",
+	"description": "This example project showcases Lumin Runtime's VideoNode class",
+	"projectFile": "VideoExample.package",
+	"additionalFiles" : ["README.md", "VideoExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

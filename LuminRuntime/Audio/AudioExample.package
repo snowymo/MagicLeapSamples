@@ -1,0 +1,4 @@
+REFS  = AudioExample
+DATAS = res/ : res/ \
+  pipeline/SourceArt/ : pipeline/SourceArt/
+USES =  "scenes"  "pipeline/cache/AssetManifest"

@@ -1,0 +1,5 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/UiCursorsExample.cpp \
+      code/src/core/CursorsDisplay.cpp \
+      code/src/core/BaseExample.cpp

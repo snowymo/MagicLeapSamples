@@ -1,0 +1,11 @@
+KIND = program
+
+INCS = inc/ \
+
+SRCS = \
+       src/main.cpp \
+       src/PortalIcons.cpp \
+       src/UiPortalIconsExample.cpp \
+
+USES = \
+    lumin_runtime \

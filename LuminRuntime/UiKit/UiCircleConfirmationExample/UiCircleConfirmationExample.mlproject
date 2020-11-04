@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlproject:mlproject xmlns:mlproject="http://www.magicleap.com/uidesigner/mlproject" generated="true" modelId="lumin" srcGenVersion="2">
+  <designFile path="scenes/CircleConfirmationPrefab.design" type="prefabDesign" uuid="528687b2-865f-41d0-b3ac-b24b2c8dfe77"/>
+  <designFile path="scenes/CircleConfirmationLayout.design" type="prefabDesign" uuid="df25f399-eb09-4320-a2fb-9136e9647f42"/>
+  <pipelineDirectory path="pipeline"/>
+</mlproject:mlproject>

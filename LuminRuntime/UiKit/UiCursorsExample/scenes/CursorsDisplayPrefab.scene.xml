@@ -1,0 +1,106 @@
+<ObjectModel name="CursorsDisplayPrefab" version="1">
+    <TransformNode/>
+    <UiGridLayout alignment="Top, Center" columns="4" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="CC_GridLayout" pos="0,0.3,0">
+        <Content>
+            <UiLinearLayout alignment="Bottom, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="CC_LinearLayout1">
+                <Content>
+                    <UiText alignment="Top, Center" boundsSize="0.200000, 0.100000" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Text1" style="Italic" text="Default" textSize="0.050000" weight="Bold"/>
+                </Content>
+                <Content>
+                    <UiPanel bottomEdgeConstraint="0.500000" cursorConstrained="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" leftEdgeConstraint="0.500000" name="CC_Panel1" rightEdgeConstraint="0.500000" shape="[size:[0.2,0.2], roundness: 1, offset:[0,0,0]]" topEdgeConstraint="0.500000">
+                        <UiImage alignment="Center, Center" color="1.000000, 1.000000, 1.000000, 0.500000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Image1" opaque="false" res="assets/Circle.png/mZgkRi0kbdI/Circle.png" size="0.200000, 0.200000">
+                            <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Shell1" opaque="false" pos="0,0,-0.001" res="assets/Shell.png/CMN7dTOwHng/Shell.png" size="0.200000, 0.200000"/>
+                        </UiImage>
+                    </UiPanel>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout alignment="Bottom, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="CC_LinearLayout2">
+                <Content>
+                    <UiText alignment="Top, Center" boundsSize="0.200000, 0.100000" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Text2" style="Italic" text="Browser Default" textSize="0.050000" weight="Bold"/>
+                </Content>
+                <Content>
+                    <UiPanel bottomEdgeConstraint="0.500000" cursorConstrained="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" leftEdgeConstraint="0.500000" name="CC_Panel2" rightEdgeConstraint="0.500000" shape="[size:[0.2,0.2], roundness: 1, offset:[0,0,0]]" topEdgeConstraint="0.500000">
+                        <UiImage alignment="Center, Center" color="1.000000, 1.000000, 1.000000, 0.500000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Image2" opaque="false" res="assets/Circle.png/mZgkRi0kbdI/Circle.png" size="0.200000, 0.200000">
+                            <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Shell2" opaque="false" pos="0,0,-0.001" res="assets/Shell.png/CMN7dTOwHng/Shell.png" size="0.200000, 0.200000"/>
+                        </UiImage>
+                    </UiPanel>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout alignment="Bottom, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="CC_LinearLayout3">
+                <Content>
+                    <UiText alignment="Top, Center" boundsSize="0.200000, 0.100000" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Text3" style="Italic" text="Browser Pointer" textSize="0.050000" weight="Bold"/>
+                </Content>
+                <Content>
+                    <UiPanel bottomEdgeConstraint="0.500000" cursorConstrained="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" leftEdgeConstraint="0.500000" name="CC_Panel3" rightEdgeConstraint="0.500000" shape="[size:[0.2,0.2], roundness: 1, offset:[0,0,0]]" topEdgeConstraint="0.500000">
+                        <UiImage alignment="Center, Center" color="1.000000, 1.000000, 1.000000, 0.500000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Image3" opaque="false" res="assets/Circle.png/mZgkRi0kbdI/Circle.png" size="0.200000, 0.200000">
+                            <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Shell3" opaque="false" pos="0,0,-0.001" res="assets/Shell.png/CMN7dTOwHng/Shell.png" size="0.200000, 0.200000"/>
+                        </UiImage>
+                    </UiPanel>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout alignment="Bottom, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="CC_LinearLayout4">
+                <Content>
+                    <UiText alignment="Top, Center" boundsSize="0.200000, 0.100000" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Text4" style="Italic" text="Text Input" textSize="0.050000" weight="Bold"/>
+                </Content>
+                <Content>
+                    <UiPanel bottomEdgeConstraint="0.500000" cursorConstrained="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" leftEdgeConstraint="0.500000" name="CC_Panel4" rightEdgeConstraint="0.500000" shape="[size:[0.2,0.2], roundness: 1, offset:[0,0,0]]" topEdgeConstraint="0.500000">
+                        <UiImage alignment="Center, Center" color="1.000000, 1.000000, 1.000000, 0.500000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Image4" opaque="false" res="assets/Circle.png/mZgkRi0kbdI/Circle.png" size="0.200000, 0.200000">
+                            <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Shell4" opaque="false" pos="0,0,-0.001" res="assets/Shell.png/CMN7dTOwHng/Shell.png" size="0.200000, 0.200000"/>
+                        </UiImage>
+                    </UiPanel>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout alignment="Bottom, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="CC_LinearLayout5">
+                <Content>
+                    <UiText alignment="Top, Center" boundsSize="0.200000, 0.100000" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Text5" style="Italic" text="Crosshair" textSize="0.050000" weight="Bold"/>
+                </Content>
+                <Content>
+                    <UiPanel bottomEdgeConstraint="0.500000" cursorConstrained="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" leftEdgeConstraint="0.500000" name="CC_Panel5" rightEdgeConstraint="0.500000" shape="[size:[0.2,0.2], roundness: 1, offset:[0,0,0]]" topEdgeConstraint="0.500000">
+                        <UiImage alignment="Center, Center" color="1.000000, 1.000000, 1.000000, 0.500000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Image5" opaque="false" res="assets/Circle.png/mZgkRi0kbdI/Circle.png" size="0.200000, 0.200000">
+                            <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Shell5" opaque="false" pos="0,0,-0.001" res="assets/Shell.png/CMN7dTOwHng/Shell.png" size="0.200000, 0.200000"/>
+                        </UiImage>
+                    </UiPanel>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout alignment="Bottom, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="CC_LinearLayout6">
+                <Content>
+                    <UiText alignment="Top, Center" boundsSize="0.200000, 0.100000" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Text6" style="Italic" text="Move" textSize="0.050000" weight="Bold"/>
+                </Content>
+                <Content>
+                    <UiPanel bottomEdgeConstraint="0.500000" cursorConstrained="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" leftEdgeConstraint="0.500000" name="CC_Panel6" rightEdgeConstraint="0.500000" shape="[size:[0.2,0.2], roundness: 1, offset:[0,0,0]]" topEdgeConstraint="0.500000">
+                        <UiImage alignment="Center, Center" color="1.000000, 1.000000, 1.000000, 0.500000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Image6" opaque="false" res="assets/Circle.png/mZgkRi0kbdI/Circle.png" size="0.200000, 0.200000">
+                            <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Shell6" opaque="false" pos="0,0,-0.001" res="assets/Shell.png/CMN7dTOwHng/Shell.png" size="0.200000, 0.200000"/>
+                        </UiImage>
+                    </UiPanel>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout alignment="Bottom, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="CC_LinearLayout7">
+                <Content>
+                    <UiText alignment="Top, Center" boundsSize="0.200000, 0.100000" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Text7" style="Italic" text="Scroll" textSize="0.050000" weight="Bold"/>
+                </Content>
+                <Content>
+                    <UiPanel bottomEdgeConstraint="0.500000" cursorConstrained="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" leftEdgeConstraint="0.500000" name="CC_Panel7" rightEdgeConstraint="0.500000" shape="[size:[0.2,0.2], roundness: 1, offset:[0,0,0]]" topEdgeConstraint="0.500000">
+                        <UiImage alignment="Center, Center" color="1.000000, 1.000000, 1.000000, 0.500000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Image7" opaque="false" res="assets/Circle.png/mZgkRi0kbdI/Circle.png" size="0.200000, 0.200000">
+                            <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CC_Shell7" opaque="false" pos="0,0,-0.001" res="assets/Shell.png/CMN7dTOwHng/Shell.png" size="0.200000, 0.200000"/>
+                        </UiImage>
+                    </UiPanel>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiColorPicker color="1.000000, 1.000000, 1.000000, 0.500000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.300000" name="CC_ColorPicker"/>
+        </Content>
+    </UiGridLayout>
+</ObjectModel>

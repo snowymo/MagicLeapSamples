@@ -1,0 +1,21 @@
+{
+    "id": "db77d653-a283-4bf0-8cfc-3f31e33a8d51",
+    "output": {
+        "image": [
+            {
+                "sha256": "",
+                "path": "3-4bf0-8cfc-3f31e33a8d51/tn_2.png"
+            }
+        ]
+    },
+    "processor": "lap/types/processor/texture_from_png",
+    "input": {
+        "image": [
+            {
+                "sha256": "",
+                "path": "Thumbnails/tn_2.png"
+            }
+        ]
+    },
+    "options": []
+}

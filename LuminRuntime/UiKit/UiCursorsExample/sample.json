@@ -1,0 +1,7 @@
+{
+	"label": "UiCursors Example",
+	"description": "This example project showcases Lumin Runtime UiKit's Cursor Models",
+	"projectFile": "UiCursorsExample.package",
+	"additionalFiles" : ["README.md", "UiCursorsExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

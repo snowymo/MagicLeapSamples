@@ -1,0 +1,64 @@
+KIND = program
+SRCS = main.cpp
+USES = ml_sdk_all   # starting value; see below
+
+# Examples of other bits you may need:
+#
+# Includes:
+#   INCS = include
+#   INCS.msvc = inc/win32
+# 
+# Macro definitions:
+#   DEFS = MYFLAG   MYVAL=123
+#   DEFS.debug = DEBUG
+#
+# Using SDK APIs more selectively:
+#
+#   USES = ml_sdk  # or ml_sdk_common
+#   SHLIBS = ml_media ml_audio ml_location  # ... etc
+#
+#   Note that `ml_sdk_all` lists every known API import library, 
+#   and also includes `OPTIONS=link/ignoreUnusedShlibs/on` to
+#   ensure that only referenced libraries are considered
+#   dependencies for the application on device (this feature only 
+#   applies to the GNU linker; host-targeting/zero iteration support 
+#   varies).
+#   
+# Including other SDK content:
+#
+#   USES = sockets OpenGL
+#
+#   (Run 'mabu --print-components' to see the available ones.)
+#
+#
+# Building and linking other .mabu projects:
+#
+#   REFS = myOtherProject
+#
+#   (Make a 'myOtherProject.mabu' file, with 'KIND=static' or 'KIND=shared',
+#   and mabu will build and link against it automatically.)
+#
+#
+# For C++ STL code:
+#
+#   USES = stdc++
+#
+#
+# Other likely example flags:
+#
+#   OPTIONS = standard-c++/14 exceptions/on warn/high
+#
+# (Run 'mabu --print-options' to see the available ones.)
+#
+# Also note that the default "debug" configuration uses optimize/off" 
+# and the "release" configuration uses "optimize/high".  Both 
+# configurations use "debug/on" but the debug data is stripped out 
+# for device builds, so it will not be contained in the .mpk.)
+#
+#
+# For adding external shared libs to the project:
+#
+#   STLIBS = z   # for libz.a
+#   SHLIBS.linux = pthread dl   # for lib*.so
+
+

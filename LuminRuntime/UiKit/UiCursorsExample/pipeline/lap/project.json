@@ -1,0 +1,171 @@
+{
+  "intermediate-storage": {
+    "path": "cache",
+    "kind": "in-tree"
+  },
+  "project-schema-version": 4,
+  "project-build-version": "1.4.4",
+  "types": {
+    "assets": [
+      "lap/types/asset/material",
+      "lap/types/asset/model",
+      "lap/types/asset/outline-font",
+      "lap/types/asset/texture"
+    ]
+  },
+  "checkpoint-hash": "5edeea14d392c0cd472105ae57897d0ea8358fda9182e42cff8f2969b4a6b6eb2e1c5bf1e610100dd177e622ed734959987985eb37ab239a7ce8b09dbc1bb37c",
+  "nodes": {
+    "d1848cdc-1107-43aa-825c-baed06c196ae": {
+      "kind": "file",
+      "comment": "Circle.png",
+      "descriptor": {
+        "path": "SourceArt/Circle.png",
+        "sha256": "22d99614e726a06214c82ece9c00f635f1d7fbdbd071b0910f78979ddea917a9"
+      },
+      "name": "Circle.png",
+      "links": []
+    },
+    "0d22a4aa-6eee-43c7-9cc9-ee946235d78b": {
+      "kind": "processor",
+      "comment": "Passthru Circle.png to texture.",
+      "expectedRuntime": 0.04919172786456429,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/0d22a4aa-6eee-43c7-9cc9-ee946235d78b",
+        "sha256": "fd4812ab7589c982e7974542f28830f15c15f5d348947847a6778d406f99f195"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "d1848cdc-1107-43aa-825c-baed06c196ae"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ]
+    },
+    "fc5c35f1-b24b-4755-b686-b8c4eab7a95e": {
+      "kind": "file",
+      "comment": "Intermediate Circle.png",
+      "descriptor": {
+        "path": "mZgkRi0kbdI/Circle.png",
+        "sha256": "757c7dc92eb0255d00de0ee4e26c413f7bdbcb7ed19e2fa257350c762dfa43f0"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "image",
+            "node": "0d22a4aa-6eee-43c7-9cc9-ee946235d78b"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "ad60d597-9fb6-407b-8559-da39b7c69778": {
+      "name": "Circle.png",
+      "kind": "asset",
+      "comment": "Intermediate Circle.png",
+      "asset": "lap/types/asset/texture",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "fc5c35f1-b24b-4755-b686-b8c4eab7a95e"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "53b97896-8007-4e52-a347-f1e9d268b406": {
+      "kind": "file",
+      "comment": "Shell.png",
+      "descriptor": {
+        "path": "SourceArt/Shell.png",
+        "sha256": "e4d9483ff30668205f8480b50167a2023888a3ef4b81eb2583d22ce55effa98a"
+      },
+      "name": "Shell.png",
+      "links": []
+    },
+    "0a718e39-a09b-4a69-82bc-c19dbcf66ddb": {
+      "kind": "processor",
+      "comment": "Passthru Shell.png to texture.",
+      "expectedRuntime": 0.061465149216383776,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/0a718e39-a09b-4a69-82bc-c19dbcf66ddb",
+        "sha256": "22ba79ce774dbc848903c00acf03d48ee0a7ec9cccac06929ba8d87f01f98a3c"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "53b97896-8007-4e52-a347-f1e9d268b406"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ]
+    },
+    "2140fa1a-4db3-4b78-b984-b3bc936f93ce": {
+      "kind": "file",
+      "comment": "Intermediate Shell.png",
+      "descriptor": {
+        "path": "CMN7dTOwHng/Shell.png",
+        "sha256": "f8b11f83012443b8cfe8113a48862ddbf4f86397f3e4822641e363426533f094"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "image",
+            "node": "0a718e39-a09b-4a69-82bc-c19dbcf66ddb"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "206bde46-dcd5-45a0-a6a5-35fa67d55396": {
+      "name": "Shell.png",
+      "kind": "asset",
+      "comment": "Intermediate Shell.png",
+      "asset": "lap/types/asset/texture",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "2140fa1a-4db3-4b78-b984-b3bc936f93ce"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    }
+  }
+}

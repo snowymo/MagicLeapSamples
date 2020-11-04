@@ -1,0 +1,5 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/UiTextEditExample.cpp \
+      code/src/core/BaseExample.cpp \
+      code/src/core/TextEdit.cpp \

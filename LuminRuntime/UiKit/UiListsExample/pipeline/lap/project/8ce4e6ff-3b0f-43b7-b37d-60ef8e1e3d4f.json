@@ -1,0 +1,21 @@
+{
+    "output": {
+        "image": [
+            {
+                "sha256": "",
+                "path": "f-43b7-b37d-60ef8e1e3d4f/tn_1.png"
+            }
+        ]
+    },
+    "processor": "lap/types/processor/texture_from_png",
+    "options": [],
+    "id": "8ce4e6ff-3b0f-43b7-b37d-60ef8e1e3d4f",
+    "input": {
+        "image": [
+            {
+                "sha256": "",
+                "path": "Thumbnails/tn_1.png"
+            }
+        ]
+    }
+}

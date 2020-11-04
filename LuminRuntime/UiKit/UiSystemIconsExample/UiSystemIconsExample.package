@@ -1,0 +1,4 @@
+REFS = UiSystemIconsExample
+
+DATAS = \
+  res/ : res/ \

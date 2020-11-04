@@ -1,0 +1,24 @@
+<ObjectModel name="DualActionDialogPrefab" version="1">
+    <TransformNode/>
+    <UiDialog buttonType="TextWithIcon" cancelIcon="Close" cancelText="Cancel" confirmIcon="Check" confirmText="Confirm" dialogLayout="Standard" dialogType="DualAction" expireTime="5.000000" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="DADN_Dialog" pos="0,0,0.3" scrolling="false">
+        <Content>
+            <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" name="contentContainer" padding="0.000100, 0.000100, 0.000100, 0.000100">
+                <Content>
+                    <TransformNode>
+                        <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="DADN_LinearLayout">
+                            <Content>
+                                <UiText eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="DADN_Label1" text="Modal Dual Action" textSize="0.034143" weight="Bold"/>
+                            </Content>
+                            <Content>
+                                <UiText eclipse="true" eclipseLabelType="B2" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="DADN_Label2" text="Example Content" textAlignment="Center" textSize="0.025480"/>
+                            </Content>
+                            <Content>
+                                <UiButton eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.026790, 0.026790" labelDisplayMode="Always" labelSide="Top" name="DADN_Button" size="0.000000, 0.060000" systemIcon="Heart"/>
+                            </Content>
+                        </UiLinearLayout>
+                    </TransformNode>
+                </Content>
+            </UiRectLayout>
+        </Content>
+    </UiDialog>
+</ObjectModel>

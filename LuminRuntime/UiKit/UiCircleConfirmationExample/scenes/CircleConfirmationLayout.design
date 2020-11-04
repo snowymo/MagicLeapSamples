@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="CircleConfirmationLayout" nodeTypeId="lumin.root" modelId="lumin" version="1.12.0">
+  <property id="name" value="CircleConfirmationLayout"/>
+  <attachment key="uuid" value="df25f399-eb09-4320-a2fb-9136e9647f42"/>
+  <node name="CCM_LinearLayout" nodeTypeId="lumin.ui.linearLayout">
+    <property id="alignment">
+      <property id="verticalAlignment" value="Center"/>
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemAlignment">
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemPadding">
+      <property id="top" value="0.01"/>
+      <property id="right" value="0.01"/>
+      <property id="bottom" value="0.01"/>
+      <property id="left" value="0.01"/>
+    </property>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="itemAlignment"/>
+    <property id="itemPadding"/>
+    <property id="name" value="CCM_LinearLayout"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="size"/>
+    <attachment key="uuid" value="af8d5b24-a553-4557-be3e-43a7ec0e2da5"/>
+    <node name="CCM_Placeholder" nodeTypeId="lumin.transform">
+      <property id="external" value="true"/>
+      <property id="name" value="CCM_Placeholder"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="2a930199-8961-47dd-9981-fd76f147b6ac"/>
+    </node>
+    <node name="CCM_Message" nodeTypeId="lumin.ui.text">
+      <property id="alignment"/>
+      <property id="boundsSize"/>
+      <property id="external" value="true"/>
+      <property id="fontSelector">
+        <property id="fontParameters"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="CCM_Message"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Complete the Circle Confirmation">
+        <attachment key="public.delegated.label" value="message"/>
+      </property>
+      <property id="textSize" value="0.025"/>
+      <attachment key="uuid" value="c2de9b22-22e5-4a1a-8b33-a1a12b3cddaa"/>
+    </node>
+    <node name="CCM_Button" nodeTypeId="lumin.ui.tab">
+      <property id="external" value="true"/>
+      <property id="gravityWellEnabled" value="true"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+        <property id="gravityWellSnap" value="Center"/>
+      </property>
+      <property id="name" value="CCM_Button"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Click to Reset Circle Confirmation"/>
+      <property id="textSize" value="0.025"/>
+      <handler generated="true" handlerName="CCM_Handlers_ResetCircleConfirmation">
+        <callbacks>onActivate</callbacks>
+      </handler>
+      <attachment key="uuid" value="fe112738-19d7-4500-a0fb-c2166ddaa6cc"/>
+    </node>
+  </node>
+</design:rootNode>

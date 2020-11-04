@@ -1,0 +1,19 @@
+<manifest
+    xmlns:ml="magicleap"
+    ml:package="com.magicleap.lumin_audio_example"
+    ml:version_code="2"
+    ml:version_name="2.0">
+    <application
+        ml:visible_name="LR AudioExample"
+        ml:sdk_version="1.0">
+        <component
+            ml:name=".universe"
+            ml:visible_name="LR AudioExample"
+            ml:binary_name="bin/AudioExample"
+            ml:type="Universe">
+            <icon
+                ml:model_folder="res/Icon_Grid/model"
+                ml:portal_folder="res/Icon_Grid/portal" />
+        </component>
+    </application>
+</manifest>

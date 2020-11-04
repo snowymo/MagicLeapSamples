@@ -1,0 +1,14 @@
+KIND = program
+
+INCS = code/inc \
+
+SRCS = \
+  code/src/main.cpp \
+  code/src/UiWebViewExample.cpp \
+  code/src/UiWebViewController.cpp
+
+USES = \
+    lumin_runtime \
+
+OPTIONS = \
+  standard-c++/14

@@ -1,0 +1,23 @@
+{
+  "id": "15c4e400-c7ae-47d1-abfd-d1654d0c4c9c",
+  "processor": "lap/types/processor/texture_from_png",
+  "input": {
+    "image": [
+      {
+        "path": "SourceArt/Gesture_OpenHandBack.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "image": [
+      {
+        "path": "HFieWK_LlOY/Gesture_OpenHandBack.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

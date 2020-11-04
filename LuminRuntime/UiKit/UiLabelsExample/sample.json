@@ -1,0 +1,7 @@
+{
+	"label": "UiLabels Example",
+	"description": "This example project showcases Lumin Runtime UiKit's Labels",
+	"projectFile": "UiLabelsExample.package",
+	"additionalFiles" : ["README.md", "UiLabelsExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

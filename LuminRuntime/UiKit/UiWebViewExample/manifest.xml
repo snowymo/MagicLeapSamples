@@ -1,0 +1,22 @@
+<manifest
+    xmlns:ml="magicleap"
+    ml:package="com.magicleap.uiwebview_example"
+    ml:version_code="1"
+    ml:version_name="1.0">
+    <application
+        ml:visible_name="UiWebViewExample">
+        <uses-privilege ml:name="Internet"/>
+        <uses-privilege ml:name="LocalAreaNetwork"/>
+        <uses-privilege ml:name="WebView"/>
+        <uses-privilege ml:name="VoiceInput"/>
+        <component
+            ml:name=".universe"
+            ml:visible_name="UiWebViewExample"
+            ml:binary_name="bin/UiWebViewExample"
+            ml:type="Universe">
+            <icon
+                ml:model_folder="res/Icon_Grid/model"
+                ml:portal_folder="res/Icon_Grid/portal" />
+        </component>
+    </application>
+</manifest>

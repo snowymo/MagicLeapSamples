@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="TimedDialogPrefab" nodeTypeId="lumin.root" modelId="lumin" version="1.12.0">
+  <property id="name" value="TimedDialogPrefab"/>
+  <attachment key="uuid" value="e7b48f2a-3472-41a7-a0f4-e9e2bf47bc00"/>
+  <node name="TDN_Dialog" nodeTypeId="lumin.ui.dialog">
+    <property id="cancelButtonIcon" value="Close"/>
+    <property id="confirmButtonIcon" value="Check"/>
+    <property id="confirmButtonText" value=""/>
+    <property id="dialogType" value="Timed"/>
+    <property id="external" value="true"/>
+    <property id="gravityWellEnabled" value="true"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="name" value="TDN_Dialog"/>
+    <property id="position">
+      <property id="z" value="0.3"/>
+    </property>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <handler generated="true" handlerName="TimedDialogHandlers">
+      <callbacks>onTimeExpired</callbacks>
+      <callbacks>onUpdate</callbacks>
+    </handler>
+    <attachment key="uuid" value="ae896a14-7253-4614-bb89-e3fdb6dea3b8"/>
+    <node name="TDN_LinearLayout" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Center"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Center"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="TDN_LinearLayout"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <attachment key="uuid" value="1e4e47ca-87a3-419e-8070-f2c4fff98e62"/>
+      <node name="TDN_Label1" nodeTypeId="lumin.eclipse.label">
+        <property id="alignment"/>
+        <property id="boundsSize"/>
+        <property id="eclipseLabelType" value="T3"/>
+        <property id="fontParameters">
+          <property id="weight" value="Bold"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="TDN_Label1"/>
+        <property id="position"/>
+        <property id="previousEclipseLabelType" value="T3"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Modeless Timed Dialog"/>
+        <attachment key="uuid" value="35a09c78-7384-4ae9-bcd0-1ab223cb7d58"/>
+      </node>
+      <node name="TDN_Label2" nodeTypeId="lumin.eclipse.label">
+        <property id="alignment"/>
+        <property id="boundsSize"/>
+        <property id="eclipseLabelType" value="B2"/>
+        <property id="fontParameters"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="TDN_Label2"/>
+        <property id="position"/>
+        <property id="previousEclipseLabelType" value="B2"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Dialog will expire in:"/>
+        <property id="textAlignment" value="Center"/>
+        <attachment key="uuid" value="f5f7ea60-64c1-4bbb-a0a0-338779445705"/>
+      </node>
+      <node name="TDN_Label3" nodeTypeId="lumin.eclipse.label">
+        <property id="alignment"/>
+        <property id="boundsSize"/>
+        <property id="eclipseLabelType" value="T3"/>
+        <property id="external" value="true"/>
+        <property id="fontParameters">
+          <property id="weight" value="Bold"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="TDN_Label3"/>
+        <property id="position"/>
+        <property id="previousEclipseLabelType" value="T3"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="5.0"/>
+        <attachment key="uuid" value="76c09673-54a7-4543-ae9b-402fa4a7dff5"/>
+      </node>
+      <node name="TDN_Slider" nodeTypeId="lumin.eclipse.slider">
+        <property id="external" value="true"/>
+        <property id="gravityWellEnabled" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="roundness" value="1.0"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="iconType1" value="Heart"/>
+        <property id="iconType2" value="Heart"/>
+        <property id="max" value="5.0"/>
+        <property id="name" value="TDN_Slider"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <attachment key="uuid" value="ea3e60c9-78f9-419d-a5f4-e65e385363eb"/>
+      </node>
+    </node>
+  </node>
+</design:rootNode>

@@ -1,0 +1,21 @@
+{
+    "input": {
+        "image": [
+            {
+                "sha256": "",
+                "path": "Thumbnails/TransparentOverlay.png"
+            }
+        ]
+    },
+    "processor": "lap/types/processor/texture_from_png",
+    "id": "eaf4cbcf-712a-4a6c-bf79-2861939513f6",
+    "options": [],
+    "output": {
+        "image": [
+            {
+                "sha256": "",
+                "path": "a-4a6c-bf79-2861939513f6/TransparentOverlay.png"
+            }
+        ]
+    }
+}

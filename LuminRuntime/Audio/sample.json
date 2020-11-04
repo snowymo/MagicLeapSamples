@@ -1,0 +1,7 @@
+{
+	"label": "Audio Example",
+	"description": "This example project showcases Lumin Runtime's AudioNode class",
+	"projectFile": "AudioExample.package",
+	"additionalFiles" : ["README.md"],
+	"initialFilesToOpen": ["README.md"]
+}

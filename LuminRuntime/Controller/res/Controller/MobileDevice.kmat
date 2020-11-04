@@ -1,0 +1,22 @@
+{
+  "global": {
+    
+  },
+  "materials": [
+    {
+      "shaderName": "PBR",
+      "albedo": "res/Controller/MobileDevice_Diffuse.png",
+      "name": "MobileDevice_Mat"
+    },
+    {
+      "shaderName": "PBR",
+      "albedo": "res/Controller/MobileApp_DotGrid.png",
+      "name": "MobileDevice_Dot_Grid_Mat"
+    },
+    {
+      "shaderName": "PBR",
+      "albedo": "res/Controller/MobileDevice_Diffuse.png",
+      "name": "MobileDevice_Button_MAT"
+    }
+  ]
+}

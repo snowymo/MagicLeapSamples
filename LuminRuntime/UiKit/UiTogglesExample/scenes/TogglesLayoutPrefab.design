@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="TogglesLayoutPrefab" nodeTypeId="lumin.root" modelId="lumin" version="1.12.0">
+  <property id="name" value="TogglesLayoutPrefab"/>
+  <attachment key="uuid" value="93dac015-4e5a-4582-8d59-c9b4826efd43"/>
+  <node name="TLS_GridLayout" nodeTypeId="lumin.ui.gridLayout">
+    <property id="alignment">
+      <property id="verticalAlignment" value="Center"/>
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="column" value="2"/>
+    <property id="defaultItemAlignment">
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemPadding"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="itemAlignment">
+      <property id="0">
+        <property id="nodeId" value="TLS_Label2"/>
+        <property id="itemAlignment">
+          <property id="horizontalAlignment" value="Right"/>
+        </property>
+      </property>
+      <property id="1">
+        <property id="nodeId" value="TLS_Label3"/>
+        <property id="itemAlignment">
+          <property id="horizontalAlignment" value="Right"/>
+        </property>
+      </property>
+      <property id="2">
+        <property id="nodeId" value="TLS_Label4"/>
+        <property id="itemAlignment">
+          <property id="horizontalAlignment" value="Right"/>
+        </property>
+      </property>
+      <property id="3">
+        <property id="nodeId" value="TLS_Label5"/>
+        <property id="itemAlignment">
+          <property id="horizontalAlignment" value="Right"/>
+        </property>
+      </property>
+      <property id="4">
+        <property id="nodeId" value="TLS_Label6"/>
+        <property id="itemAlignment">
+          <property id="horizontalAlignment" value="Right"/>
+        </property>
+      </property>
+      <property id="5">
+        <property id="nodeId" value="TLS_Label8"/>
+        <property id="itemAlignment">
+          <property id="horizontalAlignment" value="Right"/>
+        </property>
+      </property>
+      <property id="6">
+        <property id="nodeId" value="TLS_Label9"/>
+        <property id="itemAlignment">
+          <property id="horizontalAlignment" value="Right"/>
+        </property>
+      </property>
+      <property id="7">
+        <property id="nodeId" value="TLS_Label10"/>
+        <property id="itemAlignment">
+          <property id="horizontalAlignment" value="Right"/>
+        </property>
+      </property>
+      <property id="8">
+        <property id="nodeId" value="TLS_Line3"/>
+        <property id="itemAlignment">
+          <property id="horizontalAlignment" value="Right"/>
+        </property>
+      </property>
+      <property id="9">
+        <property id="nodeId" value="TLS_Line4"/>
+        <property id="itemAlignment"/>
+      </property>
+    </property>
+    <property id="itemPadding">
+      <property id="00">
+        <property id="nodeId" value="TLS_Label7"/>
+        <property id="itemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+      <property id="01">
+        <property id="nodeId" value="TLS_Line3"/>
+        <property id="itemPadding">
+          <property id="top" value="0.02"/>
+          <property id="bottom" value="0.02"/>
+        </property>
+      </property>
+      <property id="02">
+        <property id="nodeId" value="TLS_Line4"/>
+        <property id="itemPadding">
+          <property id="top" value="0.02"/>
+          <property id="bottom" value="0.02"/>
+        </property>
+      </property>
+      <property id="03">
+        <property id="nodeId" value="TLS_Label2"/>
+        <property id="itemPadding">
+          <property id="top" value="0.04"/>
+          <property id="right" value="0.05"/>
+          <property id="bottom" value="0.04"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+      <property id="04">
+        <property id="nodeId" value="TLS_Label3"/>
+        <property id="itemPadding">
+          <property id="top" value="0.04"/>
+          <property id="right" value="0.05"/>
+          <property id="bottom" value="0.04"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+      <property id="05">
+        <property id="nodeId" value="TLS_Label4"/>
+        <property id="itemPadding">
+          <property id="top" value="0.04"/>
+          <property id="right" value="0.05"/>
+          <property id="bottom" value="0.04"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+      <property id="06">
+        <property id="nodeId" value="TLS_Label5"/>
+        <property id="itemPadding">
+          <property id="top" value="0.04"/>
+          <property id="right" value="0.05"/>
+          <property id="bottom" value="0.04"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+      <property id="07">
+        <property id="nodeId" value="TLS_Label6"/>
+        <property id="itemPadding">
+          <property id="top" value="0.04"/>
+          <property id="right" value="0.05"/>
+          <property id="bottom" value="0.04"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+      <property id="08">
+        <property id="nodeId" value="TLS_Label8"/>
+        <property id="itemPadding">
+          <property id="top" value="0.04"/>
+          <property id="right" value="0.05"/>
+          <property id="bottom" value="0.04"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+      <property id="09">
+        <property id="nodeId" value="TLS_Label9"/>
+        <property id="itemPadding">
+          <property id="top" value="0.04"/>
+          <property id="right" value="0.05"/>
+          <property id="bottom" value="0.04"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+      <property id="10">
+        <property id="nodeId" value="TLS_Label10"/>
+        <property id="itemPadding">
+          <property id="top" value="0.04"/>
+          <property id="right" value="0.05"/>
+          <property id="bottom" value="0.04"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+      <property id="11">
+        <property id="nodeId" value="TLS_Label1"/>
+        <property id="itemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+    </property>
+    <property id="name" value="TLS_GridLayout"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="size"/>
+    <attachment key="uuid" value="5e6171ea-8bde-4a12-954b-8abe80da2021"/>
+    <node name="TLS_Label1" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment"/>
+      <property id="boundsSize"/>
+      <property id="external" value="true"/>
+      <property id="fontParameters">
+        <property id="style" value="Italic"/>
+        <property id="weight" value="Bold"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="TLS_Label1"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Eclipse Toggles:"/>
+      <attachment key="uuid" value="01aa6995-b073-42fe-8f6f-4e944d778bcb"/>
+    </node>
+    <node name="TLS_Transform1" nodeTypeId="lumin.transform">
+      <property id="name" value="TLS_Transform1"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="a3c7cc03-838b-4599-bece-ecdacbba5ddf"/>
+    </node>
+    <node name="TLS_Label2" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Right"/>
+      </property>
+      <property id="boundsSize"/>
+      <property id="eclipseLabelType" value="T3"/>
+      <property id="fontParameters">
+        <property id="weight" value="Bold"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="TLS_Label2"/>
+      <property id="position"/>
+      <property id="previousEclipseLabelType" value="T3"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Icon Only"/>
+      <attachment key="uuid" value="4427ec05-3e24-4b87-aecf-a43a9cef9742"/>
+    </node>
+    <node name="TLS_Transform2" nodeTypeId="lumin.transform">
+      <property id="name" value="TLS_Transform2"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="270be4a8-3528-4ab6-b005-54a957df739a"/>
+      <node name="BES_LinearLayout" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Bottom"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="nodeId" value="BES_RectLayout1"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="BES_RectLayout2"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Right"/>
+            </property>
+          </property>
+        </property>
+        <property id="itemPadding">
+          <property id="0">
+            <property id="nodeId" value="BES_RectLayout2"/>
+            <property id="itemPadding">
+              <property id="top" value="0.02"/>
+              <property id="right" value="0.01"/>
+              <property id="left" value="0.03"/>
+            </property>
+          </property>
+        </property>
+        <property id="name" value="BES_LinearLayout"/>
+        <property id="orientation" value="Horizontal"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <attachment key="uuid" value="c63928d4-ee53-4345-9823-10d840cde118"/>
+        <node name="BES_RectLayout1" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="BES_RectLayout1"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.182"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="39cdc947-37a7-4421-9096-a24b463724e5"/>
+          <node name="IOTS_Toggle" nodeTypeId="lumin.eclipse.toggle">
+            <property id="external" value="true"/>
+            <property id="gravityWellEnabled" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="iconType" value="Star"/>
+            <property id="iconTypeOffState" value="Star"/>
+            <property id="labelDisplayMode" value="kHover"/>
+            <property id="name" value="IOTS_Toggle"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <handler generated="true" handlerName="IconOnlyToggleHandlers">
+              <callbacks>onToggleChanged</callbacks>
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onHoverExit</callbacks>
+              <callbacks>onLongPress</callbacks>
+            </handler>
+            <attachment key="uuid" value="f55e8864-83db-4bea-84a0-4d3f671564c1"/>
+          </node>
+        </node>
+        <node name="BES_RectLayout2" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="BES_RectLayout2"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.338"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="78a71cf8-d678-4883-a93d-10df6c1a6ff0"/>
+          <node name="BES_Label1" nodeTypeId="lumin.eclipse.label">
+            <property id="alignment"/>
+            <property id="boundsSize"/>
+            <property id="eclipseLabelType" value="B4"/>
+            <property id="external" value="true"/>
+            <property id="fontParameters"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="BES_Label1"/>
+            <property id="position"/>
+            <property id="previousEclipseLabelType" value="B4"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Placeholder Text"/>
+            <handler generated="true" handlerName="IconOnlyLabelHandler">
+              <callbacks>onUpdate</callbacks>
+            </handler>
+            <attachment key="uuid" value="3da3d904-b7e6-455b-8ea6-93e636ac34f0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="TLS_Label3" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Right"/>
+      </property>
+      <property id="boundsSize"/>
+      <property id="eclipseLabelType" value="T3"/>
+      <property id="fontParameters">
+        <property id="weight" value="Bold"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="TLS_Label3"/>
+      <property id="position"/>
+      <property id="previousEclipseLabelType" value="T3"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Icon Only On/Off"/>
+      <attachment key="uuid" value="06f88025-b52b-4f8a-9c6a-a49f7e8bdc4b"/>
+    </node>
+    <node name="TLS_Transform3" nodeTypeId="lumin.transform">
+      <property id="name" value="TLS_Transform3"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="814f350e-35e5-4b00-b93b-a9997a043a2a"/>
+      <node name="uiLinearLayout1" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Bottom"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout1"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="uiRectLayout2"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Right"/>
+            </property>
+          </property>
+        </property>
+        <property id="itemPadding">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout2"/>
+            <property id="itemPadding">
+              <property id="top" value="0.02"/>
+              <property id="right" value="0.01"/>
+              <property id="left" value="0.03"/>
+            </property>
+          </property>
+        </property>
+        <property id="name" value="uiLinearLayout1"/>
+        <property id="orientation" value="Horizontal"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <attachment key="uuid" value="be7b1a76-b507-4a8d-a574-87ea29b26b88"/>
+        <node name="uiRectLayout1" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout1"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.182"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="2640b969-1338-4b25-80e2-48c7639cf9f4"/>
+          <node name="IOSTS_Toggle" nodeTypeId="lumin.eclipse.toggle">
+            <property id="external" value="true"/>
+            <property id="gravityWellEnabled" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="iconType" value="Star"/>
+            <property id="iconTypeOffState" value="Heart"/>
+            <property id="labelDisplayMode" value="kHover"/>
+            <property id="name" value="IOSTS_Toggle"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <handler generated="true" handlerName="IconOnlySwitchToggleHandlers">
+              <callbacks>onToggleChanged</callbacks>
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onHoverExit</callbacks>
+              <callbacks>onLongPress</callbacks>
+            </handler>
+            <attachment key="uuid" value="8b260da0-846d-408a-94c9-77e904679796"/>
+          </node>
+        </node>
+        <node name="uiRectLayout2" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout2"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.338"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="b011d397-cb47-4839-afce-74f415951645"/>
+          <node name="BES_Label2" nodeTypeId="lumin.eclipse.label">
+            <property id="alignment"/>
+            <property id="boundsSize"/>
+            <property id="eclipseLabelType" value="B4"/>
+            <property id="external" value="true"/>
+            <property id="fontParameters"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="BES_Label2"/>
+            <property id="position"/>
+            <property id="previousEclipseLabelType" value="B4"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Placeholder Text"/>
+            <handler generated="true" handlerName="IconOnlySwitchLabelHandler">
+              <callbacks>onUpdate</callbacks>
+            </handler>
+            <attachment key="uuid" value="6429f880-0c42-4e40-ab79-f015dd04b472"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="TLS_Label4" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Right"/>
+      </property>
+      <property id="boundsSize"/>
+      <property id="eclipseLabelType" value="T3"/>
+      <property id="fontParameters">
+        <property id="weight" value="Bold"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="TLS_Label4"/>
+      <property id="position"/>
+      <property id="previousEclipseLabelType" value="T3"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Icon Only Outline"/>
+      <attachment key="uuid" value="a15da30f-f4f6-4202-a63f-ba800b27eaf4"/>
+    </node>
+    <node name="TLS_Transform4" nodeTypeId="lumin.transform">
+      <property id="name" value="TLS_Transform4"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="5668f479-be50-4381-a88d-a69c8fb3961c"/>
+      <node name="uiLinearLayout2" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Bottom"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout3"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="uiRectLayout4"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Right"/>
+            </property>
+          </property>
+        </property>
+        <property id="itemPadding">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout4"/>
+            <property id="itemPadding">
+              <property id="top" value="0.02"/>
+              <property id="right" value="0.01"/>
+              <property id="left" value="0.03"/>
+            </property>
+          </property>
+        </property>
+        <property id="name" value="uiLinearLayout2"/>
+        <property id="orientation" value="Horizontal"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <attachment key="uuid" value="5bda40a8-76c1-4f0f-ab45-05f6e4d6d1cd"/>
+        <node name="uiRectLayout3" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout3"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.182"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="4662f910-c414-46ee-b4b0-50ee6b8c9533"/>
+          <node name="IOOTS_Toggle" nodeTypeId="lumin.eclipse.toggle">
+            <property id="external" value="true"/>
+            <property id="gravityWellEnabled" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="iconType" value="Star"/>
+            <property id="iconTypeOffState" value="Star"/>
+            <property id="labelDisplayMode" value="kHover"/>
+            <property id="name" value="IOOTS_Toggle"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="showBackground" value="true"/>
+            <handler generated="true" handlerName="IconOnlyOutlineToggleHandlers">
+              <callbacks>onToggleChanged</callbacks>
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onHoverExit</callbacks>
+              <callbacks>onLongPress</callbacks>
+            </handler>
+            <attachment key="uuid" value="2802187f-7cbc-4494-aed4-3d784d2df417"/>
+          </node>
+        </node>
+        <node name="uiRectLayout4" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout4"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.338"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="bcea261d-9080-463e-9bc9-e1a61ab14f01"/>
+          <node name="BES_Label3" nodeTypeId="lumin.eclipse.label">
+            <property id="alignment"/>
+            <property id="boundsSize"/>
+            <property id="eclipseLabelType" value="B4"/>
+            <property id="external" value="true"/>
+            <property id="fontParameters"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="BES_Label3"/>
+            <property id="position"/>
+            <property id="previousEclipseLabelType" value="B4"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Placeholder Text"/>
+            <handler generated="true" handlerName="IconOnlyOutlineLabelHandler">
+              <callbacks>onUpdate</callbacks>
+            </handler>
+            <attachment key="uuid" value="4c10ee56-861d-4fae-b2dd-b03750acfd8a"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="TLS_Label5" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Right"/>
+      </property>
+      <property id="boundsSize"/>
+      <property id="eclipseLabelType" value="T3"/>
+      <property id="fontParameters">
+        <property id="weight" value="Bold"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="TLS_Label5"/>
+      <property id="position"/>
+      <property id="previousEclipseLabelType" value="T3"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Switch+Icon"/>
+      <attachment key="uuid" value="5f9da480-1d24-40d4-bd05-b2b0d078ec1d"/>
+    </node>
+    <node name="TLS_Transform5" nodeTypeId="lumin.transform">
+      <property id="name" value="TLS_Transform5"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="973e2810-aac8-47d1-bec2-73802f25a08b"/>
+      <node name="uiLinearLayout3" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Bottom"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout5"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="uiRectLayout6"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Right"/>
+            </property>
+          </property>
+        </property>
+        <property id="itemPadding">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout6"/>
+            <property id="itemPadding">
+              <property id="top" value="0.02"/>
+              <property id="right" value="0.01"/>
+              <property id="left" value="0.03"/>
+            </property>
+          </property>
+        </property>
+        <property id="name" value="uiLinearLayout3"/>
+        <property id="orientation" value="Horizontal"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <attachment key="uuid" value="b6cf5b39-84b0-4ae7-a348-3b5e0d5fbe2e"/>
+        <node name="uiRectLayout5" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout5"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.182"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="6e7df19e-b9ce-47a0-ab3c-cb296847cbbe"/>
+          <node name="SWITS_Toggle" nodeTypeId="lumin.eclipse.toggle">
+            <property id="eclipseToggleType" value="SwitchWithIcon"/>
+            <property id="external" value="true"/>
+            <property id="gravityWellEnabled" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="SWITS_Toggle"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Text"/>
+            <handler generated="true" handlerName="SwitchIconToggleHandlers">
+              <callbacks>onToggleChanged</callbacks>
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onHoverExit</callbacks>
+              <callbacks>onLongPress</callbacks>
+            </handler>
+            <attachment key="uuid" value="4a74c05a-4938-444e-9182-128090fa539e"/>
+          </node>
+        </node>
+        <node name="uiRectLayout6" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout6"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.338"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="e250ba4b-1cc0-4a72-8e7a-822619e4b6cd"/>
+          <node name="BES_Label4" nodeTypeId="lumin.eclipse.label">
+            <property id="alignment"/>
+            <property id="boundsSize"/>
+            <property id="eclipseLabelType" value="B4"/>
+            <property id="external" value="true"/>
+            <property id="fontParameters"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="BES_Label4"/>
+            <property id="position"/>
+            <property id="previousEclipseLabelType" value="B4"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Placeholder Text"/>
+            <handler generated="true" handlerName="SwitchIconLabelHandler">
+              <callbacks>onUpdate</callbacks>
+            </handler>
+            <attachment key="uuid" value="3d581556-7294-47cc-a147-86f61fefa430"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="TLS_Label6" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Right"/>
+      </property>
+      <property id="boundsSize"/>
+      <property id="eclipseLabelType" value="T3"/>
+      <property id="fontParameters">
+        <property id="weight" value="Bold"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="TLS_Label6"/>
+      <property id="position"/>
+      <property id="previousEclipseLabelType" value="T3"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Switch+Label"/>
+      <attachment key="uuid" value="d5b1f9ab-6908-4b1d-870e-958f3c99cacd"/>
+    </node>
+    <node name="TLS_Transform6" nodeTypeId="lumin.transform">
+      <property id="name" value="TLS_Transform6"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="48fba01a-b962-4573-8513-320e6cdeb431"/>
+      <node name="uiLinearLayout4" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Bottom"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout7"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="uiRectLayout8"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Right"/>
+            </property>
+          </property>
+        </property>
+        <property id="itemPadding">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout8"/>
+            <property id="itemPadding">
+              <property id="top" value="0.02"/>
+              <property id="right" value="0.01"/>
+              <property id="left" value="0.03"/>
+            </property>
+          </property>
+        </property>
+        <property id="name" value="uiLinearLayout4"/>
+        <property id="orientation" value="Horizontal"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <attachment key="uuid" value="39a31002-a5c0-4378-a00f-949ce2f74c53"/>
+        <node name="uiRectLayout7" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout7"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.182"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="1739552c-8a33-4e80-8c34-afff8a73e0df"/>
+          <node name="SWLTS_Toggle" nodeTypeId="lumin.eclipse.toggle">
+            <property id="eclipseToggleType" value="SwitchWithLabel"/>
+            <property id="external" value="true"/>
+            <property id="gravityWellEnabled" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="SWLTS_Toggle"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="statusText1" value="OFF"/>
+            <property id="statusText2" value="ON"/>
+            <handler generated="true" handlerName="SwitchLabelToggleHandlers">
+              <callbacks>onToggleChanged</callbacks>
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onHoverExit</callbacks>
+              <callbacks>onLongPress</callbacks>
+            </handler>
+            <attachment key="uuid" value="6d51f60e-4030-4f4e-b3a2-50bc033b2eb7"/>
+          </node>
+        </node>
+        <node name="uiRectLayout8" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout8"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.338"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="73b100b8-ce7b-4031-8443-6448f14d636d"/>
+          <node name="BES_Label5" nodeTypeId="lumin.eclipse.label">
+            <property id="alignment"/>
+            <property id="boundsSize"/>
+            <property id="eclipseLabelType" value="B4"/>
+            <property id="external" value="true"/>
+            <property id="fontParameters"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="BES_Label5"/>
+            <property id="position"/>
+            <property id="previousEclipseLabelType" value="B4"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Placeholder Text"/>
+            <handler generated="true" handlerName="SwitchLabelHandler">
+              <callbacks>onUpdate</callbacks>
+            </handler>
+            <attachment key="uuid" value="ebdfd9ac-91f6-4202-b1b6-c66927dca0ef"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="TLS_Line3" nodeTypeId="lumin.line">
+      <property id="color" value="0.953 0.953 0.953 0.9"/>
+      <property id="name" value="TLS_Line3"/>
+      <property id="opaque" value="false"/>
+      <property id="points">
+        <property id="0"/>
+        <property id="1">
+          <property id="x" value="0.37"/>
+        </property>
+      </property>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="a0aa0e70-2b4d-44cd-8b80-12bcac69755e"/>
+    </node>
+    <node name="TLS_Line4" nodeTypeId="lumin.line">
+      <property id="color" value="0.953 0.953 0.953 0.9"/>
+      <property id="name" value="TLS_Line4"/>
+      <property id="opaque" value="false"/>
+      <property id="points">
+        <property id="0"/>
+        <property id="1">
+          <property id="x" value="0.53"/>
+        </property>
+      </property>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="5e741a96-de32-408a-8b1c-ade8d4177185"/>
+    </node>
+    <node name="TLS_Label7" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment"/>
+      <property id="boundsSize"/>
+      <property id="external" value="true"/>
+      <property id="fontParameters">
+        <property id="style" value="Italic"/>
+        <property id="weight" value="Bold"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="TLS_Label7"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Standard Toggles:"/>
+      <attachment key="uuid" value="d1b04b62-cffb-4d6f-b96e-8027cd8459a0"/>
+    </node>
+    <node name="TLS_Transform7" nodeTypeId="lumin.transform">
+      <property id="name" value="TLS_Transform7"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="2b8ed58d-461c-40a6-9bca-aa7917128734"/>
+    </node>
+    <node name="TLS_Label8" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Right"/>
+      </property>
+      <property id="boundsSize"/>
+      <property id="eclipseLabelType" value="T3"/>
+      <property id="fontParameters">
+        <property id="weight" value="Bold"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="TLS_Label8"/>
+      <property id="position"/>
+      <property id="previousEclipseLabelType" value="T3"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Default"/>
+      <attachment key="uuid" value="5515f9f9-876c-41d0-bd78-4d26a0101245"/>
+    </node>
+    <node name="TLS_Transform8" nodeTypeId="lumin.transform">
+      <property id="name" value="TLS_Transform8"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="1ed1aa8c-91a1-48d3-8621-be5ecf3f4345"/>
+      <node name="uiLinearLayout5" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Bottom"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout9"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="uiRectLayout10"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Right"/>
+            </property>
+          </property>
+        </property>
+        <property id="itemPadding">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout10"/>
+            <property id="itemPadding">
+              <property id="top" value="0.02"/>
+              <property id="right" value="0.01"/>
+              <property id="left" value="0.03"/>
+            </property>
+          </property>
+        </property>
+        <property id="name" value="uiLinearLayout5"/>
+        <property id="orientation" value="Horizontal"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <attachment key="uuid" value="3a549f5d-d145-4de7-8834-330191fd11f6"/>
+        <node name="uiRectLayout9" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout9"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.182"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="92ba7091-5fb7-44bd-9a4d-66ea7bd309c8"/>
+          <node name="DTS_Toggle" nodeTypeId="lumin.ui.toggle">
+            <property id="external" value="true"/>
+            <property id="gravityWellEnabled" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="height" value="0.03359"/>
+            <property id="name" value="DTS_Toggle"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Text"/>
+            <property id="textSize" value="0.05"/>
+            <property id="textSizeChanged" value="true"/>
+            <handler generated="true" handlerName="DefaultToggleHandlers">
+              <callbacks>onToggleChanged</callbacks>
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onHoverExit</callbacks>
+              <callbacks>onLongPress</callbacks>
+            </handler>
+            <attachment key="uuid" value="11ee4957-8a58-4648-9b49-5adef0027593"/>
+          </node>
+        </node>
+        <node name="uiRectLayout10" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout10"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.338"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="52ed4506-7e9c-4066-beb3-fc680a6a5aa9"/>
+          <node name="BES_Label6" nodeTypeId="lumin.eclipse.label">
+            <property id="alignment"/>
+            <property id="boundsSize"/>
+            <property id="eclipseLabelType" value="B4"/>
+            <property id="external" value="true"/>
+            <property id="fontParameters"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="BES_Label6"/>
+            <property id="position"/>
+            <property id="previousEclipseLabelType" value="B4"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Placeholder Text"/>
+            <handler generated="true" handlerName="DefaultLabelHandler">
+              <callbacks>onUpdate</callbacks>
+            </handler>
+            <attachment key="uuid" value="efc998b5-88b8-4d58-84a4-4012d2ca37a5"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="TLS_Label9" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Right"/>
+      </property>
+      <property id="boundsSize"/>
+      <property id="eclipseLabelType" value="T3"/>
+      <property id="fontParameters">
+        <property id="weight" value="Bold"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="TLS_Label9"/>
+      <property id="position"/>
+      <property id="previousEclipseLabelType" value="T3"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Radio"/>
+      <attachment key="uuid" value="87ee8060-2036-4ff2-8836-b44b40e7d20b"/>
+    </node>
+    <node name="TLS_Transform9" nodeTypeId="lumin.transform">
+      <property id="name" value="TLS_Transform9"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="e06da256-92c7-4c68-b8a7-9ad46dcf088a"/>
+      <node name="uiLinearLayout6" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Bottom"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout11"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="uiRectLayout12"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Right"/>
+            </property>
+          </property>
+        </property>
+        <property id="itemPadding">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout12"/>
+            <property id="itemPadding">
+              <property id="top" value="0.02"/>
+              <property id="right" value="0.01"/>
+              <property id="left" value="0.03"/>
+            </property>
+          </property>
+        </property>
+        <property id="name" value="uiLinearLayout6"/>
+        <property id="orientation" value="Horizontal"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <attachment key="uuid" value="8a43cb29-c079-4efd-9f5d-8325416f4cd5"/>
+        <node name="uiRectLayout11" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout11"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.182"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="984d15a4-02d2-4cae-a2cc-1e5c5d133944"/>
+          <node name="RTS_Toggle" nodeTypeId="lumin.ui.toggle">
+            <property id="external" value="true"/>
+            <property id="gravityWellEnabled" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="height" value="0.04875"/>
+            <property id="name" value="RTS_Toggle"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Text"/>
+            <property id="toggleType" value="Radio"/>
+            <handler generated="true" handlerName="RadioToggleHandlers">
+              <callbacks>onToggleChanged</callbacks>
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onHoverExit</callbacks>
+              <callbacks>onLongPress</callbacks>
+            </handler>
+            <attachment key="uuid" value="61ba03e9-c938-472c-961e-c5a932575f75"/>
+          </node>
+        </node>
+        <node name="uiRectLayout12" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout12"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.338"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="8c0d9c6b-727d-41c8-9217-738e88016c6d"/>
+          <node name="BES_Label7" nodeTypeId="lumin.eclipse.label">
+            <property id="alignment"/>
+            <property id="boundsSize"/>
+            <property id="eclipseLabelType" value="B4"/>
+            <property id="external" value="true"/>
+            <property id="fontParameters"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="BES_Label7"/>
+            <property id="position"/>
+            <property id="previousEclipseLabelType" value="B4"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Placeholder Text"/>
+            <handler generated="true" handlerName="RadioLabelHandler">
+              <callbacks>onUpdate</callbacks>
+            </handler>
+            <attachment key="uuid" value="78571688-4c23-42a0-bd25-09db921ca25f"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="TLS_Label10" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Right"/>
+      </property>
+      <property id="boundsSize"/>
+      <property id="eclipseLabelType" value="T3"/>
+      <property id="fontParameters">
+        <property id="weight" value="Bold"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="TLS_Label10"/>
+      <property id="position"/>
+      <property id="previousEclipseLabelType" value="T3"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Checkbox"/>
+      <attachment key="uuid" value="991c70d8-c0f2-45a7-99af-ccc0cc05a3ce"/>
+    </node>
+    <node name="TLS_Transform10" nodeTypeId="lumin.transform">
+      <property id="name" value="TLS_Transform10"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="2d0747b1-b5fe-458b-ba8e-e81af1eb526f"/>
+      <node name="uiLinearLayout7" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Bottom"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout13"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="uiRectLayout14"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Right"/>
+            </property>
+          </property>
+        </property>
+        <property id="itemPadding">
+          <property id="0">
+            <property id="nodeId" value="uiRectLayout14"/>
+            <property id="itemPadding">
+              <property id="top" value="0.02"/>
+              <property id="right" value="0.01"/>
+              <property id="left" value="0.03"/>
+            </property>
+          </property>
+        </property>
+        <property id="name" value="uiLinearLayout7"/>
+        <property id="orientation" value="Horizontal"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <attachment key="uuid" value="48173dd1-8c46-43b1-9d23-d80d19bff686"/>
+        <node name="uiRectLayout13" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout13"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.182"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="a715fbae-f130-4b29-a1eb-3e1f13faf0fd"/>
+          <node name="CTS_Toggle" nodeTypeId="lumin.ui.toggle">
+            <property id="external" value="true"/>
+            <property id="gravityWellEnabled" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="height" value="0.04875"/>
+            <property id="name" value="CTS_Toggle"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Text"/>
+            <property id="toggleType" value="Checkbox"/>
+            <handler generated="true" handlerName="CheckboxToggleHandlers">
+              <callbacks>onToggleChanged</callbacks>
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onHoverExit</callbacks>
+              <callbacks>onLongPress</callbacks>
+            </handler>
+            <attachment key="uuid" value="7a7f0a6c-de0c-49ec-8610-b9bc254b57ed"/>
+          </node>
+        </node>
+        <node name="uiRectLayout14" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="uiRectLayout14"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.338"/>
+            <property id="y" value="0.08125"/>
+          </property>
+          <attachment key="uuid" value="fbd64e54-d627-448b-9e3b-7529e95cbc6b"/>
+          <node name="BES_Label8" nodeTypeId="lumin.eclipse.label">
+            <property id="alignment"/>
+            <property id="boundsSize"/>
+            <property id="eclipseLabelType" value="B4"/>
+            <property id="external" value="true"/>
+            <property id="fontParameters"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="BES_Label8"/>
+            <property id="position"/>
+            <property id="previousEclipseLabelType" value="B4"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Placeholder Text"/>
+            <handler generated="true" handlerName="CheckboxLabelHandler">
+              <callbacks>onUpdate</callbacks>
+            </handler>
+            <attachment key="uuid" value="5e1d8243-1afe-4929-84ea-a97095c20b1c"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</design:rootNode>

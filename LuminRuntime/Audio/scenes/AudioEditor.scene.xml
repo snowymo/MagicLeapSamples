@@ -1,0 +1,124 @@
+<ObjectModel name="AudioEditor" version="1">
+    <TransformNode/>
+    <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="topLayout" orientation="Horizontal" pos="-0.9,0.3,-0.9">
+        <Content itemPadding="0.000000, 0.130000, 0.000000, 0.000000">
+            <UiDropDownList gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" iconSize="0.014906, 0.014906" items="Pre-loaded Audio, Streamed Audio, Output Streamed Audio" label="Create Audio Type    " listTextSize="0.029812" name="audioSwitcher" text="Create Audio Type    " textSize="0.029812"/>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="audioUI">
+                <Content itemPadding="0.000000, 0.000000, 0.000000, 0.020000">
+                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="audioTitle" text="NOW PLAYING: " textSize="0.029812"/>
+                </Content>
+                <Content>
+                    <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemPadding="0.020000, 0.020000, 0.020000, 0.020000" name="stateButtons" orientation="Horizontal">
+                        <Content>
+                            <UiButton eclipse="true" eclipseButtonType="Text" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" labelDisplayMode="Always" labelSide="Top" name="pauseResumeButton" size="0.093504, 0.044000" systemIcon="Actions" text="PLAY" textSize="0.023403"/>
+                        </Content>
+                        <Content>
+                            <UiButton eclipse="true" eclipseButtonType="Text" enabled="false" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" labelDisplayMode="Always" labelSide="Top" name="stopButton" size="0.095801, 0.044000" systemIcon="Actions" text="STOP" textColor="1.000000, 1.000000, 1.000000, 0.200000" textSize="0.021300"/>
+                        </Content>
+                        <Content>
+                            <UiButton eclipse="true" eclipseButtonType="Text" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" labelDisplayMode="Always" labelSide="Top" name="muteButton" size="0.098769, 0.044000" systemIcon="Actions" text="MUTE" textSize="0.021300"/>
+                        </Content>
+                    </UiLinearLayout>
+                </Content>
+                <Content>
+                    <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemPadding="0.020000, 0.020000, 0.020000, 0.020000" name="toggles" orientation="Horizontal">
+                        <Content itemPadding="0.010000, 0.060000, 0.010000, 0.030000">
+                            <UiToggle eclipse="true" eclipseToggleType="SwitchWithIcon" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.041870" labelDisplayMode="Always" name="loop" showBackground="false" systemIcon="Actions" systemIconOff="Actions" text="LOOP" textSize="0.023442"/>
+                        </Content>
+                        <Content itemPadding="0.010000, 0.060000, 0.010000, 0.030000">
+                            <UiToggle eclipse="true" eclipseToggleType="SwitchWithIcon" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.041870" labelDisplayMode="Always" name="spatial" showBackground="false" systemIcon="Actions" systemIconOff="Actions" text="SPATIAL SOUND" textSize="0.023400"/>
+                        </Content>
+                        <Content itemPadding="0.010000, 0.060000, 0.010000, 0.030000">
+                            <UiToggle eclipse="true" eclipseToggleType="SwitchWithIcon" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.041870" labelDisplayMode="Always" name="rotate" on="true" showBackground="false" systemIcon="Actions" systemIconOff="Actions" text="ROTATE" textSize="0.023400"/>
+                        </Content>
+                    </UiLinearLayout>
+                </Content>
+                <Content>
+                    <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemPadding="0.020000, 0.020000, 0.020000, 0.020000" name="soundSliders" orientation="Horizontal">
+                        <Content>
+                            <UiSlider eclipse="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="volume" systemIcon1="Volume" systemIcon2="VolumeMute" value="0.125000"/>
+                        </Content>
+                        <Content itemPadding="0.030000, 0.010000, 0.010000, 0.060000">
+                            <UiSlider eclipse="true" eclipseSliderType="HorizontalWithLabel" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" labelText1="PITCH:    -1 OCTAVE" labelText2="+1 OCTAVE" max="2.000000" min="0.500000" name="pitch" systemIcon1="Actions" systemIcon2="Actions" value="1.000000"/>
+                        </Content>
+                    </UiLinearLayout>
+                </Content>
+                <Content>
+                    <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="spatialLayout">
+                        <Content>
+                            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemPadding="0.020000, 0.020000, 0.020000, 0.020000" name="angleLayout" orientation="Horizontal">
+                                <Content itemAlignment="Center, Center">
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="innerText" text="INNER ANGLE:" textSize="0.029812"/>
+                                </Content>
+                                <Content>
+                                    <UiSlider eclipse="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="innerAngle" systemIcon1="WifiOneBar" systemIcon2="WifiOneBar" value="0.083300"/>
+                                </Content>
+                                <Content itemAlignment="Center, Center">
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="outerText" text="OUTER ANGLE:" textSize="0.029812"/>
+                                </Content>
+                                <Content>
+                                    <UiSlider eclipse="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="outerAngle" systemIcon1="Wifi" systemIcon2="Wifi" value="0.166600"/>
+                                </Content>
+                                <Content itemAlignment="Center, Center">
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="outerGainText" text="OUTER GAIN:" textSize="0.029812"/>
+                                </Content>
+                                <Content itemAlignment="Center, Center">
+                                    <UiSlider eclipse="true" eclipseSliderType="RadialWithIconSmall" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="outerGain" systemIcon1="Volume" systemIcon2="VolumeMute" value="1.000000"/>
+                                </Content>
+                                <Content itemAlignment="Center, Center">
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="outerGainHFText" text="OUTER HF GAIN:" textSize="0.029812"/>
+                                </Content>
+                                <Content itemAlignment="Center, Center">
+                                    <UiSlider eclipse="true" eclipseSliderType="RadialWithIconSmall" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="outerGainHF" systemIcon1="Volume" systemIcon2="VolumeMute" value="1.000000"/>
+                                </Content>
+                            </UiLinearLayout>
+                        </Content>
+                        <Content>
+                            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemPadding="0.020000, 0.020000, 0.020000, 0.020000" name="distanceLayout" orientation="Horizontal">
+                                <Content itemPadding="0.020000, 0.060000, 0.020000, 0.020000">
+                                    <UiSlider eclipse="true" eclipseSliderType="HorizontalWithLabel" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" labelText1="MIN DISTANCE:" max="5.000000" min="0.010000" name="minDistance" size="0.200000, 0.000000" systemIcon1="Actions" systemIcon2="Actions" value="2.505000"/>
+                                </Content>
+                                <Content itemPadding="0.020000, 0.060000, 0.020000, 0.020000">
+                                    <UiSlider eclipse="true" eclipseSliderType="HorizontalWithLabel" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" labelText1="MAX DISTANCE:" max="20.000000" name="maxDistance" size="0.200000, 0.000000" systemIcon1="Actions" systemIcon2="Actions" value="10.500000"/>
+                                </Content>
+                                <Content>
+                                    <UiSlider eclipse="true" eclipseSliderType="HorizontalWithLabel" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" labelText1="CHANNEL DISTANCE:" name="channelDistance" size="0.200000, 0.000000" systemIcon1="Actions" systemIcon2="Actions" value="0.500000"/>
+                                </Content>
+                            </UiLinearLayout>
+                        </Content>
+                        <Content itemPadding="0.020000, 0.020000, 0.020000, 0.000000">
+                            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemPadding="0.020000, 0.020000, 0.020000, 0.020000" name="gainLayout" orientation="Horizontal">
+                                <Content itemAlignment="Center, Center">
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="gainText" text="GAIN:" textSize="0.029812"/>
+                                </Content>
+                                <Content>
+                                    <UiSlider eclipse="true" eclipseSliderType="RadialWithIconSmall" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="gain" systemIcon1="Volume" systemIcon2="VolumeMute" value="1.000000"/>
+                                </Content>
+                                <Content itemAlignment="Center, Center">
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="gainLFText" text="LF GAIN:" textSize="0.029812"/>
+                                </Content>
+                                <Content>
+                                    <UiSlider eclipse="true" eclipseSliderType="RadialWithIconSmall" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="gainLf" systemIcon1="Volume" systemIcon2="VolumeMute" value="1.000000"/>
+                                </Content>
+                                <Content itemAlignment="Center, Center">
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="gainMFText" text="MF GAIN:" textSize="0.029812"/>
+                                </Content>
+                                <Content>
+                                    <UiSlider eclipse="true" eclipseSliderType="RadialWithIconSmall" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="gainMf" systemIcon1="Volume" systemIcon2="VolumeMute" value="1.000000"/>
+                                </Content>
+                                <Content itemAlignment="Center, Center">
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="gainHFText" text="HF GAIN:" textSize="0.029812"/>
+                                </Content>
+                                <Content>
+                                    <UiSlider eclipse="true" eclipseSliderType="RadialWithIconSmall" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="gainHf" systemIcon1="Volume" systemIcon2="VolumeMute" value="1.000000"/>
+                                </Content>
+                            </UiLinearLayout>
+                        </Content>
+                    </UiLinearLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+    </UiLinearLayout>
+</ObjectModel>

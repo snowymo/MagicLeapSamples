@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="Gesture" nodeTypeId="lumin.root" modelId="lumin" version="1.12.0">
+  <property id="name" value="Gesture"/>
+  <attachment key="uuid" value="91b3dcce-a14b-4708-8042-04a0499dbcb6"/>
+  <node name="Gestures" nodeTypeId="lumin.ui.linearLayout">
+    <property id="alignment">
+      <property id="verticalAlignment" value="Center"/>
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemAlignment">
+      <property id="verticalAlignment" value="Center"/>
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemPadding"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="itemAlignment"/>
+    <property id="itemPadding">
+      <property id="0">
+        <property id="nodeId" value="keypointModelToggle"/>
+        <property id="itemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+      <property id="1">
+        <property id="nodeId" value="keypointNamesToggle"/>
+        <property id="itemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.01"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.01"/>
+        </property>
+      </property>
+    </property>
+    <property id="name" value="Gestures"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale">
+      <property id="x" value="0.6"/>
+      <property id="y" value="0.6"/>
+      <property id="z" value="0.6"/>
+    </property>
+    <property id="size"/>
+    <attachment key="uuid" value="37c0637d-e4a8-45af-ba72-0c7dab753c1b"/>
+    <node name="uiGridLayout1" nodeTypeId="lumin.ui.gridLayout">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="column" value="2"/>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="uiGridLayout1"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="row" value="2"/>
+      <property id="scale"/>
+      <property id="size">
+        <property id="y" value="0.17"/>
+      </property>
+      <attachment key="uuid" value="de265e61-b8ae-4206-9141-3b0ac58211a5"/>
+      <node name="LeftHandConfidence" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Bottom"/>
+        </property>
+        <property id="boundsSize"/>
+        <property id="fontSelector">
+          <property id="fontParameters"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="LeftHandConfidence"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Left Pose Confidence:"/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="dc47f6f8-ca82-4313-bdb8-ecfaa47066f1"/>
+      </node>
+      <node name="uiRectLayout1" nodeTypeId="lumin.ui.rectLayout">
+        <property id="alignment"/>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="uiRectLayout1"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.125"/>
+          <property id="y" value="0.08"/>
+        </property>
+        <attachment key="uuid" value="47296ebc-c0a9-477f-a5ce-6e1100e4d821"/>
+        <node name="LeftHandValue" nodeTypeId="lumin.ui.text">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Bottom"/>
+          </property>
+          <property id="boundsSize">
+            <property id="x" value="0.2"/>
+          </property>
+          <property id="external" value="true"/>
+          <property id="fontSelector">
+            <property id="fontParameters"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="LeftHandValue"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="text" value="0.00"/>
+          <property id="textSize" value="0.05"/>
+          <attachment key="uuid" value="753809ab-f31b-448c-824f-55e6b0824393"/>
+        </node>
+      </node>
+      <node name="RightHandConfidence" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Bottom"/>
+        </property>
+        <property id="boundsSize"/>
+        <property id="fontSelector">
+          <property id="fontParameters"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="RightHandConfidence"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Right Pose Confidence:"/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="82c4ba5f-31b6-4e97-bc9a-6f12f8166a0f"/>
+      </node>
+      <node name="uiRectLayout2" nodeTypeId="lumin.ui.rectLayout">
+        <property id="alignment"/>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="uiRectLayout2"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.125"/>
+          <property id="y" value="0.08"/>
+        </property>
+        <attachment key="uuid" value="8f5aa4a3-ccac-440a-9abb-275c5098f60b"/>
+        <node name="RightHandValue" nodeTypeId="lumin.ui.text">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Bottom"/>
+          </property>
+          <property id="boundsSize">
+            <property id="x" value="0.2"/>
+          </property>
+          <property id="external" value="true"/>
+          <property id="fontSelector">
+            <property id="fontParameters"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="RightHandValue"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="text" value="0.00"/>
+          <property id="textSize" value="0.05"/>
+          <attachment key="uuid" value="c7d90568-463b-400c-b112-56f5732faf1f"/>
+        </node>
+      </node>
+    </node>
+    <node name="GestureImages" nodeTypeId="lumin.ui.gridLayout">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Center"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="column" value="4"/>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Center"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.05"/>
+        <property id="right" value="0.05"/>
+        <property id="bottom" value="0.05"/>
+        <property id="left" value="0.05"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="GestureImages"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="row" value="2"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <attachment key="uuid" value="077df11c-cbc1-4962-ba3f-24bc2e3c1925"/>
+      <node name="Finger" nodeTypeId="lumin.ui.image">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="frameResource">
+          <property id="model" value="undefined"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="Finger"/>
+        <property id="position"/>
+        <property id="resource" value="ee2a214e-cd94-4553-a651-2ba5ea57fa15"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.15"/>
+          <property id="y" value="0.15"/>
+        </property>
+        <property id="systemIcon"/>
+        <property id="texCoords">
+          <property id="x">
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="y">
+            <property id="x" value="1.0"/>
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="z">
+            <property id="x" value="1.0"/>
+          </property>
+          <property id="w"/>
+        </property>
+        <attachment key="uuid" value="3262b0c5-3447-456e-8dfb-c3ff8eeb8c63"/>
+      </node>
+      <node name="Fist" nodeTypeId="lumin.ui.image">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="frameResource">
+          <property id="model" value="undefined"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="Fist"/>
+        <property id="position"/>
+        <property id="resource" value="f3ffaccb-e5cd-414e-999f-672020e4f070"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.15"/>
+          <property id="y" value="0.15"/>
+        </property>
+        <property id="systemIcon"/>
+        <property id="texCoords">
+          <property id="x">
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="y">
+            <property id="x" value="1.0"/>
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="z">
+            <property id="x" value="1.0"/>
+          </property>
+          <property id="w"/>
+        </property>
+        <attachment key="uuid" value="ee41698e-2f96-4aa3-9368-a6a4c1041595"/>
+      </node>
+      <node name="Pinch" nodeTypeId="lumin.ui.image">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="frameResource">
+          <property id="model" value="undefined"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="Pinch"/>
+        <property id="position"/>
+        <property id="resource" value="383f19af-9f7b-4e1d-b4ed-029a63e72db3"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.15"/>
+          <property id="y" value="0.15"/>
+        </property>
+        <property id="systemIcon"/>
+        <property id="texCoords">
+          <property id="x">
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="y">
+            <property id="x" value="1.0"/>
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="z">
+            <property id="x" value="1.0"/>
+          </property>
+          <property id="w"/>
+        </property>
+        <attachment key="uuid" value="37eba648-2f1f-4f0f-a53c-4c2125692095"/>
+      </node>
+      <node name="Thumb" nodeTypeId="lumin.ui.image">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="frameResource">
+          <property id="model" value="undefined"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="Thumb"/>
+        <property id="position"/>
+        <property id="resource" value="6e229885-b0b8-4892-9c0d-32614b964cb0"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.15"/>
+          <property id="y" value="0.15"/>
+        </property>
+        <property id="systemIcon"/>
+        <property id="texCoords">
+          <property id="x">
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="y">
+            <property id="x" value="1.0"/>
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="z">
+            <property id="x" value="1.0"/>
+          </property>
+          <property id="w"/>
+        </property>
+        <attachment key="uuid" value="d9768182-5823-46a3-b3fd-f48d9cb7b99a"/>
+      </node>
+      <node name="L" nodeTypeId="lumin.ui.image">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="frameResource">
+          <property id="model" value="undefined"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="L"/>
+        <property id="position"/>
+        <property id="resource" value="aab6f4e2-7805-4ecc-b974-2f6259778131"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.15"/>
+          <property id="y" value="0.15"/>
+        </property>
+        <property id="systemIcon"/>
+        <property id="texCoords">
+          <property id="x">
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="y">
+            <property id="x" value="1.0"/>
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="z">
+            <property id="x" value="1.0"/>
+          </property>
+          <property id="w"/>
+        </property>
+        <attachment key="uuid" value="e91459de-78ba-4877-aa1d-8080004d8bb6"/>
+      </node>
+      <node name="OpenHandBack" nodeTypeId="lumin.ui.image">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="frameResource">
+          <property id="model" value="undefined"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="OpenHandBack"/>
+        <property id="position"/>
+        <property id="resource" value="5a2f6119-3673-4397-bfdc-3861018f002c"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.15"/>
+          <property id="y" value="0.15"/>
+        </property>
+        <property id="systemIcon"/>
+        <property id="texCoords">
+          <property id="x">
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="y">
+            <property id="x" value="1.0"/>
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="z">
+            <property id="x" value="1.0"/>
+          </property>
+          <property id="w"/>
+        </property>
+        <attachment key="uuid" value="2596c332-fa3e-45fe-8e83-f2bd56b2b293"/>
+      </node>
+      <node name="Ok" nodeTypeId="lumin.ui.image">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="frameResource">
+          <property id="model" value="undefined"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="Ok"/>
+        <property id="position"/>
+        <property id="resource" value="d7ede61f-a14c-4059-9ddb-858372a9c7a3"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.15"/>
+          <property id="y" value="0.15"/>
+        </property>
+        <property id="systemIcon"/>
+        <property id="texCoords">
+          <property id="x">
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="y">
+            <property id="x" value="1.0"/>
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="z">
+            <property id="x" value="1.0"/>
+          </property>
+          <property id="w"/>
+        </property>
+        <attachment key="uuid" value="980ddb02-6777-48e0-8797-96b393c73033"/>
+      </node>
+      <node name="C" nodeTypeId="lumin.ui.image">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="frameResource">
+          <property id="model" value="undefined"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="C"/>
+        <property id="position"/>
+        <property id="resource" value="ad621892-89b4-45da-a3db-91372261c7bc"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.15"/>
+          <property id="y" value="0.15"/>
+        </property>
+        <property id="systemIcon"/>
+        <property id="texCoords">
+          <property id="x">
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="y">
+            <property id="x" value="1.0"/>
+            <property id="y" value="1.0"/>
+          </property>
+          <property id="z">
+            <property id="x" value="1.0"/>
+          </property>
+          <property id="w"/>
+        </property>
+        <attachment key="uuid" value="243d2ccc-2840-4bb1-afb5-d05719b6233c"/>
+      </node>
+    </node>
+    <node name="uiGridLayout2" nodeTypeId="lumin.ui.gridLayout">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="column" value="2"/>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="uiGridLayout2"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="row" value="4"/>
+      <property id="scale"/>
+      <property id="size">
+        <property id="y" value="0.17"/>
+      </property>
+      <attachment key="uuid" value="d5a6e064-1b39-47e8-929c-5934b01ba79d"/>
+      <node name="LeftHandGesture" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Bottom"/>
+        </property>
+        <property id="boundsSize"/>
+        <property id="fontSelector">
+          <property id="fontParameters"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="LeftHandGesture"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Left Hand Gesture: "/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="3ca1a49f-be65-46fc-b7d7-d4d6ca18fcf0"/>
+      </node>
+      <node name="uiRectLayout3" nodeTypeId="lumin.ui.rectLayout">
+        <property id="alignment"/>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="uiRectLayout3"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.125"/>
+          <property id="y" value="0.08"/>
+        </property>
+        <attachment key="uuid" value="1919e4e0-0021-4a17-8789-e50ce9c02737"/>
+        <node name="LeftHandGestureValue" nodeTypeId="lumin.ui.text">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Bottom"/>
+          </property>
+          <property id="boundsSize">
+            <property id="x" value="0.2"/>
+          </property>
+          <property id="external" value="true"/>
+          <property id="fontSelector">
+            <property id="fontParameters"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="LeftHandGestureValue"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="text" value="NONE"/>
+          <property id="textSize" value="0.05"/>
+          <attachment key="uuid" value="ef537811-8029-4282-9d22-3e0243e02e3d"/>
+        </node>
+      </node>
+      <node name="RightHandGesture" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Bottom"/>
+        </property>
+        <property id="boundsSize"/>
+        <property id="fontSelector">
+          <property id="fontParameters"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="RightHandGesture"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Right Hand Gesture: "/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="6389030a-c588-4ee3-baeb-846a8a5de8d4"/>
+      </node>
+      <node name="uiRectLayout4" nodeTypeId="lumin.ui.rectLayout">
+        <property id="alignment"/>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="uiRectLayout4"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.125"/>
+          <property id="y" value="0.08"/>
+        </property>
+        <attachment key="uuid" value="cb90ff96-5fc1-488f-8a9f-06cd52aafa87"/>
+        <node name="RightHandGestureValue" nodeTypeId="lumin.ui.text">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Bottom"/>
+          </property>
+          <property id="boundsSize">
+            <property id="x" value="0.2"/>
+          </property>
+          <property id="external" value="true"/>
+          <property id="fontSelector">
+            <property id="fontParameters"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="RightHandGestureValue"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="text" value="NONE"/>
+          <property id="textSize" value="0.05"/>
+          <attachment key="uuid" value="70fbcdf3-6861-4cf9-a848-078c90121d17"/>
+        </node>
+      </node>
+    </node>
+    <node name="keypointModelToggle" nodeTypeId="lumin.eclipse.toggle">
+      <property id="eclipseToggleType" value="SwitchWithIcon"/>
+      <property id="external" value="true"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="keypointModelToggle"/>
+      <property id="on" value="true"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Display Keypoint Models: "/>
+      <property id="textSize" value="0.05"/>
+      <property id="textSizeChanged" value="true"/>
+      <attachment key="uuid" value="a6cde47b-6fe3-41fb-af47-3341b8324b3a"/>
+    </node>
+    <node name="keypointNamesToggle" nodeTypeId="lumin.eclipse.toggle">
+      <property id="eclipseToggleType" value="SwitchWithIcon"/>
+      <property id="external" value="true"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="keypointNamesToggle"/>
+      <property id="on" value="true"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Display Keypoint Names: "/>
+      <property id="textSize" value="0.05"/>
+      <property id="textSizeChanged" value="true"/>
+      <attachment key="uuid" value="764a91cd-79b0-41b7-8361-bc9da28372d0"/>
+    </node>
+  </node>
+  <node name="Keypoint" nodeTypeId="lumin.model">
+    <property id="animationSetupResource"/>
+    <property id="external" value="true"/>
+    <property id="materialAndModel">
+      <property id="material" value="e9c38692-ddec-480c-bb85-5dd0b9c3db37"/>
+      <property id="model" value="e5d21b1a-21a7-4fc6-aa45-9485a7813771"/>
+    </property>
+    <property id="name" value="Keypoint"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale">
+      <property id="x" value="0.01"/>
+      <property id="y" value="0.01"/>
+      <property id="z" value="0.01"/>
+    </property>
+    <attachment key="uuid" value="b5fed035-266d-41d5-9401-82c3eabf47b0"/>
+  </node>
+</design:rootNode>

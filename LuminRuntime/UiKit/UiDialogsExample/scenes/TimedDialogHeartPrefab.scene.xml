@@ -1,0 +1,4 @@
+<ObjectModel name="TimedDialogHeartPrefab" version="1">
+    <TransformNode/>
+    <UiButton eclipse="true" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" iconSize="0.026790, 0.026790" labelDisplayMode="Always" labelSide="Top" name="TDHN_Button" size="0.000000, 0.060000" systemIcon="Heart"/>
+</ObjectModel>

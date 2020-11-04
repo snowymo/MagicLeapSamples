@@ -1,0 +1,6 @@
+<ObjectModel name="CircleConfirmationPrefab" version="1">
+    <TransformNode/>
+    <UiCircleConfirmation gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" height="0.100000" name="CCM_CircleConfirmation">
+        <UiNode eventPassThrough="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000"/>
+    </UiCircleConfirmation>
+</ObjectModel>

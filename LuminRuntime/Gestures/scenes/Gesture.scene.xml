@@ -1,0 +1,96 @@
+<ObjectModel name="Gesture" version="1">
+    <TransformNode/>
+    <ModelNode castShadow="false" name="Keypoint" receiveShadow="false" res="assets/sphere.fbx/74_mt_wL7no/sphere.fbx" scale="0.01,0.01,0.01" shader="Pbr"/>
+    <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="Gestures" scale="0.6,0.6,0.6">
+        <Content>
+            <UiGridLayout alignment="Top, Center" columns="2" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Left" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="uiGridLayout1" rows="2" size="0.000000, 0.170000">
+                <Content>
+                    <UiText alignment="Bottom, Left" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="LeftHandConfidence" text="Left Pose Confidence:" textSize="0.050000"/>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout1" size="0.125000, 0.080000">
+                        <Content>
+                            <TransformNode>
+                                <UiText alignment="Bottom, Left" boundsSize="0.200000, 0.000000" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="LeftHandValue" text="0.00" textSize="0.050000"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+                <Content>
+                    <UiText alignment="Bottom, Left" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="RightHandConfidence" text="Right Pose Confidence:" textSize="0.050000"/>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout2" size="0.125000, 0.080000">
+                        <Content>
+                            <TransformNode>
+                                <UiText alignment="Bottom, Left" boundsSize="0.200000, 0.000000" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="RightHandValue" text="0.00" textSize="0.050000"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiGridLayout>
+        </Content>
+        <Content>
+            <UiGridLayout alignment="Center, Center" columns="4" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" itemPadding="0.050000, 0.050000, 0.050000, 0.050000" name="GestureImages" rows="2">
+                <Content>
+                    <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="Finger" opaque="false" res="assets/Gesture_Finger.png/Q1IyFtCYpXs/Gesture_Finger.png" size="0.150000, 0.150000"/>
+                </Content>
+                <Content>
+                    <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="Fist" opaque="false" res="assets/Gesture_Fist.png/7v9085hS3gk/Gesture_Fist.png" size="0.150000, 0.150000"/>
+                </Content>
+                <Content>
+                    <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="Pinch" opaque="false" res="assets/Gesture_Pinch.png/AXdsAplKz8w/Gesture_Pinch.png" size="0.150000, 0.150000"/>
+                </Content>
+                <Content>
+                    <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="Thumb" opaque="false" res="assets/Gesture_Thumb.png/RTZnGZLCSeI/Gesture_Thumb.png" size="0.150000, 0.150000"/>
+                </Content>
+                <Content>
+                    <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="L" opaque="false" res="assets/Gesture_L.png/Wf_b8HCy-dw/Gesture_L.png" size="0.150000, 0.150000"/>
+                </Content>
+                <Content>
+                    <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="OpenHandBack" opaque="false" res="assets/Gesture_OpenHandBack.png/HFieWK_LlOY/Gesture_OpenHandBack.png" size="0.150000, 0.150000"/>
+                </Content>
+                <Content>
+                    <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="Ok" opaque="false" res="assets/Gesture_OK.png/0jfibYs6oTw/Gesture_OK.png" size="0.150000, 0.150000"/>
+                </Content>
+                <Content>
+                    <UiImage alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="C" opaque="false" res="assets/Gesture_C.png/NLCjltmxMhU/Gesture_C.png" size="0.150000, 0.150000"/>
+                </Content>
+            </UiGridLayout>
+        </Content>
+        <Content>
+            <UiGridLayout alignment="Top, Center" columns="2" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Left" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="uiGridLayout2" rows="4" size="0.000000, 0.170000">
+                <Content>
+                    <UiText alignment="Bottom, Left" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="LeftHandGesture" text="Left Hand Gesture: " textSize="0.050000"/>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout3" size="0.125000, 0.080000">
+                        <Content>
+                            <TransformNode>
+                                <UiText alignment="Bottom, Left" boundsSize="0.200000, 0.000000" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="LeftHandGestureValue" text="NONE" textSize="0.050000"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+                <Content>
+                    <UiText alignment="Bottom, Left" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="RightHandGesture" text="Right Hand Gesture: " textSize="0.050000"/>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout4" size="0.125000, 0.080000">
+                        <Content>
+                            <TransformNode>
+                                <UiText alignment="Bottom, Left" boundsSize="0.200000, 0.000000" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="RightHandGestureValue" text="NONE" textSize="0.050000"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiGridLayout>
+        </Content>
+        <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+            <UiToggle eclipse="true" eclipseToggleType="SwitchWithIcon" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.041870" labelDisplayMode="Always" name="keypointModelToggle" on="true" showBackground="false" systemIcon="Actions" systemIconOff="Actions" text="Display Keypoint Models: " textSize="0.050000"/>
+        </Content>
+        <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+            <UiToggle eclipse="true" eclipseToggleType="SwitchWithIcon" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.041870" labelDisplayMode="Always" name="keypointNamesToggle" on="true" showBackground="false" systemIcon="Actions" systemIconOff="Actions" text="Display Keypoint Names: " textSize="0.050000"/>
+        </Content>
+    </UiLinearLayout>
+</ObjectModel>

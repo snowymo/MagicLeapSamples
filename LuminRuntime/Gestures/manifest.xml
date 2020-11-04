@@ -1,0 +1,21 @@
+<manifest
+  xmlns:ml="magicleap"
+  ml:package="com.magicleap.lumin_gestures_example"
+  ml:version_code="2"
+  ml:version_name="2.0">
+  <application
+    ml:visible_name="LR Gestures Example">
+    <uses-privilege ml:name="GesturesConfig"/>
+    <uses-privilege ml:name="GesturesSubscribe"/>
+    <uses-privilege ml:name="LowLatencyLightwear"/>
+    <component
+      ml:name=".lumin_gestures_example.universe"
+      ml:visible_name="LR Gestures Example"
+      ml:binary_name="bin/Gestures"
+      ml:type="Universe">
+      <icon
+        ml:model_folder="assets/icon/model"
+        ml:portal_folder="assets/icon/portal" />
+    </component>
+  </application>
+</manifest>

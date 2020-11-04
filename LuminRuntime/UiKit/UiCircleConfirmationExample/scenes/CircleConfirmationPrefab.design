@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="CircleConfirmationPrefab" nodeTypeId="lumin.root" modelId="lumin" version="1.12.0">
+  <property id="name" value="CircleConfirmationPrefab"/>
+  <attachment key="uuid" value="528687b2-865f-41d0-b3ac-b24b2c8dfe77"/>
+  <node name="CCM_CircleConfirmation" nodeTypeId="lumin.ui.circleConfirmation">
+    <property id="external" value="true"/>
+    <property id="gravityWellEnabled" value="true"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="roundness" value="1.0"/>
+        <property id="offset"/>
+      </property>
+      <property id="gravityWellSnap" value="Center"/>
+    </property>
+    <property id="height" value="0.1"/>
+    <property id="name" value="CCM_CircleConfirmation"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <handler generated="true" handlerName="CCM_Handlers_onConfirmationCanceled">
+      <callbacks>onConfirmationCanceled</callbacks>
+    </handler>
+    <handler generated="true" handlerName="CCM_Handlers_onConfirmationComplete">
+      <callbacks>onConfirmationComplete</callbacks>
+    </handler>
+    <handler generated="true" handlerName="CCM_Handlers_onConfirmationUpdate">
+      <callbacks>onConfirmationUpdate</callbacks>
+    </handler>
+    <handler generated="true" handlerName="CCM_Handlers_onActivate">
+      <callbacks>onActivate</callbacks>
+    </handler>
+    <attachment key="uuid" value="b5072497-85b6-40f6-88dd-22d594583899"/>
+  </node>
+</design:rootNode>

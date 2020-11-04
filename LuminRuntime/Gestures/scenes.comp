@@ -1,0 +1,3 @@
+DATAS = \
+	scenes/Gesture.scene.res.xml : assets/scenes/Gesture.scene.res.xml \
+	scenes/Gesture.scene.xml : assets/scenes/Gesture.scene.xml

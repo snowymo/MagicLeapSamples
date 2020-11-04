@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="TextEditPrefab" nodeTypeId="lumin.root" modelId="lumin" version="1.12.0">
+  <property id="name" value="TextEditPrefab"/>
+  <attachment key="uuid" value="e135982d-3159-464c-a892-a08f5787027d"/>
+  <node name="uiLinearLayout1" nodeTypeId="lumin.ui.linearLayout">
+    <property id="alignment">
+      <property id="verticalAlignment" value="Center"/>
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemAlignment">
+      <property id="verticalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemPadding"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="itemAlignment">
+      <property id="0">
+        <property id="nodeId" value="CharRatio"/>
+        <property id="itemAlignment">
+          <property id="verticalAlignment" value="Bottom"/>
+          <property id="horizontalAlignment" value="Right"/>
+        </property>
+      </property>
+    </property>
+    <property id="itemPadding">
+      <property id="00">
+        <property id="nodeId" value="CharRatio"/>
+        <property id="itemPadding"/>
+      </property>
+      <property id="01">
+        <property id="nodeId" value="SingleLineTextEdit"/>
+        <property id="itemPadding">
+          <property id="bottom" value="0.02"/>
+        </property>
+      </property>
+      <property id="02">
+        <property id="nodeId" value="MultiLineTextEdit"/>
+        <property id="itemPadding">
+          <property id="bottom" value="0.02"/>
+        </property>
+      </property>
+      <property id="03">
+        <property id="nodeId" value="PasswordTextEdit"/>
+        <property id="itemPadding">
+          <property id="bottom" value="0.02"/>
+        </property>
+      </property>
+      <property id="04">
+        <property id="nodeId" value="URLTextEdit"/>
+        <property id="itemPadding">
+          <property id="bottom" value="0.02"/>
+        </property>
+      </property>
+      <property id="05">
+        <property id="nodeId" value="NumericTextEdit"/>
+        <property id="itemPadding">
+          <property id="bottom" value="0.02"/>
+        </property>
+      </property>
+      <property id="06">
+        <property id="nodeId" value="SingleLine"/>
+        <property id="itemPadding">
+          <property id="bottom" value="0.01"/>
+        </property>
+      </property>
+      <property id="07">
+        <property id="nodeId" value="MultiLine"/>
+        <property id="itemPadding">
+          <property id="bottom" value="0.01"/>
+        </property>
+      </property>
+      <property id="08">
+        <property id="nodeId" value="Password"/>
+        <property id="itemPadding">
+          <property id="bottom" value="0.01"/>
+        </property>
+      </property>
+      <property id="09">
+        <property id="nodeId" value="URLMode"/>
+        <property id="itemPadding">
+          <property id="bottom" value="0.01"/>
+        </property>
+      </property>
+      <property id="10">
+        <property id="nodeId" value="Numeric"/>
+        <property id="itemPadding">
+          <property id="bottom" value="0.01"/>
+        </property>
+      </property>
+    </property>
+    <property id="name" value="uiLinearLayout1"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="size"/>
+    <attachment key="uuid" value="553b01bc-932a-4cbd-9053-84e45edd20b8"/>
+    <node name="SingleLine" nodeTypeId="lumin.ui.text">
+      <property id="alignment"/>
+      <property id="boundsSize"/>
+      <property id="fontSelector">
+        <property id="fontParameters">
+          <property id="style" value="Italic"/>
+          <property id="weight" value="Bold"/>
+        </property>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="SingleLine"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Single Line:"/>
+      <property id="textSize" value="0.05"/>
+      <attachment key="uuid" value="3c57c285-ab21-4b3c-b24a-2e36ed2633e2"/>
+    </node>
+    <node name="SingleLineTextEdit" nodeTypeId="lumin.ui.textEdit">
+      <property id="alignment"/>
+      <property id="external" value="true"/>
+      <property id="gravityWellEnabled" value="true"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="height" value="0.05"/>
+      <property id="maxCharacter" value="140"/>
+      <property id="name" value="SingleLineTextEdit"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Single Line Text Edit."/>
+      <property id="textPadding">
+        <property id="top" value="0.003"/>
+        <property id="right" value="0.003"/>
+        <property id="bottom" value="0.003"/>
+        <property id="left" value="0.003"/>
+      </property>
+      <property id="textSize" value="0.025"/>
+      <property id="width" value="0.7"/>
+      <handler generated="true" handlerName="SingleLineHandlers">
+        <callbacks>onKeyboardEvent</callbacks>
+      </handler>
+      <attachment key="uuid" value="a11266d9-5924-4da8-b24d-d3680433678a"/>
+    </node>
+    <node name="MultiLine" nodeTypeId="lumin.ui.text">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Bottom"/>
+      </property>
+      <property id="boundsSize"/>
+      <property id="fontSelector">
+        <property id="fontParameters">
+          <property id="style" value="Italic"/>
+          <property id="weight" value="Bold"/>
+        </property>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="MultiLine"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Multiple Line:"/>
+      <property id="textSize" value="0.05"/>
+      <attachment key="uuid" value="ae61ab2c-c027-4e45-8629-8c8c4e437aad"/>
+    </node>
+    <node name="MultiLineTextEdit" nodeTypeId="lumin.ui.textEdit">
+      <property id="alignment"/>
+      <property id="external" value="true"/>
+      <property id="gravityWellEnabled" value="true"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="maxCharacter" value="140"/>
+      <property id="multilineMode" value="true"/>
+      <property id="name" value="MultiLineTextEdit"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="scrollBarVisibilityMode" value="Always"/>
+      <property id="text" value="Multiple Line Text Edit.\nLine 2.\nLine 3."/>
+      <property id="textPadding">
+        <property id="top" value="0.003"/>
+        <property id="right" value="0.003"/>
+        <property id="bottom" value="0.003"/>
+        <property id="left" value="0.003"/>
+      </property>
+      <property id="textSize" value="0.025"/>
+      <property id="width" value="0.7"/>
+      <handler generated="true" handlerName="MultiLineHandlers">
+        <callbacks>onKeyboardEvent</callbacks>
+        <callbacks>onTextChanged</callbacks>
+      </handler>
+      <attachment key="uuid" value="eb40e44d-8513-4c3d-a92a-ab1fb9abd313"/>
+    </node>
+    <node name="CharRatio" nodeTypeId="lumin.ui.text">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Bottom"/>
+      </property>
+      <property id="boundsSize"/>
+      <property id="external" value="true"/>
+      <property id="fontSelector">
+        <property id="fontParameters"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="CharRatio"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="40/140"/>
+      <property id="textSize" value="0.03"/>
+      <attachment key="uuid" value="dc049b49-6e33-4412-9af2-8e3179c8e89e"/>
+    </node>
+    <node name="Password" nodeTypeId="lumin.ui.text">
+      <property id="alignment"/>
+      <property id="boundsSize"/>
+      <property id="fontSelector">
+        <property id="fontParameters">
+          <property id="style" value="Italic"/>
+          <property id="weight" value="Bold"/>
+        </property>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="Password"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Password Mode:"/>
+      <property id="textSize" value="0.05"/>
+      <attachment key="uuid" value="e024ec37-e2f4-48c2-bc5f-4f18afff9af1"/>
+    </node>
+    <node name="PasswordTextEdit" nodeTypeId="lumin.ui.textEdit">
+      <property id="alignment"/>
+      <property id="external" value="true"/>
+      <property id="gravityWellEnabled" value="true"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="height" value="0.05"/>
+      <property id="maxCharacter" value="140"/>
+      <property id="name" value="PasswordTextEdit"/>
+      <property id="passwordMode" value="true"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value=""/>
+      <property id="textPadding">
+        <property id="top" value="0.003"/>
+        <property id="right" value="0.003"/>
+        <property id="bottom" value="0.003"/>
+        <property id="left" value="0.003"/>
+      </property>
+      <property id="textSize" value="0.025"/>
+      <property id="width" value="0.7"/>
+      <handler generated="true" handlerName="PasswordHandlers">
+        <callbacks>onHoverEnter</callbacks>
+        <callbacks>onHoverExit</callbacks>
+      </handler>
+      <attachment key="uuid" value="8bde600c-dfc4-480a-9c25-8628a00c03ea"/>
+      <node name="PasswordRequirements" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Bottom"/>
+        </property>
+        <property id="boundsSize">
+          <property id="x" value="0.2"/>
+          <property id="y" value="0.5"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="fontSelector">
+          <property id="fontParameters"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="PasswordRequirements"/>
+        <property id="position">
+          <property id="x" value="-0.3"/>
+          <property id="y" value="-0.08"/>
+        </property>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Password Requirements:  8-14 characters.  Must include at least one number and one special character."/>
+        <property id="textSize" value="0.03"/>
+        <property id="visible" value="false"/>
+        <attachment key="uuid" value="9f1db0ad-4fa3-4708-903f-5897f5774bb9"/>
+      </node>
+    </node>
+    <node name="URLMode" nodeTypeId="lumin.ui.text">
+      <property id="alignment"/>
+      <property id="boundsSize"/>
+      <property id="fontSelector">
+        <property id="fontParameters">
+          <property id="style" value="Italic"/>
+          <property id="weight" value="Bold"/>
+        </property>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="URLMode"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="URL Mode:"/>
+      <property id="textSize" value="0.05"/>
+      <attachment key="uuid" value="fe5a3b09-5b06-4657-8153-88111dffdb3b"/>
+    </node>
+    <node name="URLTextEdit" nodeTypeId="lumin.ui.textEdit">
+      <property id="alignment"/>
+      <property id="external" value="true"/>
+      <property id="gravityWellEnabled" value="true"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="height" value="0.05"/>
+      <property id="maxCharacter" value="140"/>
+      <property id="name" value="URLTextEdit"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="http://creator.magicleap.com"/>
+      <property id="textEntryMode" value="URL"/>
+      <property id="textPadding">
+        <property id="top" value="0.003"/>
+        <property id="right" value="0.003"/>
+        <property id="bottom" value="0.003"/>
+        <property id="left" value="0.003"/>
+      </property>
+      <property id="textSize" value="0.025"/>
+      <property id="width" value="0.7"/>
+      <handler generated="true" handlerName="UrlHandlers">
+        <callbacks>onKeyboardEvent</callbacks>
+      </handler>
+      <attachment key="uuid" value="a278dcf8-0ed4-4049-a0e9-13f81839503d"/>
+    </node>
+    <node name="Numeric" nodeTypeId="lumin.ui.text">
+      <property id="alignment"/>
+      <property id="boundsSize"/>
+      <property id="fontSelector">
+        <property id="fontParameters">
+          <property id="style" value="Italic"/>
+          <property id="weight" value="Bold"/>
+        </property>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="Numeric"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="Numeric Mode:"/>
+      <property id="textSize" value="0.05"/>
+      <attachment key="uuid" value="3ea21a60-d2f2-42c4-85d5-0fafd8be517c"/>
+    </node>
+    <node name="NumericTextEdit" nodeTypeId="lumin.ui.textEdit">
+      <property id="alignment"/>
+      <property id="external" value="true"/>
+      <property id="gravityWellEnabled" value="true"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="height" value="0.05"/>
+      <property id="maxCharacter" value="6"/>
+      <property id="name" value="NumericTextEdit"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value="1234"/>
+      <property id="textEntryMode" value="Numeric"/>
+      <property id="textPadding">
+        <property id="top" value="0.003"/>
+        <property id="right" value="0.003"/>
+        <property id="bottom" value="0.003"/>
+        <property id="left" value="0.003"/>
+      </property>
+      <property id="textSize" value="0.025"/>
+      <property id="width" value="0.7"/>
+      <handler generated="true" handlerName="NumericHandlers">
+        <callbacks>onHoverEnter</callbacks>
+        <callbacks>onHoverExit</callbacks>
+        <callbacks>onTextChanged</callbacks>
+        <callbacks>onKeyboardEvent</callbacks>
+      </handler>
+      <attachment key="uuid" value="b5d4015a-19e1-4eea-8a5b-9739111c3da3"/>
+      <node name="NumericRequirements" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Bottom"/>
+        </property>
+        <property id="boundsSize">
+          <property id="x" value="0.2"/>
+          <property id="y" value="0.5"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="fontSelector">
+          <property id="fontParameters"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="NumericRequirements"/>
+        <property id="position">
+          <property id="x" value="-0.3"/>
+          <property id="y" value="-0.03"/>
+        </property>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Enter 6 digit pin code:"/>
+        <property id="textSize" value="0.03"/>
+        <property id="visible" value="false"/>
+        <attachment key="uuid" value="e0b3d172-2f39-4636-b0fa-1fe8461bd4a5"/>
+      </node>
+    </node>
+  </node>
+</design:rootNode>

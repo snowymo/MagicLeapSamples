@@ -1,0 +1,23 @@
+{
+  "id": "456a35a2-db37-4d09-b552-5ef599da2837",
+  "processor": "lap/types/processor/material_from_partial_kmats",
+  "input": {
+    "files": [
+      {
+        "path": "6NodhHR9IW0/ML_SoundIcon_Mute.kmat.files",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "material": [
+      {
+        "path": "TakwyxFGv6U/ML_SoundIcon_Mute.kmat",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

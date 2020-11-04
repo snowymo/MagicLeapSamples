@@ -1,0 +1,18 @@
+<manifest
+    xmlns:ml="magicleap"
+    ml:package="com.magicleap.uisystemicons_example"
+    ml:version_code="1"
+    ml:version_name="1.0">
+    <application
+        ml:visible_name="UiSystemIconsExample">
+        <component
+            ml:name=".universe"
+            ml:visible_name="UiSystemIconsExample"
+            ml:binary_name="bin/UiSystemIconsExample"
+            ml:type="Universe">
+            <icon
+                ml:model_folder="res/Icon_Grid/model"
+                ml:portal_folder="res/Icon_Grid/portal" />
+        </component>
+    </application>
+</manifest>

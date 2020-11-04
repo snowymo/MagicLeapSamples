@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlproject:mlproject xmlns:mlproject="http://www.magicleap.com/uidesigner/mlproject" generated="true" modelId="lumin" srcGenVersion="2">
+  <designFile path="scenes/ButtonsLayoutPrefab.design" type="prefabDesign" uuid="52c26543-ada0-4a8f-84a9-9e9c03861be4"/>
+  <pipelineDirectory path="pipeline"/>
+</mlproject:mlproject>

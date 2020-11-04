@@ -1,0 +1,5 @@
+DATAS = \
+	scenes/CircleConfirmationLayout.scene.res.xml : assets/scenes/CircleConfirmationLayout.scene.res.xml \
+	scenes/CircleConfirmationLayout.scene.xml : assets/scenes/CircleConfirmationLayout.scene.xml \
+	scenes/CircleConfirmationPrefab.scene.res.xml : assets/scenes/CircleConfirmationPrefab.scene.res.xml \
+	scenes/CircleConfirmationPrefab.scene.xml : assets/scenes/CircleConfirmationPrefab.scene.xml

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlproject:mlproject xmlns:mlproject="http://www.magicleap.com/uidesigner/mlproject" generated="true" modelId="lumin" srcGenVersion="2">
+  <designFile path="scenes/EclipseLabelsPrefab.design" type="prefabDesign" uuid="529c3d14-8738-458f-b26c-0fcec80d767b"/>
+  <pipelineDirectory path="pipeline"/>
+</mlproject:mlproject>

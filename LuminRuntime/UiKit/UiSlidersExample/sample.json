@@ -1,0 +1,7 @@
+{
+	"label": "UiSliders Example",
+	"description": "This example project showcases Lumin Runtime UiKit's Sliders",
+	"projectFile": "UiSlidersExample.package",
+	"additionalFiles" : ["README.md", "UiSlidersExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

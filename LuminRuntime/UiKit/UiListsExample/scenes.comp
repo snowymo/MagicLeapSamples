@@ -1,0 +1,3 @@
+DATAS = \
+	scenes/ListsLayoutPrefab.scene.res.xml : assets/scenes/ListsLayoutPrefab.scene.res.xml \
+	scenes/ListsLayoutPrefab.scene.xml : assets/scenes/ListsLayoutPrefab.scene.xml

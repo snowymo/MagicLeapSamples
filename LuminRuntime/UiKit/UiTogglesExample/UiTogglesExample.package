@@ -1,0 +1,3 @@
+REFS = UiTogglesExample
+USES =  "scenes"  "pipeline/cache/AssetManifest"
+DATAS = pipeline/portal_icon/ : assets/icon/

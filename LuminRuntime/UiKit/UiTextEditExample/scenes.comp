@@ -1,0 +1,3 @@
+DATAS = \
+	scenes/TextEditPrefab.scene.res.xml : assets/scenes/TextEditPrefab.scene.res.xml \
+	scenes/TextEditPrefab.scene.xml : assets/scenes/TextEditPrefab.scene.xml

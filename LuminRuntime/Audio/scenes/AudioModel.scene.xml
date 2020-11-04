@@ -1,0 +1,14 @@
+<ObjectModel name="AudioModel" version="1">
+    <TransformNode/>
+    <TransformNode name="audioParent">
+        <TransformNode name="audioHolder">
+            <ModelNode castShadow="false" name="muteModel" receiveShadow="false" res="assets/ML_SoundIcon_Mute.fbx/6q6eWKlU0Ro/ML_SoundIcon_Mute.fbx" rot="0,-0.7071068,0,0.7071068" scale="10,10,10" shader="Pbr"/>
+            <ModelNode castShadow="false" name="offModel" receiveShadow="false" res="assets/ML_SoundIcon_Off.fbx/c2OKjVviSxQ/ML_SoundIcon_Off.fbx" rot="0,-0.7071068,0,0.7071068" scale="10,10,10" shader="Pbr"/>
+            <ModelNode castShadow="false" name="onModel" receiveShadow="false" res="assets/ML_SoundIcon_On.fbx/XKrP-QnA0ZU/ML_SoundIcon_On.fbx" rot="0,-0.7071068,0,0.7071068" scale="10,10,10" shader="Pbr"/>
+            <ModelNode castShadow="false" name="playModel" receiveShadow="false" res="assets/ML_SoundIcon_Play.fbx/HUTqYm67k-w/ML_SoundIcon_Play.fbx" rot="0,-0.7071068,0,0.7071068" scale="0.01,0.01,0.01" shader="Pbr"/>
+        </TransformNode>
+    </TransformNode>
+    <AudioNode channelDirectSendLevels="[gain: 0, gain_lf: 0, gain_mf: 0, gain_hf: 0]" channelDirections="[0.000000, 0.000000, 0.000000, 1.000000]" channelDistanceProps="[min: 0, max: 0, rolloff: 0]" channelPositions="[0.000000, 0.000000, 0.000000]" channelRadiationProps="[in_ang: 0, out_ang: 0, out_g: 0, out_ghf: 0]" channelRoomSendLevels="[gain: 0, gain_lf: 0, gain_mf: 0, gain_hf: 0]" name="loadedAudio" pitch="0.000000" volume="0.000000"/>
+    <AudioNode channelDirectSendLevels="[gain: 0, gain_lf: 0, gain_mf: 0, gain_hf: 0]" channelDirections="[0.000000, 0.000000, 0.000000, 1.000000]" channelDistanceProps="[min: 0, max: 0, rolloff: 0]" channelPositions="[0.000000, 0.000000, 0.000000]" channelRadiationProps="[in_ang: 0, out_ang: 0, out_g: 0, out_ghf: 0]" channelRoomSendLevels="[gain: 0, gain_lf: 0, gain_mf: 0, gain_hf: 0]" name="streamedAudio" pitch="0.000000" volume="0.000000"/>
+    <AudioNode channelDirectSendLevels="[gain: 0, gain_lf: 0, gain_mf: 0, gain_hf: 0]" channelDirections="[0.000000, 0.000000, 0.000000, 1.000000]" channelDistanceProps="[min: 0, max: 0, rolloff: 0]" channelPositions="[0.000000, 0.000000, 0.000000]" channelRadiationProps="[in_ang: 0, out_ang: 0, out_g: 0, out_ghf: 0]" channelRoomSendLevels="[gain: 0, gain_lf: 0, gain_mf: 0, gain_hf: 0]" name="outputAudio" pitch="0.000000" volume="0.000000"/>
+</ObjectModel>

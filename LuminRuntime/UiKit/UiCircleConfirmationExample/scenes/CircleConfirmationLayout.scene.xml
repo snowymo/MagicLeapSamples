@@ -1,0 +1,14 @@
+<ObjectModel name="CircleConfirmationLayout" version="1">
+    <TransformNode/>
+    <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Top, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="CCM_LinearLayout">
+        <Content>
+            <TransformNode name="CCM_Placeholder"/>
+        </Content>
+        <Content>
+            <UiText font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CCM_Message" text="Complete the Circle Confirmation" textSize="0.025000"/>
+        </Content>
+        <Content>
+            <UiTab gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" name="CCM_Button" text="Click to Reset Circle Confirmation" textSize="0.025000"/>
+        </Content>
+    </UiLinearLayout>
+</ObjectModel>

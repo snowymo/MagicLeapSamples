@@ -1,0 +1,4 @@
+REFS = UiPortalIconsExample
+
+DATAS = \
+  res/ : res/ \

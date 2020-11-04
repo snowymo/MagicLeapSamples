@@ -1,0 +1,11 @@
+DATAS = \
+	scenes/DialogsLayoutPrefab.scene.res.xml : assets/scenes/DialogsLayoutPrefab.scene.res.xml \
+	scenes/DialogsLayoutPrefab.scene.xml : assets/scenes/DialogsLayoutPrefab.scene.xml \
+	scenes/DualActionDialogPrefab.scene.res.xml : assets/scenes/DualActionDialogPrefab.scene.res.xml \
+	scenes/DualActionDialogPrefab.scene.xml : assets/scenes/DualActionDialogPrefab.scene.xml \
+	scenes/SingleActionDialogPrefab.scene.res.xml : assets/scenes/SingleActionDialogPrefab.scene.res.xml \
+	scenes/SingleActionDialogPrefab.scene.xml : assets/scenes/SingleActionDialogPrefab.scene.xml \
+	scenes/TimedDialogHeartPrefab.scene.res.xml : assets/scenes/TimedDialogHeartPrefab.scene.res.xml \
+	scenes/TimedDialogHeartPrefab.scene.xml : assets/scenes/TimedDialogHeartPrefab.scene.xml \
+	scenes/TimedDialogPrefab.scene.res.xml : assets/scenes/TimedDialogPrefab.scene.res.xml \
+	scenes/TimedDialogPrefab.scene.xml : assets/scenes/TimedDialogPrefab.scene.xml

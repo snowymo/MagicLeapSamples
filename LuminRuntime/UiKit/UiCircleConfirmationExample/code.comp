@@ -1,0 +1,5 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/UiCircleConfirmationExample.cpp \
+      code/src/core/CircleConfirmation.cpp \
+      code/src/core/BaseExample.cpp \

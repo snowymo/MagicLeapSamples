@@ -1,0 +1,23 @@
+{
+  "id": "057de2dd-0aab-4c52-beef-c9a7b31c5935",
+  "processor": "lap/types/processor/texture_from_png",
+  "input": {
+    "image": [
+      {
+        "path": "SourceArt/Gesture_Fist.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "image": [
+      {
+        "path": "7v9085hS3gk/Gesture_Fist.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

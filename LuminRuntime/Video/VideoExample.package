@@ -1,0 +1,8 @@
+DATAS = res/ : res/ \
+        pipeline/portal_icon/ : assets/icon/
+
+REFS = VideoExample
+USES = \
+	pipeline/cache/AssetManifest \
+	scenes
+

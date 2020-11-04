@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="AudioModel" nodeTypeId="lumin.root" modelId="lumin" version="1.12.0">
+  <property id="initiallyLoaded" value="false"/>
+  <property id="name" value="AudioModel"/>
+  <attachment key="uuid" value="13de27ea-bfcd-49e5-8f75-0da00c7ce8a6"/>
+  <node name="audioParent" nodeTypeId="lumin.transform">
+    <property id="external" value="true"/>
+    <property id="name" value="audioParent"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <attachment key="uuid" value="41a07a7f-e6a1-493e-b97e-aa42f7a3064e"/>
+    <node name="audioHolder" nodeTypeId="lumin.transform">
+      <property id="external" value="true"/>
+      <property id="name" value="audioHolder"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <attachment key="uuid" value="30391984-357b-442a-a172-4612720f2d8b"/>
+      <node name="muteModel" nodeTypeId="lumin.model">
+        <property id="animationSetupResource"/>
+        <property id="external" value="true"/>
+        <property id="materialAndModel">
+          <property id="material" value="1d603b41-b3cb-4e32-8087-abe3bc507ce9"/>
+          <property id="model" value="a73bc60a-1446-4e95-bff8-0cfc3ece7974"/>
+        </property>
+        <property id="name" value="muteModel"/>
+        <property id="position"/>
+        <property id="rotation">
+          <property id="y" value="-90.0"/>
+        </property>
+        <property id="scale">
+          <property id="x" value="10.0"/>
+          <property id="y" value="10.0"/>
+          <property id="z" value="10.0"/>
+        </property>
+        <attachment key="uuid" value="1e93ffcf-cf1a-413f-becf-56f6ea3df192"/>
+      </node>
+      <node name="offModel" nodeTypeId="lumin.model">
+        <property id="animationSetupResource"/>
+        <property id="external" value="true"/>
+        <property id="materialAndModel">
+          <property id="material" value="1d603b41-b3cb-4e32-8087-abe3bc507ce9"/>
+          <property id="model" value="c974e5f9-0cf4-4197-9327-fc769a19e126"/>
+        </property>
+        <property id="name" value="offModel"/>
+        <property id="position"/>
+        <property id="rotation">
+          <property id="y" value="-90.0"/>
+        </property>
+        <property id="scale">
+          <property id="x" value="10.0"/>
+          <property id="y" value="10.0"/>
+          <property id="z" value="10.0"/>
+        </property>
+        <attachment key="uuid" value="f747104d-e870-45af-9cc5-c1f9b78cb84c"/>
+      </node>
+      <node name="onModel" nodeTypeId="lumin.model">
+        <property id="animationSetupResource"/>
+        <property id="external" value="true"/>
+        <property id="materialAndModel">
+          <property id="material" value="1d603b41-b3cb-4e32-8087-abe3bc507ce9"/>
+          <property id="model" value="874e0623-fc38-4dcd-a982-5347f0ef83f9"/>
+        </property>
+        <property id="name" value="onModel"/>
+        <property id="position"/>
+        <property id="rotation">
+          <property id="y" value="-90.0"/>
+        </property>
+        <property id="scale">
+          <property id="x" value="10.0"/>
+          <property id="y" value="10.0"/>
+          <property id="z" value="10.0"/>
+        </property>
+        <attachment key="uuid" value="b8f94518-0c60-46a4-be21-c549ee515478"/>
+      </node>
+      <node name="playModel" nodeTypeId="lumin.model">
+        <property id="animationSetupResource"/>
+        <property id="external" value="true"/>
+        <property id="materialAndModel">
+          <property id="material" value="1d603b41-b3cb-4e32-8087-abe3bc507ce9"/>
+          <property id="model" value="e6d32858-21b9-4896-8c4e-343ffc1a657c"/>
+        </property>
+        <property id="name" value="playModel"/>
+        <property id="position"/>
+        <property id="rotation">
+          <property id="y" value="-90.0"/>
+        </property>
+        <property id="scale">
+          <property id="x" value="0.01"/>
+          <property id="y" value="0.01"/>
+          <property id="z" value="0.01"/>
+        </property>
+        <attachment key="uuid" value="c8f8d827-44c1-481b-b49e-a6b369130b26"/>
+      </node>
+    </node>
+  </node>
+  <node name="loadedAudio" nodeTypeId="lumin.audio">
+    <property id="external" value="true"/>
+    <property id="name" value="loadedAudio"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="soundResource"/>
+    <property id="spatial" value="false"/>
+    <property id="spatialSoundProperties">
+      <property id="0">
+        <property id="position"/>
+        <property id="direction">
+          <property id="x" value="NaN"/>
+          <property id="y" value="NaN"/>
+          <property id="z" value="NaN"/>
+        </property>
+        <property id="distanceProperties"/>
+        <property id="radiationProperties"/>
+        <property id="directSendLevels"/>
+        <property id="roomSendLevels"/>
+      </property>
+    </property>
+    <attachment key="uuid" value="b47897a6-34b6-4484-ad78-47212fc75ce4"/>
+  </node>
+  <node name="streamedAudio" nodeTypeId="lumin.audio">
+    <property id="external" value="true"/>
+    <property id="name" value="streamedAudio"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="soundResource"/>
+    <property id="spatial" value="false"/>
+    <property id="spatialSoundProperties">
+      <property id="0">
+        <property id="position"/>
+        <property id="direction">
+          <property id="x" value="NaN"/>
+          <property id="y" value="NaN"/>
+          <property id="z" value="NaN"/>
+        </property>
+        <property id="distanceProperties"/>
+        <property id="radiationProperties"/>
+        <property id="directSendLevels"/>
+        <property id="roomSendLevels"/>
+      </property>
+    </property>
+    <attachment key="uuid" value="4973b4b5-c8b4-49c5-ab87-f2d426c932d1"/>
+  </node>
+  <node name="outputAudio" nodeTypeId="lumin.audio">
+    <property id="external" value="true"/>
+    <property id="name" value="outputAudio"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="soundResource"/>
+    <property id="spatial" value="false"/>
+    <property id="spatialSoundProperties">
+      <property id="0">
+        <property id="position"/>
+        <property id="direction">
+          <property id="x" value="NaN"/>
+          <property id="y" value="NaN"/>
+          <property id="z" value="NaN"/>
+        </property>
+        <property id="distanceProperties"/>
+        <property id="radiationProperties"/>
+        <property id="directSendLevels"/>
+        <property id="roomSendLevels"/>
+      </property>
+    </property>
+    <attachment key="uuid" value="dcf85fdf-aa4e-468d-bd76-4176dc8a1a6d"/>
+  </node>
+</design:rootNode>

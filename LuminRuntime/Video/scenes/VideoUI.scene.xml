@@ -1,0 +1,84 @@
+<ObjectModel name="VideoUI" version="1">
+    <TransformNode/>
+    <UiPanel bottomEdgeConstraint="0.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" leftEdgeConstraint="0.000000" name="cursorVisiblePanel" rightEdgeConstraint="0.000000" shape="[size:[0.91,0.77], roundness: 0, offset:[0,0,0]]" topEdgeConstraint="0.000000">
+        <UiLinearLayout alignment="Top, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Top, Center" name="topLayout" pos="0,0.35,0">
+            <Content itemAlignment="Center, Center" itemPadding="0.000000, 0.000000, 0.020000, 0.010000">
+                <UiText eclipse="true" eclipseLabelType="T1" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="title" text="Magic Leap Video" textSize="0.040513" weight="Bold"/>
+            </Content>
+            <Content>
+                <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="videoUI" padding="0.010000, 0.010000, 0.000000, 0.010000">
+                    <Content>
+                        <TransformNode>
+                            <TransformNode name="videoPlaceholderRoot">
+                                <UiImage alignment="Center, Center" color="0.245316, 0.245316, 0.245316, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="videoPlaceholder" pos="0,-0.0129512,-0.01" size="0.888889, 0.500000"/>
+                                <UiButton eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.150000, 0.150000" labelDisplayMode="Always" labelSide="Top" name="playButton" pos="0,0,0.001" systemIcon="Play"/>
+                            </TransformNode>
+                        </TransformNode>
+                    </Content>
+                </UiRectLayout>
+            </Content>
+            <Content>
+                <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="fullMenu">
+                    <Content>
+                        <UiSlider eclipse="true" eclipseSliderType="HorizontalWithLabel" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="videoSlider" size="0.888889, 0.000000" systemIcon1="Actions" systemIcon2="Actions"/>
+                    </Content>
+                    <Content>
+                        <UiGridLayout columns="2" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="fullToolbar" size="0.888889, 0.200000">
+                            <Content>
+                                <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="videoToolbar" orientation="Horizontal" skipInvisItems="true">
+                                    <Content>
+                                        <UiRectLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="playerButton">
+                                            <Content>
+                                                <TransformNode>
+                                                    <TransformNode name="contentRoot1">
+                                                        <UiButton eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.026790, 0.026790" labelDisplayMode="Always" labelSide="Top" name="pauseButton" size="0.000000, 0.060000" systemIcon="Pause"/>
+                                                        <UiButton eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.026790, 0.026790" labelDisplayMode="Always" labelSide="Top" name="miniPlayButton" size="0.000000, 0.060000" systemIcon="Play"/>
+                                                        <UiButton eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.026790, 0.026790" labelDisplayMode="Always" labelSide="Top" name="replayButton" size="0.000000, 0.060000" systemIcon="Refresh"/>
+                                                    </TransformNode>
+                                                </TransformNode>
+                                            </Content>
+                                        </UiRectLayout>
+                                    </Content>
+                                    <Content>
+                                        <UiRectLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="volumeSwitcher">
+                                            <Content>
+                                                <TransformNode>
+                                                    <TransformNode name="contentRoot2">
+                                                        <UiButton eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.026790, 0.026790" labelDisplayMode="Always" labelSide="Top" name="volumeButton" size="0.000000, 0.060000" systemIcon="Volume"/>
+                                                        <UiButton eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.026790, 0.026790" labelDisplayMode="Always" labelSide="Top" name="muteButton" size="0.000000, 0.060000" systemIcon="VolumeMute"/>
+                                                    </TransformNode>
+                                                </TransformNode>
+                                            </Content>
+                                        </UiRectLayout>
+                                    </Content>
+                                    <Content>
+                                        <UiSlider gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="volumeSlider" size="0.200000, 0.004000" value="1.000000"/>
+                                    </Content>
+                                    <Content>
+                                        <UiText eclipse="true" eclipseLabelType="B2" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="videoTime" text="0:00 / 0:00 " textSize="0.025480"/>
+                                    </Content>
+                                </UiLinearLayout>
+                            </Content>
+                            <Content itemAlignment="Top, Right">
+                                <UiButton eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" iconSize="0.026790, 0.026790" labelDisplayMode="Always" labelSide="Top" name="videoMenuIcon" size="0.000000, 0.060000" systemIcon="Settings"/>
+                            </Content>
+                        </UiGridLayout>
+                    </Content>
+                </UiLinearLayout>
+            </Content>
+        </UiLinearLayout>
+    </UiPanel>
+    <UiText boundsSize="0.520000, 0.360000" eclipse="true" eclipseLabelType="T6" font="DefaultRes_Font_LominoUI_XBd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="errorMsg" pos="-0.26,0.18,0" textColor="0.000000, 0.000000, 0.000000, 1.000000" textSize="0.050000" weight="ExtraBold"/>
+    <UiListView alignment="Top, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="settingsList" pos="0.342233,-0.1,0.02" scroll="false" scrollSpeed="0.500000">
+        <Content itemPadding="0.020000, 0.020000, 0.010000, 0.040000">
+            <UiListViewItem color="0.000000, 0.000000, 0.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="loopItem">
+                <UiToggle eclipse="true" eclipseToggleType="SwitchWithIcon" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" height="0.041870" labelDisplayMode="Always" name="loopToggle" showBackground="false" systemIcon="Actions" systemIconOff="Actions" text="Loop " textSize="0.023400"/>
+            </UiListViewItem>
+        </Content>
+        <Content itemPadding="0.000000, 0.020000, 0.020000, 0.020000">
+            <UiListViewItem color="0.000000, 0.000000, 0.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="resetItem">
+                <UiButton eclipse="true" eclipseButtonType="Text" gravityWellSize="0.000000, 0.000000" labelDisplayMode="Always" labelSide="Top" name="resetButton" size="0.130000, 0.040000" systemIcon="Actions" text="Restart" textSize="0.021276"/>
+            </UiListViewItem>
+        </Content>
+    </UiListView>
+</ObjectModel>

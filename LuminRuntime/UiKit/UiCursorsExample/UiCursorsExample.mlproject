@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlproject:mlproject xmlns:mlproject="http://www.magicleap.com/uidesigner/mlproject" generated="true" modelId="lumin" srcGenVersion="2">
+  <designFile path="scenes/CursorsDisplayPrefab.design" type="prefabDesign" uuid="1301a9e3-704a-4ee3-aef8-c26a5f6ee5db"/>
+  <pipelineDirectory path="pipeline"/>
+</mlproject:mlproject>

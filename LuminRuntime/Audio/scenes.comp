@@ -1,0 +1,5 @@
+DATAS = \
+	scenes/AudioEditor.scene.res.xml : assets/scenes/AudioEditor.scene.res.xml \
+	scenes/AudioEditor.scene.xml : assets/scenes/AudioEditor.scene.xml \
+	scenes/AudioModel.scene.res.xml : assets/scenes/AudioModel.scene.res.xml \
+	scenes/AudioModel.scene.xml : assets/scenes/AudioModel.scene.xml

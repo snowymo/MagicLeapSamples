@@ -1,0 +1,18 @@
+<manifest
+    xmlns:ml="magicleap"
+    ml:package="com.magicleap.uicircleconfirmation_example"
+    ml:version_code="2"
+    ml:version_name="2.0">
+    <application
+        ml:visible_name="UiCircleConfirmationExample">
+        <component
+            ml:name=".universe"
+            ml:visible_name="UiCircleConfirmationExample"
+            ml:binary_name="bin/UiCircleConfirmationExample"
+            ml:type="Universe">
+            <icon
+                ml:model_folder="assets/icon/model"
+                ml:portal_folder="assets/icon/portal" />
+        </component>
+    </application>
+</manifest>

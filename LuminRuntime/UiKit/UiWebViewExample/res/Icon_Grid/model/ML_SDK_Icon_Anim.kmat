@@ -1,0 +1,31 @@
+{
+  "global": {
+    "name": "global",
+    "color": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "materials": [
+    {
+      "shaderName": "UnlitTextured",
+      "name": "com_magicleap_uiwebview_example_ML_txt_MAT1",
+      "blendmode": "opaque",
+      "albedo": "res/Icon_Grid/model/white.png"
+    },
+    {
+      "shaderName": "UnlitTextured",
+      "name": "com_magicleap_uiwebview_example_ML_MAT1",
+      "blendmode": "transparent",
+      "albedo": "res/Icon_Grid/model/Leaper.png"
+    },
+    {
+      "shaderName": "UnlitTextured",
+      "name": "Default_Material",
+      "blendmode": "opaque",
+      "albedo": "res/Icon_Grid/model/white.png"
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+{
+  "intermediate-storage": {
+    "path": "cache",
+    "kind": "in-tree"
+  },
+  "project-schema-version": 4,
+  "project-build-version": "1.4.4",
+  "types": {
+    "assets": [
+      "lap/types/asset/material",
+      "lap/types/asset/model",
+      "lap/types/asset/outline-font",
+      "lap/types/asset/texture"
+    ]
+  },
+  "checkpoint-hash": "60a6f8e4d59c6f2cbaecd0e23636638dd7f22363992791716d24c6c4ab41d96fefbf1fa7844c7694e93d6d2a5063d6d40d561ae888278b7d7fa95488f380e21d",
+  "nodes": {
+    "9de6f4f2-9463-454f-822f-709d6dc2d691": {
+      "kind": "file",
+      "comment": "Gesture_C.png",
+      "descriptor": {
+        "path": "SourceArt/Gesture_C.png",
+        "sha256": "d715dac3bd086dd4513a31905200c9ca4a56de30a5912072378af4cf68f00ac2"
+      },
+      "name": "Gesture_C.png",
+      "links": []
+    },
+    "07d2eed0-c674-4847-ad4d-5982f8754dd5": {
+      "kind": "processor",
+      "comment": "Passthru Gesture_C.png to texture.",
+      "expectedRuntime": 0.1551454528784412,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/07d2eed0-c674-4847-ad4d-5982f8754dd5",
+        "sha256": "52144534b006a88dcc86005dd0ba55c202d03b81b2c39313088e183cd2e7de51"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "9de6f4f2-9463-454f-822f-709d6dc2d691"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ]
+    },
+    "c4b6bace-a6bb-4c4d-a816-6600f323d732": {
+      "kind": "file",
+      "comment": "Intermediate Gesture_C.png",
+      "descriptor": {
+        "path": "NLCjltmxMhU/Gesture_C.png",
+        "sha256": "6d6458436a3b70e36d31e15b3e958c9b3effafeb041a7f8dff2711f4a1f7d7e9"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "image",
+            "node": "07d2eed0-c674-4847-ad4d-5982f8754dd5"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "ad621892-89b4-45da-a3db-91372261c7bc": {
+      "name": "Gesture_C.png",
+      "kind": "asset",
+      "comment": "Intermediate Gesture_C.png",
+      "asset": "lap/types/asset/texture",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "c4b6bace-a6bb-4c4d-a816-6600f323d732"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "b276b82d-d407-467a-a2f2-3bf1fc9eebe1": {
+      "kind": "file",
+      "comment": "Gesture_Finger.png",
+      "descriptor": {
+        "path": "SourceArt/Gesture_Finger.png",
+        "sha256": "4c6deee495dc7a598ed98ca4314e1557115ae811c75e1d696458a5d81ea5dd48"
+      },
+      "name": "Gesture_Finger.png",
+      "links": []
+    },
+    "b6af10f2-e748-4f6b-ab37-e54a09818fbd": {
+      "kind": "processor",
+      "comment": "Passthru Gesture_Finger.png to texture.",
+      "expectedRuntime": 0.17549156509584454,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/b6af10f2-e748-4f6b-ab37-e54a09818fbd",
+        "sha256": "156db71992c81a26be3ec8480682b75794985c29f49b3e48838764769f22c61a"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "b276b82d-d407-467a-a2f2-3bf1fc9eebe1"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ]
+    },
+    "ac02012c-af20-46ce-9a92-e76a49eee23f": {
+      "kind": "file",
+      "comment": "Intermediate Gesture_Finger.png",
+      "descriptor": {
+        "path": "Q1IyFtCYpXs/Gesture_Finger.png",
+        "sha256": "a6665d6ac295448249abe6fbdb16ae653baa4b385334956cd5b0a957ec69ba66"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "image",
+            "node": "b6af10f2-e748-4f6b-ab37-e54a09818fbd"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "ee2a214e-cd94-4553-a651-2ba5ea57fa15": {
+      "name": "Gesture_Finger.png",
+      "kind": "asset",
+      "comment": "Intermediate Gesture_Finger.png",
+      "asset": "lap/types/asset/texture",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "ac02012c-af20-46ce-9a92-e76a49eee23f"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "db7c8cb5-69e5-4682-a876-4621f63120e4": {
+      "kind": "file",
+      "comment": "Gesture_Fist.png",
+      "descriptor": {
+        "path": "SourceArt/Gesture_Fist.png",
+        "sha256": "b0933f8ecea08120a43271a2d08c76f8b2cb66b390aaa96ea4f2c730d7738be2"
+      },
+      "name": "Gesture_Fist.png",
+      "links": []
+    },
+    "057de2dd-0aab-4c52-beef-c9a7b31c5935": {
+      "kind": "processor",
+      "comment": "Passthru Gesture_Fist.png to texture.",
+      "expectedRuntime": 0.17983354432406343,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/057de2dd-0aab-4c52-beef-c9a7b31c5935",
+        "sha256": "4efb21d0319f37e038993345a94117f5b15cf4e7578daa50e5b6b2454959c325"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "db7c8cb5-69e5-4682-a876-4621f63120e4"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ]
+    },
+    "9bbd922b-38d7-4ec7-8d71-dde4b8140003": {
+      "kind": "file",
+      "comment": "Intermediate Gesture_Fist.png",
+      "descriptor": {
+        "path": "7v9085hS3gk/Gesture_Fist.png",
+        "sha256": "8df932bc7a5c66bdc63af47fc973f1f7ac23ce30da637e1d2d4d0e8440aad751"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "image",
+            "node": "057de2dd-0aab-4c52-beef-c9a7b31c5935"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "f3ffaccb-e5cd-414e-999f-672020e4f070": {
+      "name": "Gesture_Fist.png",
+      "kind": "asset",
+      "comment": "Intermediate Gesture_Fist.png",
+      "asset": "lap/types/asset/texture",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "9bbd922b-38d7-4ec7-8d71-dde4b8140003"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "c7870e9a-2529-4c68-8d66-9e5474a37cee": {
+      "kind": "file",
+      "comment": "Gesture_L.png",
+      "descriptor": {
+        "path": "SourceArt/Gesture_L.png",
+        "sha256": "2cba2b1510f23f629e8fbca1df950568f3ed69d72c0e84cb9d33fd66b51284ac"
+      },
+      "name": "Gesture_L.png",
+      "links": []
+    },
+    "d0c67f59-bfda-4578-8c28-16e35c3126f0": {
+      "kind": "processor",
+      "comment": "Passthru Gesture_L.png to texture.",
+      "expectedRuntime": 0.19566649317908183,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/d0c67f59-bfda-4578-8c28-16e35c3126f0",
+        "sha256": "44bfa3aab6ce43e43f0d4488f44c87457cf50bca56b97e922586507478e94c7c"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "c7870e9a-2529-4c68-8d66-9e5474a37cee"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ]
+    },
+    "b7fa3166-2ecb-48bd-ab76-f5a0d8732a14": {
+      "kind": "file",
+      "comment": "Intermediate Gesture_L.png",
+      "descriptor": {
+        "path": "Wf_b8HCy-dw/Gesture_L.png",
+        "sha256": "25af28460df5ce906e5e8fcee93507f76af2ad36ed133ca616efa8c2baa67a8c"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "image",
+            "node": "d0c67f59-bfda-4578-8c28-16e35c3126f0"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "aab6f4e2-7805-4ecc-b974-2f6259778131": {
+      "name": "Gesture_L.png",
+      "kind": "asset",
+      "comment": "Intermediate Gesture_L.png",
+      "asset": "lap/types/asset/texture",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "b7fa3166-2ecb-48bd-ab76-f5a0d8732a14"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "b4eec2be-0196-441e-8116-cf996f45ea69": {
+      "kind": "file",
+      "comment": "Gesture_OK.png",
+      "descriptor": {
+        "path": "SourceArt/Gesture_OK.png",
+        "sha256": "4361bf37d9c1486c8c184ed3fef9bc3e59539d596f0d4adad773d89b6efbfd44"
+      },
+      "name": "Gesture_OK.png",
+      "links": []
+    },
+    "549c44f8-f20b-4bcd-9760-22480b107c6d": {
+      "kind": "processor",
+      "comment": "Passthru Gesture_OK.png to texture.",
+      "expectedRuntime": 0.20543674703142475,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/549c44f8-f20b-4bcd-9760-22480b107c6d",
+        "sha256": "a54634fc4abf50879b486fc3f3aa987be1000327af1e5901d23c36bfd1dac818"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "b4eec2be-0196-441e-8116-cf996f45ea69"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ]
+    },
+    "f23ed8a5-84f5-4381-ba46-f699a05a3159": {
+      "kind": "file",
+      "comment": "Intermediate Gesture_OK.png",
+      "descriptor": {
+        "path": "0jfibYs6oTw/Gesture_OK.png",
+        "sha256": "cae425086c666da0135b26c91f8a9a53bb31a7e17b6da50934225ae68700d736"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "image",
+            "node": "549c44f8-f20b-4bcd-9760-22480b107c6d"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "d7ede61f-a14c-4059-9ddb-858372a9c7a3": {
+      "name": "Gesture_OK.png",
+      "kind": "asset",
+      "comment": "Intermediate Gesture_OK.png",
+      "asset": "lap/types/asset/texture",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "f23ed8a5-84f5-4381-ba46-f699a05a3159"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "540d0c73-91a7-4cd7-ba1c-caa8d40d3620": {
+      "kind": "file",
+      "comment": "Gesture_OpenHandBack.png",
+      "descriptor": {
+        "path": "SourceArt/Gesture_OpenHandBack.png",
+        "sha256": "7b9ae382777b762a4d8e5199c29c85ce21313f4525c636305672d88d5992fb65"
+      },
+      "name": "Gesture_OpenHandBack.png",
+      "links": []
+    },
+    "15c4e400-c7ae-47d1-abfd-d1654d0c4c9c": {
+      "kind": "processor",
+      "comment": "Passthru Gesture_OpenHandBack.png to texture.",
+      "expectedRuntime": 0.23233792982299997,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/15c4e400-c7ae-47d1-abfd-d1654d0c4c9c",
+        "sha256": "6a6093bfde0b55baf09e1e9017c92b792406294a9be62e41ed60efc625032f9e"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "540d0c73-91a7-4cd7-ba1c-caa8d40d3620"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ]
+    },
+    "fbd19af9-9586-46de-8994-38aa21ade309": {
+      "kind": "file",
+      "comment": "Intermediate Gesture_OpenHandBack.png",
+      "descriptor": {
+        "path": "HFieWK_LlOY/Gesture_OpenHandBack.png",
+        "sha256": "3077cbb934de5f3667de0f69e7391ad0496013ec46583ba8b0c1c4c566cd83db"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "image",
+            "node": "15c4e400-c7ae-47d1-abfd-d1654d0c4c9c"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "5a2f6119-3673-4397-bfdc-3861018f002c": {
+      "name": "Gesture_OpenHandBack.png",
+      "kind": "asset",
+      "comment": "Intermediate Gesture_OpenHandBack.png",
+      "asset": "lap/types/asset/texture",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "fbd19af9-9586-46de-8994-38aa21ade309"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "2bb9da42-2c30-4be5-913a-545b7f20bb9d": {
+      "kind": "file",
+      "comment": "Gesture_Pinch.png",
+      "descriptor": {
+        "path": "SourceArt/Gesture_Pinch.png",
+        "sha256": "0c726bd9cfccc04f60c8288934ec28492f9ba300bdde921c727316a009943bb1"
+      },
+      "name": "Gesture_Pinch.png",
+      "links": []
+    },
+    "d6cfd3c9-588b-499c-9e9d-0c8e54744915": {
+      "kind": "processor",
+      "comment": "Passthru Gesture_Pinch.png to texture.",
+      "expectedRuntime": 0.20600290134452026,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/d6cfd3c9-588b-499c-9e9d-0c8e54744915",
+        "sha256": "c94c3d3a7cb251d368918acbb273495806a6b0df45c99cfbfb7ee3b1326c5e45"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "2bb9da42-2c30-4be5-913a-545b7f20bb9d"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ]
+    },
+    "10cd7681-8616-44dc-a73a-691c9149fcde": {
+      "kind": "file",
+      "comment": "Intermediate Gesture_Pinch.png",
+      "descriptor": {
+        "path": "AXdsAplKz8w/Gesture_Pinch.png",
+        "sha256": "5ffb5ce1dbec687cd2d0cf78bd2faefc4ed6cf7f22a2b8a72ac007943fb7fc3b"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "image",
+            "node": "d6cfd3c9-588b-499c-9e9d-0c8e54744915"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "383f19af-9f7b-4e1d-b4ed-029a63e72db3": {
+      "name": "Gesture_Pinch.png",
+      "kind": "asset",
+      "comment": "Intermediate Gesture_Pinch.png",
+      "asset": "lap/types/asset/texture",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "10cd7681-8616-44dc-a73a-691c9149fcde"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "401e4c38-e3e1-4013-885c-206f1dfbc68b": {
+      "kind": "file",
+      "comment": "Gesture_Thumb.png",
+      "descriptor": {
+        "path": "SourceArt/Gesture_Thumb.png",
+        "sha256": "a0a37866fadfe7ca8f28f851c1981a2f9cbd6e3c150006631b93c0801a8253ee"
+      },
+      "name": "Gesture_Thumb.png",
+      "links": []
+    },
+    "9db572d6-50be-45bc-b12b-e766c8851c09": {
+      "kind": "processor",
+      "comment": "Passthru Gesture_Thumb.png to texture.",
+      "expectedRuntime": 0.1564411551203562,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/9db572d6-50be-45bc-b12b-e766c8851c09",
+        "sha256": "d90796e2ee404e58e12f07cda41b72d51e4538909c7a56159e083fd4d0b079dc"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "401e4c38-e3e1-4013-885c-206f1dfbc68b"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ]
+    },
+    "69ef076c-9db6-4251-a1ef-eeb82253fd1a": {
+      "kind": "file",
+      "comment": "Intermediate Gesture_Thumb.png",
+      "descriptor": {
+        "path": "RTZnGZLCSeI/Gesture_Thumb.png",
+        "sha256": "65230705da26eee3d6cc1dfdb082ecf846c8b08182b13fd181c704af214e1b91"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "image",
+            "node": "9db572d6-50be-45bc-b12b-e766c8851c09"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "6e229885-b0b8-4892-9c0d-32614b964cb0": {
+      "name": "Gesture_Thumb.png",
+      "kind": "asset",
+      "comment": "Intermediate Gesture_Thumb.png",
+      "asset": "lap/types/asset/texture",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "69ef076c-9db6-4251-a1ef-eeb82253fd1a"
+          },
+          "target": {
+            "aspect": "image"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "eb74871e-bd46-4a0c-b327-bf62a6cc28ad": {
+      "kind": "file",
+      "comment": "sphere.fbx",
+      "descriptor": {
+        "path": "SourceArt/sphere.fbx",
+        "sha256": "ba35d64961a19c160a95a586c55f6eabb01ad399e61da83946397ff62d3dfa2d"
+      },
+      "name": "sphere.fbx",
+      "links": []
+    },
+    "bec294bd-3f78-46d0-9564-923a2b9e1be3": {
+      "kind": "processor",
+      "comment": "Passthru sphere.fbx to model.",
+      "expectedRuntime": 0.16253756021070048,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/bec294bd-3f78-46d0-9564-923a2b9e1be3",
+        "sha256": "0579c6718b890fcd8dd962baeddeec19d24893890267f3c79f2c11f3bd1d2922"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "eb74871e-bd46-4a0c-b327-bf62a6cc28ad"
+          },
+          "target": {
+            "aspect": "model"
+          }
+        }
+      ]
+    },
+    "6c97b2f8-6785-4497-8776-7d98e9c00aab": {
+      "kind": "file",
+      "comment": "Intermediate sphere.fbx",
+      "descriptor": {
+        "path": "74_mt_wL7no/sphere.fbx",
+        "sha256": "1ed0a770684836f7c76ab46a7123da049078b69f03fcdb2a85f377efdfd32bef"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "model",
+            "node": "bec294bd-3f78-46d0-9564-923a2b9e1be3"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "e5d21b1a-21a7-4fc6-aa45-9485a7813771": {
+      "name": "sphere.fbx",
+      "kind": "asset",
+      "comment": "Intermediate sphere.fbx",
+      "asset": "lap/types/asset/model",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "6c97b2f8-6785-4497-8776-7d98e9c00aab"
+          },
+          "target": {
+            "aspect": "model"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "2e632bd8-ba9a-44b8-8139-937d4f3941be": {
+      "kind": "file",
+      "comment": "sphere.kmat",
+      "descriptor": {
+        "path": "SourceArt/sphere.kmat",
+        "sha256": "2776f9590fe9b2015b4fbaf5de194e0aaf3fb77241633cb3555f89a876bbdb3e"
+      },
+      "name": "sphere.kmat",
+      "links": []
+    },
+    "51814a0d-2b2c-4d6d-920e-b30d066b164b": {
+      "kind": "processor",
+      "comment": "Files Array Builder",
+      "expectedRuntime": 0.2026094927759181,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/51814a0d-2b2c-4d6d-920e-b30d066b164b",
+        "sha256": "2005f448965072658b6e20d2f6dcd8830eb6266230692b5cf1a6735f6927930b"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file1",
+            "node": "2e632bd8-ba9a-44b8-8139-937d4f3941be"
+          },
+          "target": {
+            "aspect": "files"
+          }
+        }
+      ]
+    },
+    "5e22318a-a95d-43bc-933e-659b631290f8": {
+      "kind": "file",
+      "comment": "KMATs Files Intermediate sphere.kmat",
+      "descriptor": {
+        "path": "389xCtNKdr4/sphere.kmat.files",
+        "sha256": "67f4aeb2f5879fa24730cc7b12fd69d34d6f32d5483733dc77858b297f2e823b"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "files",
+            "node": "51814a0d-2b2c-4d6d-920e-b30d066b164b"
+          },
+          "target": {
+            "aspect": "files"
+          }
+        }
+      ]
+    },
+    "ca0c3b81-4967-4ee6-8ca6-e1b74fa306b4": {
+      "kind": "processor",
+      "comment": "KMATs to material munger",
+      "expectedRuntime": 0.12253085394206174,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/ca0c3b81-4967-4ee6-8ca6-e1b74fa306b4",
+        "sha256": "ed55a81b7eb8196b4a24694fcf5f84aec7a83b65928c8f6ed69402638d7c5f57"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "files",
+            "node": "5e22318a-a95d-43bc-933e-659b631290f8"
+          },
+          "target": {
+            "aspect": "material"
+          }
+        }
+      ]
+    },
+    "23df205e-a662-4304-904d-8f134aed8809": {
+      "kind": "file",
+      "comment": "KMAT Intermediate sphere.kmat",
+      "descriptor": {
+        "path": "wA8NQGulXEI/sphere.kmat",
+        "sha256": "f32e92f3e3833c7e46eac4abf3da72da8143176073bcdbf7b4c13080befa18b9"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "material",
+            "node": "ca0c3b81-4967-4ee6-8ca6-e1b74fa306b4"
+          },
+          "target": {
+            "aspect": "material"
+          }
+        }
+      ]
+    },
+    "e9c38692-ddec-480c-bb85-5dd0b9c3db37": {
+      "name": "sphere.kmat",
+      "kind": "asset",
+      "comment": "Material",
+      "asset": "lap/types/asset/material",
+      "links": [
+        {
+          "source": {
+            "aspect": "material",
+            "node": "23df205e-a662-4304-904d-8f134aed8809"
+          },
+          "target": {
+            "aspect": "material"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    }
+  }
+}

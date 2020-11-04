@@ -1,0 +1,5 @@
+USES =  "scenes"  "pipeline/cache/AssetManifest"
+DATAS =\
+  pipeline/Thumbnails/ : pipeline/Thumbnails/ \
+  pipeline/portal_icon/ : assets/icon/
+REFS = UiListsExample

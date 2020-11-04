@@ -1,0 +1,11 @@
+{
+  "global": {
+    "name": "global"
+  },
+  "materials": [
+    {
+      "shaderName": "PBR",
+      "name": "Cone_MAT"
+    }
+  ]
+}

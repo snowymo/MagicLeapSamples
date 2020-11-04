@@ -1,0 +1,13 @@
+{
+    "materials": [
+        {
+            "name": "Sound_Icon_MAT",
+            "shaderName": "PBR"
+        },
+        {
+            "name": "Sound_Icon_MAT1",
+            "shaderName": "PBR"
+        }
+    ],
+    "global": {}
+}

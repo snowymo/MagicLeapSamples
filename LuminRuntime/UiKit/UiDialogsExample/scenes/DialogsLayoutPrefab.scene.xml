@@ -1,0 +1,27 @@
+<ObjectModel name="DialogsLayoutPrefab" version="1">
+    <TransformNode/>
+    <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="DS_LinearLayout1">
+        <Content>
+            <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Top, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="DS_LinearLayout2">
+                <Content>
+                    <UiTab eclipse="true" eclipseLabelType="T1" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" name="SADS_Tab" text="Single Action Dialog" textSize="0.040513"/>
+                </Content>
+                <Content>
+                    <UiTab eclipse="true" eclipseLabelType="T1" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" name="DADS_Tab" text="Dual Action Dialog" textSize="0.040513"/>
+                </Content>
+                <Content>
+                    <UiTab eclipse="true" eclipseLabelType="T1" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" name="TDS_Tab" text="Timed Dialog" textSize="0.040513"/>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="DS_RectLayout" size="0.500000, 0.130000">
+                        <Content>
+                            <TransformNode>
+                                <UiListView gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="DS_ListView" orientation="Horizontal" scroll="false" scrollSpeed="0.500000"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+    </UiLinearLayout>
+</ObjectModel>

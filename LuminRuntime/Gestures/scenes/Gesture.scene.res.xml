@@ -1,0 +1,12 @@
+<ResourceModel version="1">
+    <Texture file="assets/Gesture_C.png/NLCjltmxMhU/Gesture_C.png" name="assets/Gesture_C.png/NLCjltmxMhU/Gesture_C.png"/>
+    <Texture file="assets/Gesture_OK.png/0jfibYs6oTw/Gesture_OK.png" name="assets/Gesture_OK.png/0jfibYs6oTw/Gesture_OK.png"/>
+    <Texture file="assets/Gesture_L.png/Wf_b8HCy-dw/Gesture_L.png" name="assets/Gesture_L.png/Wf_b8HCy-dw/Gesture_L.png"/>
+    <Texture file="assets/Gesture_OpenHandBack.png/HFieWK_LlOY/Gesture_OpenHandBack.png" name="assets/Gesture_OpenHandBack.png/HFieWK_LlOY/Gesture_OpenHandBack.png"/>
+    <Texture file="assets/Gesture_Thumb.png/RTZnGZLCSeI/Gesture_Thumb.png" name="assets/Gesture_Thumb.png/RTZnGZLCSeI/Gesture_Thumb.png"/>
+    <Texture file="assets/Gesture_Pinch.png/AXdsAplKz8w/Gesture_Pinch.png" name="assets/Gesture_Pinch.png/AXdsAplKz8w/Gesture_Pinch.png"/>
+    <Texture file="assets/Gesture_Fist.png/7v9085hS3gk/Gesture_Fist.png" name="assets/Gesture_Fist.png/7v9085hS3gk/Gesture_Fist.png"/>
+    <Texture file="assets/Gesture_Finger.png/Q1IyFtCYpXs/Gesture_Finger.png" name="assets/Gesture_Finger.png/Q1IyFtCYpXs/Gesture_Finger.png"/>
+    <Model file="assets/sphere.fbx/74_mt_wL7no/sphere.fbx" forceMaterialScope="true" name="assets/sphere.fbx/74_mt_wL7no/sphere.fbx" scopedMaterialResource="assets/sphere.kmat/wA8NQGulXEI/sphere.kmat"/>
+    <Material file="assets/sphere.kmat/wA8NQGulXEI/sphere.kmat" localScope="true" name="assets/sphere.kmat/wA8NQGulXEI/sphere.kmat"/>
+</ResourceModel>

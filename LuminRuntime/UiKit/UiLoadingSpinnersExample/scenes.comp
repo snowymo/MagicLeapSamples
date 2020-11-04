@@ -1,0 +1,3 @@
+DATAS = \
+	scenes/LoadingSpinners.scene.res.xml : assets/scenes/LoadingSpinners.scene.res.xml \
+	scenes/LoadingSpinners.scene.xml : assets/scenes/LoadingSpinners.scene.xml

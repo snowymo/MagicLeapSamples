@@ -1,0 +1,3 @@
+DATAS = pipeline/portal_icon/ : assets/icon/
+USES =  "scenes"  "pipeline/cache/AssetManifest"
+REFS = UiLoadingSpinnersExample

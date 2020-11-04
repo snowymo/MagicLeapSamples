@@ -1,0 +1,23 @@
+{
+  "id": "e38ab129-af7d-4a46-8c7f-330b9bb21b5b",
+  "processor": "lap/types/processor/model_from_fbx",
+  "input": {
+    "model": [
+      {
+        "path": "SourceArt/ML_SoundIcon_Off.fbx",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "model": [
+      {
+        "path": "c2OKjVviSxQ/ML_SoundIcon_Off.fbx",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

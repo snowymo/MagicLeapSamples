@@ -1,0 +1,3 @@
+DATAS = \
+	scenes/VideoUI.scene.res.xml : assets/scenes/VideoUI.scene.res.xml \
+	scenes/VideoUI.scene.xml : assets/scenes/VideoUI.scene.xml

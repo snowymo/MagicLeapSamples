@@ -1,0 +1,7 @@
+{
+	"label": "Gestures Example",
+	"description": "This example project showcases Lumin Runtime's Hand Gesture Events",
+	"projectFile": "Gestures.package",
+	"additionalFiles" : ["README.md"],
+	"initialFilesToOpen": ["README.md"]
+}

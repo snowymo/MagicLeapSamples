@@ -1,0 +1,7 @@
+{
+	"label": "UiWebView Example",
+	"description": "This example project showcases Lumin Runtime's UiWebView Node",
+	"projectFile": "UiWebViewExample.package",
+	"additionalFiles" : ["README.md"],
+	"initialFilesToOpen": ["README.md"]
+}

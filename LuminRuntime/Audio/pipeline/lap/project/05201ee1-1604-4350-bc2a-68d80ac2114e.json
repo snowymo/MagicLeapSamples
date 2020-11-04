@@ -1,0 +1,23 @@
+{
+  "id": "05201ee1-1604-4350-bc2a-68d80ac2114e",
+  "processor": "lap/types/processor/files_array_builder",
+  "input": {
+    "file": [
+      {
+        "path": "SourceArt/ML_SoundIcon_Mute.kmat",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "files": [
+      {
+        "path": "6NodhHR9IW0/ML_SoundIcon_Mute.kmat.files",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

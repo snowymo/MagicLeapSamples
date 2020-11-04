@@ -1,0 +1,23 @@
+{
+  "id": "9db572d6-50be-45bc-b12b-e766c8851c09",
+  "processor": "lap/types/processor/texture_from_png",
+  "input": {
+    "image": [
+      {
+        "path": "SourceArt/Gesture_Thumb.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "image": [
+      {
+        "path": "RTZnGZLCSeI/Gesture_Thumb.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

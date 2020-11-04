@@ -1,0 +1,6 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/UiButtonsExample.cpp \
+      code/src/core/BaseExample.cpp \
+      code/src/core/ButtonsLayout.cpp \
+      code/src/core/LabelFader.cpp 

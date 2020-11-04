@@ -1,0 +1,7 @@
+{
+	"label": "UiLoadingSpinners Example",
+	"description": "This example project showcases Lumin Runtime UiKit's Loading Spinners",
+	"projectFile": "UiLoadingSpinnersExample.package",
+	"additionalFiles" : ["README.md", "UiLoadingSpinnersExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

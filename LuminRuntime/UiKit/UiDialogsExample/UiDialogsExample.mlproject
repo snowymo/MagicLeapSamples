@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlproject:mlproject xmlns:mlproject="http://www.magicleap.com/uidesigner/mlproject" generated="true" modelId="lumin" srcGenVersion="2">
+  <designFile path="scenes/DualActionDialogPrefab.design" type="prefabDesign" uuid="26d8d44f-453c-425a-9169-7f0b441ca859"/>
+  <designFile path="scenes/SingleActionDialogPrefab.design" type="prefabDesign" uuid="0ce394e6-bbaa-4cd2-9e89-d65717a2c418"/>
+  <designFile path="scenes/TimedDialogPrefab.design" type="prefabDesign" uuid="e7b48f2a-3472-41a7-a0f4-e9e2bf47bc00"/>
+  <designFile path="scenes/TimedDialogHeartPrefab.design" type="prefabDesign" uuid="c6483af5-6c19-412c-805e-6371a3b6df0b"/>
+  <designFile path="scenes/DialogsLayoutPrefab.design" type="prefabDesign" uuid="091c726c-6a04-4ec0-a0f1-8f3a6a93b41f"/>
+  <pipelineDirectory path="pipeline"/>
+</mlproject:mlproject>

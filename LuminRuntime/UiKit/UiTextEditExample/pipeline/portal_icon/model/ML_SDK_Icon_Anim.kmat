@@ -1,0 +1,23 @@
+{
+  "global": {
+    "name": "global"
+  },
+  "materials": [
+    {
+      "shaderName": "UnlitTextured",
+      "name": "com_magicleap_uitextedit_example_ML_txt_MAT1",
+      "albedo": "assets/icon/model/white.png"
+    },
+    {
+      "shaderName": "UnlitTextured",
+      "name": "com_magicleap_uitextedit_example_ML_MAT1",
+      "blendmode": "Transparent",
+      "albedo": "assets/icon/model/Leaper.png"
+    },
+    {
+      "shaderName": "UnlitTextured",
+      "name": "Default_Material",
+      "albedo": "assets/icon/model/white.png"
+    }
+  ]
+}

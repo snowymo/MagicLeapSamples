@@ -1,0 +1,7 @@
+{
+	"label": "UiLists Example",
+	"description": "This example project showcases Lumin Runtime UiKit's Lists",
+	"projectFile": "UiListsExample.package",
+	"additionalFiles" : ["README.md", "UiListsExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

@@ -1,0 +1,16 @@
+{
+    "asset": {},
+    "extension": {},
+    "general": {
+        "embeddedFiles": [],
+        "externalFiles": [],
+        "rootFiles": [
+            "Gesture_Fist.png"
+        ]
+    },
+    "meta": {
+        "processor": "one2one_passthru",
+        "type": "asset-metadata",
+        "version": 1
+    }
+}

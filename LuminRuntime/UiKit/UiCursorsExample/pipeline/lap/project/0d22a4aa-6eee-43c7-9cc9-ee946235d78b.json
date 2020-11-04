@@ -1,0 +1,23 @@
+{
+  "id": "0d22a4aa-6eee-43c7-9cc9-ee946235d78b",
+  "processor": "lap/types/processor/texture_from_png",
+  "input": {
+    "image": [
+      {
+        "path": "SourceArt/Circle.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "image": [
+      {
+        "path": "mZgkRi0kbdI/Circle.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

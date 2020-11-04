@@ -1,0 +1,23 @@
+{
+  "id": "bec294bd-3f78-46d0-9564-923a2b9e1be3",
+  "processor": "lap/types/processor/model_from_fbx",
+  "input": {
+    "model": [
+      {
+        "path": "SourceArt/sphere.fbx",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "model": [
+      {
+        "path": "74_mt_wL7no/sphere.fbx",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

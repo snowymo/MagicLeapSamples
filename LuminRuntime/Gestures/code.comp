@@ -1,0 +1,7 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/Gestures.cpp \
+      code/src/core/ExamplesHelpers.cpp \
+      code/src/core/BaseExample.cpp \
+      code/src/core/GestureController.cpp \
+      code/src/core/GestureVisualizer.cpp \

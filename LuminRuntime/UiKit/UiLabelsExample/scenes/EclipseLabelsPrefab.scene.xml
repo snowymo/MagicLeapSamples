@@ -1,0 +1,293 @@
+<ObjectModel name="EclipseLabelsPrefab" version="1">
+    <TransformNode/>
+    <UiGridLayout alignment="Center, Center" columns="2" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="ELS_GridLayout" rows="7">
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout1" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform1">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="T1" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label1" pos="0,0,0.001" text="T1" textSize="0.020000" weight="Bold"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image1" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout1" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="T1" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label2" text="Page Title (Top of screen)" textSize="0.040513" weight="Bold"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout2" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform2">
+                        <UiText alignment="Center, Center" eclipse="true" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label3" pos="0,0,0.001" text="B1" textSize="0.020000"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image2" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout2" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label4" text="Label/Body - MEDIUM" textSize="0.027773"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout3" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform3">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="T2" font="DefaultRes_Font_LominoUI_XBd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label5" pos="0,0,0.001" text="T2" textSize="0.020000" weight="ExtraBold"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image3" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout3" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="T2" font="DefaultRes_Font_LominoUI_XBd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label6" text="Title/Label - LARGE" textSize="0.046883" weight="ExtraBold"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout4" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform4">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="B2" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label7" pos="0,0,0.001" text="B2" textSize="0.020000"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image4" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout4" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="B2" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label8" text="Label/Body - SMALL" textSize="0.025480"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout5" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform5">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label9" pos="0,0,0.001" text="T3" textSize="0.020000" weight="Bold"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image5" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout5" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label10" text="Title/Label - MEDIUM" textSize="0.034143" weight="Bold"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout6" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform6">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="B3" font="DefaultRes_Font_LominoUI_Md" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label11" pos="0,0,0.001" text="B3" textSize="0.020000" weight="Medium"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image6" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout6" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="B3" font="DefaultRes_Font_LominoUI_Md" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label12" text="Label/Body - X-SMALL" textSize="0.019237" weight="Medium"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout7" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform7">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="T4" font="DefaultRes_Font_LominoUI_Md" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label13" pos="0,0,0.001" text="T4" textSize="0.020000" weight="Medium"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image7" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout7" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="T4" font="DefaultRes_Font_LominoUI_Md" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label14" text="Title/Label - SMALL" textSize="0.029812" weight="Medium"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout8" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform8">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label15" pos="0,0,0.001" text="B4" textSize="0.020000"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image8" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout8" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label16" text="Label/Body - LARGE" textSize="0.029812"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout9" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform9">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="T5" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label17" pos="0,0,0.001" text="T5" textSize="0.020000" weight="Bold"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image9" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout9" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="T5" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label18" text="Title/Label - EXTRA SMALL" textSize="0.023442" weight="Bold"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout10" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform10">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="C1" font="DefaultRes_Font_LominoUI_Md" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label19" pos="0,0,0.001" text="C1" textSize="0.020000" weight="Medium"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image10" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout10" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="C1" font="DefaultRes_Font_LominoUI_Md" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label20" text="CAPS TITLE - LARGE" textSize="0.029812" weight="Medium"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout11" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform11">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="T6" font="DefaultRes_Font_LominoUI_XBd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label21" pos="0,0,0.001" text="T6" textSize="0.020000" weight="ExtraBold"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image11" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout11" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="T6" font="DefaultRes_Font_LominoUI_XBd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label22" text="XX LARGE" textSize="0.072491" weight="ExtraBold"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout12" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform12">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="C2" font="DefaultRes_Font_LominoUI_Md" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label23" pos="0,0,0.001" text="C2" textSize="0.020000" weight="Medium"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image12" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout12" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="C2" font="DefaultRes_Font_LominoUI_Md" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label24" text="CAPS TITLE - MEDIUM" textSize="0.025480" weight="Medium"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout13" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform13">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="T7" font="DefaultRes_Font_LominoUI_XBd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label25" pos="0,0,0.001" text="T7" textSize="0.020000" weight="ExtraBold"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image13" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout13" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="T7" font="DefaultRes_Font_LominoUI_XBd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label26" text="X LARGE" textSize="0.057585" weight="ExtraBold"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout14" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform14">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="C3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label27" pos="0,0,0.001" text="C3" textSize="0.020000" weight="Bold"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image14" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout14" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="C3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label28" text="CAPS TITLE - SMALL" textSize="0.021276" weight="Bold"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+        <Content>
+            <TransformNode name="ELS_Transform15"/>
+        </Content>
+        <Content>
+            <UiLinearLayout gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" name="ELS_LinearLayout15" orientation="Horizontal">
+                <Content itemPadding="0.000000, 0.010000, 0.000000, 0.000000">
+                    <TransformNode name="ELS_Transform16">
+                        <UiText alignment="Center, Center" eclipse="true" eclipseLabelType="C4" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label29" pos="0,0,0.001" text="C4" textSize="0.020000" weight="Bold"/>
+                        <UiImage alignment="Center, Center" color="0.099152, 0.301785, 1.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Image15" res="assets/Circle.png/_LnnIMMG_Kw/Circle.png" size="0.030000, 0.030000"/>
+                    </TransformNode>
+                </Content>
+                <Content>
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_RectLayout15" size="0.000000, 0.040000">
+                        <Content>
+                            <TransformNode>
+                                <UiText eclipse="true" eclipseLabelType="C4" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ELS_Label30" text="CAPS TITLE - X-SMALL" textSize="0.019237" weight="Bold"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiLinearLayout>
+        </Content>
+    </UiGridLayout>
+</ObjectModel>

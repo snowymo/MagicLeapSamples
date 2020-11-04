@@ -1,0 +1,32 @@
+{
+  "global": {
+    "color": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "materials": [
+    {
+      "albedo": "res/Controller/Controller.png",
+      "name": "Controller_MAT",
+      "opaque": true
+    },
+    {
+      "albedo": "res/Controller/Controller.png",
+      "name": "Bumper_MAT",
+      "opaque": true
+    },
+    {
+      "albedo": "res/Controller/Controller.png",
+      "name": "Button_MAT",
+      "opaque": true
+    },
+    {
+      "albedo": "res/Controller/Controller.png",
+      "name": "Trigger_MAT",
+      "opaque": true
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+DATAS = \
+	scenes/CursorsDisplayPrefab.scene.res.xml : assets/scenes/CursorsDisplayPrefab.scene.res.xml \
+	scenes/CursorsDisplayPrefab.scene.xml : assets/scenes/CursorsDisplayPrefab.scene.xml

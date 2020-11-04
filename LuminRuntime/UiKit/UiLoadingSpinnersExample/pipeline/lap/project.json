@@ -1,0 +1,18 @@
+{
+  "intermediate-storage": {
+    "path": "cache",
+    "kind": "in-tree"
+  },
+  "project-schema-version": 4,
+  "project-build-version": "1.4.4",
+  "types": {
+    "assets": [
+      "lap/types/asset/material",
+      "lap/types/asset/model",
+      "lap/types/asset/outline-font",
+      "lap/types/asset/texture"
+    ]
+  },
+  "checkpoint-hash": "74bc73d2afb511a7a7d36711c66a83a196467d23c5c2810e52f6841ae7cc4c176e192820d226cbf8a1a7f57f81bd09b111c295c1b7886e5f167580309a1c94e1",
+  "nodes": {}
+}

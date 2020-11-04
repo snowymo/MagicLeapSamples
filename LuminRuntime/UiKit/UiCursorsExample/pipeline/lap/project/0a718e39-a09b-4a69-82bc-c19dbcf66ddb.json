@@ -1,0 +1,23 @@
+{
+  "id": "0a718e39-a09b-4a69-82bc-c19dbcf66ddb",
+  "processor": "lap/types/processor/texture_from_png",
+  "input": {
+    "image": [
+      {
+        "path": "SourceArt/Shell.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "image": [
+      {
+        "path": "CMN7dTOwHng/Shell.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

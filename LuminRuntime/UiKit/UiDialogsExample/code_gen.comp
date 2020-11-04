@@ -1,0 +1,20 @@
+SRCS= \
+      code/src/gen/prefabs.cpp \
+      code/src/gen/scenes.cpp \
+      code/src/gen/DualActionDialogPrefabBase.cpp \
+      code/src/prefabs/DualActionDialogPrefab.cpp \
+      code/src/gen/SingleActionDialogPrefabBase.cpp \
+      code/src/prefabs/SingleActionDialogPrefab.cpp \
+      code/src/gen/TimedDialogPrefabBase.cpp \
+      code/src/prefabs/TimedDialogPrefab.cpp \
+      code/src/gen/TimedDialogHeartPrefabBase.cpp \
+      code/src/prefabs/TimedDialogHeartPrefab.cpp \
+      code/src/gen/DialogsLayoutPrefabBase.cpp \
+      code/src/prefabs/DialogsLayoutPrefab.cpp \
+      code/src/gen_static/DesignManager.cpp \
+      code/src/gen_static/PrefabBase.cpp \
+      code/src/gen_static/PrefabDescriptor.cpp \
+      code/src/gen_static/PrefabManager.cpp \
+      code/src/gen_static/SceneBase.cpp \
+      code/src/gen_static/SceneDescriptor.cpp \
+      code/src/gen_static/SceneManager.cpp

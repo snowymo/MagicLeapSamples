@@ -1,0 +1,446 @@
+{
+  "intermediate-storage": {
+    "path": "cache",
+    "kind": "in-tree"
+  },
+  "project-schema-version": 4,
+  "project-build-version": "1.4.4",
+  "types": {
+    "assets": [
+      "lap/types/asset/audio",
+      "lap/types/asset/material",
+      "lap/types/asset/model",
+      "lap/types/asset/outline-font",
+      "lap/types/asset/texture"
+    ]
+  },
+  "checkpoint-hash": "6e2057091db078171a34c41f0c0819d01cc6c6998d1d438388bd1821ed72ed8475ceae6985c2cc5b321cbbfb9cf63e5d689db9e3360b1d85752e2887af7af3b0",
+  "nodes": {
+    "7dfda9c0-e588-4ad7-91d3-aa95e93d066c": {
+      "kind": "file",
+      "comment": "ML_SoundIcon_Mute.fbx",
+      "descriptor": {
+        "path": "SourceArt/ML_SoundIcon_Mute.fbx",
+        "sha256": "6a5d9f5bfcec552820fab47281c50f757b70b2e43014a20ee99821088356e463"
+      },
+      "name": "ML_SoundIcon_Mute.fbx",
+      "links": []
+    },
+    "4f0d9135-553c-4557-ba97-c8b6b2dbc73e": {
+      "kind": "processor",
+      "comment": "Passthru ML_SoundIcon_Mute.fbx to model.",
+      "expectedRuntime": 0.13894887988471194,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/4f0d9135-553c-4557-ba97-c8b6b2dbc73e",
+        "sha256": "4e522dcf2f54f972a745d817bd221fa10b4546fe5f21559f992d976fafb3a42f"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "7dfda9c0-e588-4ad7-91d3-aa95e93d066c"
+          },
+          "target": {
+            "aspect": "model"
+          }
+        }
+      ]
+    },
+    "6111c2a4-0630-4be9-8e59-7703a56e1305": {
+      "kind": "file",
+      "comment": "Intermediate ML_SoundIcon_Mute.fbx",
+      "descriptor": {
+        "path": "6q6eWKlU0Ro/ML_SoundIcon_Mute.fbx",
+        "sha256": "0d4392ea58f0fa8b824bc1f0ac59a52884e92ef8da3ec22f6551096282750818"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "model",
+            "node": "4f0d9135-553c-4557-ba97-c8b6b2dbc73e"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "a73bc60a-1446-4e95-bff8-0cfc3ece7974": {
+      "name": "ML_SoundIcon_Mute.fbx",
+      "kind": "asset",
+      "comment": "Intermediate ML_SoundIcon_Mute.fbx",
+      "asset": "lap/types/asset/model",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "6111c2a4-0630-4be9-8e59-7703a56e1305"
+          },
+          "target": {
+            "aspect": "model"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "0b2cb2f2-41d3-4351-a7c5-4a54d1719f80": {
+      "kind": "file",
+      "comment": "ML_SoundIcon_Off.fbx",
+      "descriptor": {
+        "path": "SourceArt/ML_SoundIcon_Off.fbx",
+        "sha256": "7eb249bbdc0adbc4cbd8955c4de7fd1f04e101023967a25641becec90065a20e"
+      },
+      "name": "ML_SoundIcon_Off.fbx",
+      "links": []
+    },
+    "e38ab129-af7d-4a46-8c7f-330b9bb21b5b": {
+      "kind": "processor",
+      "comment": "Passthru ML_SoundIcon_Off.fbx to model.",
+      "expectedRuntime": 0.11420389025891971,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/e38ab129-af7d-4a46-8c7f-330b9bb21b5b",
+        "sha256": "aa3e60066d4b29d7a1bc9164d85adf39f7b7757904658da6c36aa5150bea5583"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "0b2cb2f2-41d3-4351-a7c5-4a54d1719f80"
+          },
+          "target": {
+            "aspect": "model"
+          }
+        }
+      ]
+    },
+    "b8bc22cd-c8e3-48c7-83f5-17bbae5b0f8f": {
+      "kind": "file",
+      "comment": "Intermediate ML_SoundIcon_Off.fbx",
+      "descriptor": {
+        "path": "c2OKjVviSxQ/ML_SoundIcon_Off.fbx",
+        "sha256": "a6937da62f1c2e5e97f078aed62febab329b72a4df224db2e78d82306ba29ea9"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "model",
+            "node": "e38ab129-af7d-4a46-8c7f-330b9bb21b5b"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "c974e5f9-0cf4-4197-9327-fc769a19e126": {
+      "name": "ML_SoundIcon_Off.fbx",
+      "kind": "asset",
+      "comment": "Intermediate ML_SoundIcon_Off.fbx",
+      "asset": "lap/types/asset/model",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "b8bc22cd-c8e3-48c7-83f5-17bbae5b0f8f"
+          },
+          "target": {
+            "aspect": "model"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "1b24e239-89ec-4f81-974f-5de140116c61": {
+      "kind": "file",
+      "comment": "ML_SoundIcon_On.fbx",
+      "descriptor": {
+        "path": "SourceArt/ML_SoundIcon_On.fbx",
+        "sha256": "d7a86ace009fe62848aadb1ecafcf99382a8c98a37132c2ef40841bd086d8d79"
+      },
+      "name": "ML_SoundIcon_On.fbx",
+      "links": []
+    },
+    "86e039ff-351d-42be-b6eb-b38f2eacfb89": {
+      "kind": "processor",
+      "comment": "Passthru ML_SoundIcon_On.fbx to model.",
+      "expectedRuntime": 0.09803519895353585,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/86e039ff-351d-42be-b6eb-b38f2eacfb89",
+        "sha256": "21243c6b92aa030137b54a8ebdcfd88e6cecdb1fa36fbc3f4c1186d5f63cdfa9"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "1b24e239-89ec-4f81-974f-5de140116c61"
+          },
+          "target": {
+            "aspect": "model"
+          }
+        }
+      ]
+    },
+    "ddbf0429-009d-4454-848b-f08f52188c00": {
+      "kind": "file",
+      "comment": "Intermediate ML_SoundIcon_On.fbx",
+      "descriptor": {
+        "path": "XKrP-QnA0ZU/ML_SoundIcon_On.fbx",
+        "sha256": "7d13c17f68216d4155ee41ab0225106ff93f95fa49d7ed675fb7563519fd07ee"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "model",
+            "node": "86e039ff-351d-42be-b6eb-b38f2eacfb89"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "874e0623-fc38-4dcd-a982-5347f0ef83f9": {
+      "name": "ML_SoundIcon_On.fbx",
+      "kind": "asset",
+      "comment": "Intermediate ML_SoundIcon_On.fbx",
+      "asset": "lap/types/asset/model",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "ddbf0429-009d-4454-848b-f08f52188c00"
+          },
+          "target": {
+            "aspect": "model"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "997e8b2e-f875-4b7d-874e-b601a0e32c7d": {
+      "kind": "file",
+      "comment": "ML_SoundIcon_Play.fbx",
+      "descriptor": {
+        "path": "SourceArt/ML_SoundIcon_Play.fbx",
+        "sha256": "164088d0d0f747b9a02a56eab9b656994527baa10d84565924ddb3814e80e3fd"
+      },
+      "name": "ML_SoundIcon_Play.fbx",
+      "links": []
+    },
+    "766223a1-49b8-4559-94aa-d8706f16f7a9": {
+      "kind": "processor",
+      "comment": "Passthru ML_SoundIcon_Play.fbx to model.",
+      "expectedRuntime": 0.0960172514171145,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/766223a1-49b8-4559-94aa-d8706f16f7a9",
+        "sha256": "dd9848cc5161e5ebee44e1289c75d760198948a660bc16eddf2564cfc8d8238c"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "997e8b2e-f875-4b7d-874e-b601a0e32c7d"
+          },
+          "target": {
+            "aspect": "model"
+          }
+        }
+      ]
+    },
+    "b7f0f1e9-3b9f-4fd7-9cfd-a6a6dfdb19a9": {
+      "kind": "file",
+      "comment": "Intermediate ML_SoundIcon_Play.fbx",
+      "descriptor": {
+        "path": "HUTqYm67k-w/ML_SoundIcon_Play.fbx",
+        "sha256": "07d436b55720da496fce21283ccef3c467b76109218dd0d30b31a8b6b5a04542"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "model",
+            "node": "766223a1-49b8-4559-94aa-d8706f16f7a9"
+          },
+          "target": {
+            "aspect": "file"
+          }
+        }
+      ]
+    },
+    "e6d32858-21b9-4896-8c4e-343ffc1a657c": {
+      "name": "ML_SoundIcon_Play.fbx",
+      "kind": "asset",
+      "comment": "Intermediate ML_SoundIcon_Play.fbx",
+      "asset": "lap/types/asset/model",
+      "links": [
+        {
+          "source": {
+            "aspect": "file",
+            "node": "b7f0f1e9-3b9f-4fd7-9cfd-a6a6dfdb19a9"
+          },
+          "target": {
+            "aspect": "model"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    },
+    "7789fa16-3d41-47b4-9df9-6c68ca1fe056": {
+      "kind": "file",
+      "comment": "ML_SoundIcon_Mute.kmat",
+      "descriptor": {
+        "path": "SourceArt/ML_SoundIcon_Mute.kmat",
+        "sha256": "bb999c4ce1c2adc892ab1c0570d32d2c6c2831fcdbbc3e3f5b6ad330ed12a550"
+      },
+      "name": "ML_SoundIcon_Mute.kmat",
+      "links": []
+    },
+    "05201ee1-1604-4350-bc2a-68d80ac2114e": {
+      "kind": "processor",
+      "comment": "Files Array Builder",
+      "expectedRuntime": 0.10517262617178351,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/05201ee1-1604-4350-bc2a-68d80ac2114e",
+        "sha256": "c01b7f4aa6326caa0cc28f3e2f4327c5380c7377dd6b8a6a1851061028610426"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "file1",
+            "node": "7789fa16-3d41-47b4-9df9-6c68ca1fe056"
+          },
+          "target": {
+            "aspect": "files"
+          }
+        }
+      ]
+    },
+    "341a8ff3-aef8-4a11-817a-6220179d35f0": {
+      "kind": "file",
+      "comment": "KMATs Files Intermediate ML_SoundIcon_Mute.kmat",
+      "descriptor": {
+        "path": "6NodhHR9IW0/ML_SoundIcon_Mute.kmat.files",
+        "sha256": "51fc9dc884e6d5251bb05b8aff7a4a5ceeb7d5a742a068707de4ad7e2ff68abc"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "files",
+            "node": "05201ee1-1604-4350-bc2a-68d80ac2114e"
+          },
+          "target": {
+            "aspect": "files"
+          }
+        }
+      ]
+    },
+    "456a35a2-db37-4d09-b552-5ef599da2837": {
+      "kind": "processor",
+      "comment": "KMATs to material munger",
+      "expectedRuntime": 0.07506925797887665,
+      "systemWeights": {
+        "cpuCoreCount": 1.0,
+        "cpuPct": 1.0,
+        "gpuPct": 1.0,
+        "ioPct": 1.0
+      },
+      "descriptor": {
+        "path": "lap/project/456a35a2-db37-4d09-b552-5ef599da2837",
+        "sha256": "2e3697aabffa0c387a42b9067acaaf75346019a1c2c96cfcde6bb11e8f2373ea"
+      },
+      "links": [
+        {
+          "source": {
+            "aspect": "files",
+            "node": "341a8ff3-aef8-4a11-817a-6220179d35f0"
+          },
+          "target": {
+            "aspect": "material"
+          }
+        }
+      ]
+    },
+    "43882633-b547-44cb-b0e0-0f554ae96068": {
+      "kind": "file",
+      "comment": "KMAT Intermediate ML_SoundIcon_Mute.kmat",
+      "descriptor": {
+        "path": "TakwyxFGv6U/ML_SoundIcon_Mute.kmat",
+        "sha256": "fafc236785e205c075f4df149ba1ac2ca541bde99204ee1f466190df4f33df01"
+      },
+      "name": "",
+      "links": [
+        {
+          "source": {
+            "aspect": "material",
+            "node": "456a35a2-db37-4d09-b552-5ef599da2837"
+          },
+          "target": {
+            "aspect": "material"
+          }
+        }
+      ]
+    },
+    "1d603b41-b3cb-4e32-8087-abe3bc507ce9": {
+      "name": "ML_SoundIcon_Mute.kmat",
+      "kind": "asset",
+      "comment": "Material",
+      "asset": "lap/types/asset/material",
+      "links": [
+        {
+          "source": {
+            "aspect": "material",
+            "node": "43882633-b547-44cb-b0e0-0f554ae96068"
+          },
+          "target": {
+            "aspect": "material"
+          }
+        }
+      ],
+      "dirty": false,
+      "exclude": false,
+      "extension": {}
+    }
+  }
+}

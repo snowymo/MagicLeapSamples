@@ -1,0 +1,16 @@
+KIND = program
+
+INCS = \
+    code/inc/core/ \
+    code/inc/scenes/ \
+    code/inc/prefabs/ \
+    code/inc/gen/ \
+    code/inc/gen_static/
+
+USES = \
+    lumin_runtime \
+    code \
+    code_gen
+
+OPTIONS = \
+  standard-c++/14

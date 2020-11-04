@@ -1,0 +1,23 @@
+{
+  "id": "d6cfd3c9-588b-499c-9e9d-0c8e54744915",
+  "processor": "lap/types/processor/texture_from_png",
+  "input": {
+    "image": [
+      {
+        "path": "SourceArt/Gesture_Pinch.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "image": [
+      {
+        "path": "AXdsAplKz8w/Gesture_Pinch.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

@@ -1,0 +1,239 @@
+<ObjectModel name="TogglesLayoutPrefab" version="1">
+    <TransformNode/>
+    <UiGridLayout alignment="Center, Center" columns="2" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Top, Center" name="TLS_GridLayout">
+        <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+            <UiText eclipse="true" eclipseLabelType="T1" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TLS_Label1" style="Italic" text="Eclipse Toggles:" textSize="0.040513" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="TLS_Transform1"/>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.040000, 0.050000, 0.040000, 0.010000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TLS_Label2" text="Icon Only" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="TLS_Transform2">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="BES_LinearLayout" orientation="Horizontal">
+                    <Content itemAlignment="Bottom, Left">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_RectLayout1" size="0.182000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiToggle eclipse="true" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.060277" name="IOTS_Toggle" showBackground="false" systemIcon="Star" systemIconOff="Star" textSize="0.023442"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemAlignment="Bottom, Right" itemPadding="0.020000, 0.010000, 0.000000, 0.030000">
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_RectLayout2" size="0.338000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label1" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.040000, 0.050000, 0.040000, 0.010000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TLS_Label3" text="Icon Only On/Off" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="TLS_Transform3">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="uiLinearLayout1" orientation="Horizontal">
+                    <Content itemAlignment="Bottom, Left">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout1" size="0.182000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiToggle eclipse="true" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.060277" name="IOSTS_Toggle" showBackground="false" systemIcon="Star" systemIconOff="Heart" textSize="0.023442"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemAlignment="Bottom, Right" itemPadding="0.020000, 0.010000, 0.000000, 0.030000">
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout2" size="0.338000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label2" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.040000, 0.050000, 0.040000, 0.010000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TLS_Label4" text="Icon Only Outline" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="TLS_Transform4">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="uiLinearLayout2" orientation="Horizontal">
+                    <Content itemAlignment="Bottom, Left">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout3" size="0.182000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiToggle eclipse="true" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.060277" name="IOOTS_Toggle" systemIcon="Star" systemIconOff="Star" textSize="0.023442"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemAlignment="Bottom, Right" itemPadding="0.020000, 0.010000, 0.000000, 0.030000">
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout4" size="0.338000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label3" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.040000, 0.050000, 0.040000, 0.010000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TLS_Label5" text="Switch+Icon" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="TLS_Transform5">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="uiLinearLayout3" orientation="Horizontal">
+                    <Content itemAlignment="Bottom, Left">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout5" size="0.182000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiToggle eclipse="true" eclipseToggleType="SwitchWithIcon" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.041870" labelDisplayMode="Always" name="SWITS_Toggle" showBackground="false" systemIcon="Actions" systemIconOff="Actions" text="Text" textSize="0.023400"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemAlignment="Bottom, Right" itemPadding="0.020000, 0.010000, 0.000000, 0.030000">
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout6" size="0.338000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label4" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.040000, 0.050000, 0.040000, 0.010000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TLS_Label6" text="Switch+Label" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="TLS_Transform6">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="uiLinearLayout4" orientation="Horizontal">
+                    <Content itemAlignment="Bottom, Left">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout7" size="0.182000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiToggle eclipse="true" eclipseToggleType="SwitchWithLabel" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.033590" labelDisplayMode="Always" name="SWLTS_Toggle" showBackground="false" systemIcon="Actions" systemIconOff="Actions" textSize="0.023400"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemAlignment="Bottom, Right" itemPadding="0.020000, 0.010000, 0.000000, 0.030000">
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout8" size="0.338000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label5" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.000000, 0.020000, 0.000000">
+            <LineNode castShadow="false" color="0.9046025,0.9046025,0.9046025,0.9" name="TLS_Line3" opaque="false" points="0.000000, 0.000000, 0.000000, 0.370000, 0.000000, 0.000000" receiveShadow="false" shader="Line"/>
+        </Content>
+        <Content itemAlignment="Top, Left" itemPadding="0.020000, 0.000000, 0.020000, 0.000000">
+            <LineNode castShadow="false" color="0.9046025,0.9046025,0.9046025,0.9" name="TLS_Line4" opaque="false" points="0.000000, 0.000000, 0.000000, 0.530000, 0.000000, 0.000000" receiveShadow="false" shader="Line"/>
+        </Content>
+        <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+            <UiText eclipse="true" eclipseLabelType="T1" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TLS_Label7" style="Italic" text="Standard Toggles:" textSize="0.040513" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="TLS_Transform7"/>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.040000, 0.050000, 0.040000, 0.010000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TLS_Label8" text="Default" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="TLS_Transform8">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="uiLinearLayout5" orientation="Horizontal">
+                    <Content itemAlignment="Bottom, Left">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout9" size="0.182000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiToggle gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.033590" name="DTS_Toggle" text="Text" textSize="0.050000"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemAlignment="Bottom, Right" itemPadding="0.020000, 0.010000, 0.000000, 0.030000">
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout10" size="0.338000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label6" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.040000, 0.050000, 0.040000, 0.010000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TLS_Label9" text="Radio" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="TLS_Transform9">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="uiLinearLayout6" orientation="Horizontal">
+                    <Content itemAlignment="Bottom, Left">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout11" size="0.182000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiToggle gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.048750" name="RTS_Toggle" text="Text" textSize="0.033961" toggleType="Radio"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemAlignment="Bottom, Right" itemPadding="0.020000, 0.010000, 0.000000, 0.030000">
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout12" size="0.338000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label7" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.040000, 0.050000, 0.040000, 0.010000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TLS_Label10" text="Checkbox" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="TLS_Transform10">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="uiLinearLayout7" orientation="Horizontal">
+                    <Content itemAlignment="Bottom, Left">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout13" size="0.182000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiToggle gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" height="0.048750" name="CTS_Toggle" text="Text" textSize="0.033961" toggleType="Checkbox"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content itemAlignment="Bottom, Right" itemPadding="0.020000, 0.010000, 0.000000, 0.030000">
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="uiRectLayout14" size="0.338000, 0.081250">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="BES_Label8" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+    </UiGridLayout>
+</ObjectModel>

@@ -1,0 +1,16 @@
+{
+    "asset": {},
+    "extension": {},
+    "general": {
+        "embeddedFiles": [],
+        "externalFiles": [],
+        "rootFiles": [
+            "sphere.kmat"
+        ]
+    },
+    "meta": {
+        "processor": "kmat_from_partial_kmats",
+        "type": "asset-metadata",
+        "version": 1
+    }
+}

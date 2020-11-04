@@ -1,0 +1,7 @@
+{
+	"label": "UiCircleConfirmation Example",
+	"description": "This example project showcases Lumin Runtime UiKit's Circle Confirmation",
+	"projectFile": "UiCircleConfirmationExample.package",
+	"additionalFiles" : ["README.md", "UiCircleConfirmationExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

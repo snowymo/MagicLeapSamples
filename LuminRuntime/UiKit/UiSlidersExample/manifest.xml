@@ -1,0 +1,18 @@
+<manifest
+    xmlns:ml="magicleap"
+    ml:package="com.magicleap.uisliders_example"
+    ml:version_code="2"
+    ml:version_name="2.0">
+    <application
+        ml:visible_name="UiSlidersExample">
+        <component
+            ml:name=".universe"
+            ml:visible_name="UiSlidersExample"
+            ml:binary_name="bin/UiSlidersExample"
+            ml:type="Universe">
+            <icon
+                ml:model_folder="assets/icon/model"
+                ml:portal_folder="assets/icon/portal" />
+        </component>
+    </application>
+</manifest>

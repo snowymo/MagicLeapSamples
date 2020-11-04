@@ -1,0 +1,5 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/UiListsExample.cpp \
+      code/src/core/ListsLayout.cpp \
+      code/src/core/BaseExample.cpp \

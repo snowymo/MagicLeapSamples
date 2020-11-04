@@ -1,0 +1,11 @@
+{
+  "global": {
+    
+  },
+  "materials": [
+    {
+      "shaderName": "UnlitTextured",
+      "name": "lambert1"
+    }
+  ]
+}

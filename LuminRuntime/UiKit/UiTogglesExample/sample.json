@@ -1,0 +1,7 @@
+{
+	"label": "UiToggles Example",
+	"description": "This example project showcases Lumin Runtime UiKit's Toggles",
+	"projectFile": "UiTogglesExample.package",
+	"additionalFiles" : ["README.md", "UiTogglesExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

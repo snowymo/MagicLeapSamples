@@ -1,0 +1,7 @@
+{
+	"label": "UiDialogs Example",
+	"description": "This example project showcases Lumin Runtime UiKit's Dialogs",
+	"projectFile": "UiDialogsExample.package",
+	"additionalFiles" : ["README.md", "UiDialogsExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

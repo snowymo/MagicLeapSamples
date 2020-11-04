@@ -1,0 +1,6 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/UiDialogsExample.cpp \
+      code/src/core/DialogsLayout.cpp \
+      code/src/core/ExamplesHelpers.cpp \
+      code/src/core/BaseExample.cpp

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlproject:mlproject xmlns:mlproject="http://www.magicleap.com/uidesigner/mlproject" generated="true" modelId="lumin" srcGenVersion="2">
+  <designFile path="scenes/AudioEditor.design" type="prefabDesign" uuid="29a6295f-608c-4c4c-8825-ca1ebf4b29bb"/>
+  <designFile path="scenes/AudioModel.design" type="prefabDesign" uuid="13de27ea-bfcd-49e5-8f75-0da00c7ce8a6"/>
+  <pipelineDirectory path="pipeline"/>
+</mlproject:mlproject>

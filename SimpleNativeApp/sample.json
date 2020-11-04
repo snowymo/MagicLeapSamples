@@ -1,0 +1,7 @@
+{
+	"label": "Simple Native Application",
+	"description": "This creates a very simple Hello World application",
+	"projectFile": "SimpleNativeApp.package",
+	"additionalFiles" : ["readme.txt"],
+	"initialFilesToOpen": ["main.cpp", "readme.txt"]
+}

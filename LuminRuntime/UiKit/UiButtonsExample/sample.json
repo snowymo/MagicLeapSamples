@@ -1,0 +1,7 @@
+{
+	"label": "UiButtons Example",
+	"description": "This example project showcases Lumin Runtime UiKit's Buttons",
+	"projectFile": "UiButtonsExample.package",
+	"additionalFiles" : ["README.md", "UiButtonsExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

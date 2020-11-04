@@ -1,0 +1,5 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/UiLabelsExample.cpp \
+      code/src/core/EclipseLabels.cpp \
+      code/src/core/BaseExample.cpp \

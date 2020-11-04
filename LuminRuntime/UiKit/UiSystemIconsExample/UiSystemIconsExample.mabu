@@ -1,0 +1,12 @@
+KIND = program
+
+INCS = inc/ \
+
+SRCS = \
+    src/SystemIcons.cpp \
+    src/main.cpp \
+    src/UiSystemIconsExample.cpp \
+    src/ExamplesConstants.cpp \
+
+USES = \
+    lumin_runtime

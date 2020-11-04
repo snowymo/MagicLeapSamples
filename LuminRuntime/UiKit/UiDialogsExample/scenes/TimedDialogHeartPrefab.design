@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="TimedDialogHeartPrefab" nodeTypeId="lumin.root" modelId="lumin" version="1.12.0">
+  <property id="name" value="TimedDialogHeartPrefab"/>
+  <attachment key="uuid" value="c6483af5-6c19-412c-805e-6371a3b6df0b"/>
+  <node name="TDHN_Button" nodeTypeId="lumin.eclipse.button">
+    <property id="gravityWellEnabled" value="true"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+      <property id="gravityWellSnap" value="Center"/>
+    </property>
+    <property id="iconSize"/>
+    <property id="iconSizeSelector">
+      <property id="iconSize"/>
+    </property>
+    <property id="iconType" value="Heart"/>
+    <property id="name" value="TDHN_Button"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <attachment key="uuid" value="84448481-1dbe-4bbe-87ed-2bca93c7ce3a"/>
+  </node>
+</design:rootNode>

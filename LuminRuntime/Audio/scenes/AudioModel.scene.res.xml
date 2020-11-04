@@ -1,0 +1,7 @@
+<ResourceModel version="1">
+    <Material file="assets/ML_SoundIcon_Mute.kmat/TakwyxFGv6U/ML_SoundIcon_Mute.kmat" localScope="true" name="assets/ML_SoundIcon_Mute.kmat/TakwyxFGv6U/ML_SoundIcon_Mute.kmat"/>
+    <Model file="assets/ML_SoundIcon_Mute.fbx/6q6eWKlU0Ro/ML_SoundIcon_Mute.fbx" forceMaterialScope="true" name="assets/ML_SoundIcon_Mute.fbx/6q6eWKlU0Ro/ML_SoundIcon_Mute.fbx" scopedMaterialResource="assets/ML_SoundIcon_Mute.kmat/TakwyxFGv6U/ML_SoundIcon_Mute.kmat"/>
+    <Model file="assets/ML_SoundIcon_Off.fbx/c2OKjVviSxQ/ML_SoundIcon_Off.fbx" forceMaterialScope="true" name="assets/ML_SoundIcon_Off.fbx/c2OKjVviSxQ/ML_SoundIcon_Off.fbx" scopedMaterialResource="assets/ML_SoundIcon_Mute.kmat/TakwyxFGv6U/ML_SoundIcon_Mute.kmat"/>
+    <Model file="assets/ML_SoundIcon_On.fbx/XKrP-QnA0ZU/ML_SoundIcon_On.fbx" forceMaterialScope="true" name="assets/ML_SoundIcon_On.fbx/XKrP-QnA0ZU/ML_SoundIcon_On.fbx" scopedMaterialResource="assets/ML_SoundIcon_Mute.kmat/TakwyxFGv6U/ML_SoundIcon_Mute.kmat"/>
+    <Model file="assets/ML_SoundIcon_Play.fbx/HUTqYm67k-w/ML_SoundIcon_Play.fbx" forceMaterialScope="true" name="assets/ML_SoundIcon_Play.fbx/HUTqYm67k-w/ML_SoundIcon_Play.fbx" scopedMaterialResource="assets/ML_SoundIcon_Mute.kmat/TakwyxFGv6U/ML_SoundIcon_Mute.kmat"/>
+</ResourceModel>

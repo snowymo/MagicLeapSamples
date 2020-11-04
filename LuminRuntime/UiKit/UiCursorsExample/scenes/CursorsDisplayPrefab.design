@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="CursorsDisplayPrefab" nodeTypeId="lumin.root" modelId="lumin" version="1.12.0">
+  <property id="name" value="CursorsDisplayPrefab"/>
+  <attachment key="uuid" value="1301a9e3-704a-4ee3-aef8-c26a5f6ee5db"/>
+  <node name="CC_GridLayout" nodeTypeId="lumin.ui.gridLayout">
+    <property id="alignment">
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="column" value="4"/>
+    <property id="defaultItemAlignment">
+      <property id="verticalAlignment" value="Bottom"/>
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemPadding">
+      <property id="top" value="0.01"/>
+      <property id="right" value="0.01"/>
+      <property id="bottom" value="0.01"/>
+      <property id="left" value="0.01"/>
+    </property>
+    <property id="external" value="true"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="itemAlignment"/>
+    <property id="itemPadding"/>
+    <property id="name" value="CC_GridLayout"/>
+    <property id="position">
+      <property id="y" value="0.3"/>
+    </property>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="size"/>
+    <attachment key="uuid" value="2bcfd4f1-c623-416f-99c6-bc8ee7c3ab7c"/>
+    <node name="CC_LinearLayout1" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="CC_LinearLayout1"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <attachment key="uuid" value="47a8d634-3eb9-4180-977e-bde116669d5c"/>
+      <node name="CC_Text1" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="boundsSize">
+          <property id="x" value="0.2"/>
+          <property id="y" value="0.1"/>
+        </property>
+        <property id="fontSelector">
+          <property id="fontParameters">
+            <property id="style" value="Italic"/>
+            <property id="weight" value="Bold"/>
+          </property>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Text1"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Default"/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="954f9282-29b8-4761-8c52-18631e2451c6"/>
+      </node>
+      <node name="CC_Panel1" nodeTypeId="lumin.ui.panel">
+        <property id="cursorConstrained" value="true"/>
+        <property id="cursorInitialPosition"/>
+        <property id="edgeConstraint">
+          <property id="top" value="0.5"/>
+          <property id="right" value="0.5"/>
+          <property id="bottom" value="0.5"/>
+          <property id="left" value="0.5"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Panel1"/>
+        <property id="panelShape">
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="roundness" value="1.0"/>
+          <property id="offset"/>
+        </property>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <handler generated="true" handlerName="ChangeCursorDefaultHandler">
+          <callbacks>onPanelEnter</callbacks>
+        </handler>
+        <attachment key="uuid" value="aa4e2fea-68a3-482f-a934-539fd933bdc6"/>
+        <node name="CC_Image1" nodeTypeId="lumin.ui.image">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="color" value="1 1 1 0.5"/>
+          <property id="frameResource">
+            <property id="model" value="undefined"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="CC_Image1"/>
+          <property id="position"/>
+          <property id="resource" value="ad60d597-9fb6-407b-8559-da39b7c69778"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="systemIcon"/>
+          <property id="texCoords">
+            <property id="x">
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="y">
+              <property id="x" value="1.0"/>
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="z">
+              <property id="x" value="1.0"/>
+            </property>
+            <property id="w"/>
+          </property>
+          <attachment key="uuid" value="b709d29c-b737-4708-9cf1-93fca88ab843"/>
+          <node name="CC_Shell1" nodeTypeId="lumin.ui.image">
+            <property id="alignment">
+              <property id="verticalAlignment" value="Center"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+            <property id="frameResource">
+              <property id="model" value="undefined"/>
+            </property>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="CC_Shell1"/>
+            <property id="position">
+              <property id="z" value="-0.001"/>
+            </property>
+            <property id="resource" value="206bde46-dcd5-45a0-a6a5-35fa67d55396"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="size">
+              <property id="x" value="0.2"/>
+              <property id="y" value="0.2"/>
+            </property>
+            <property id="systemIcon"/>
+            <property id="texCoords">
+              <property id="x">
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="y">
+                <property id="x" value="1.0"/>
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="z">
+                <property id="x" value="1.0"/>
+              </property>
+              <property id="w"/>
+            </property>
+            <attachment key="uuid" value="b030ad64-95ac-43a4-9126-45228b36326d"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="CC_LinearLayout2" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="CC_LinearLayout2"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <attachment key="uuid" value="8279cd28-45c2-4a36-93a9-72a2547a6b22"/>
+      <node name="CC_Text2" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="boundsSize">
+          <property id="x" value="0.2"/>
+          <property id="y" value="0.1"/>
+        </property>
+        <property id="fontSelector">
+          <property id="fontParameters">
+            <property id="style" value="Italic"/>
+            <property id="weight" value="Bold"/>
+          </property>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Text2"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Browser Default"/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="45db2c34-d38c-4349-a4a6-75de42d01ba3"/>
+      </node>
+      <node name="CC_Panel2" nodeTypeId="lumin.ui.panel">
+        <property id="cursorConstrained" value="true"/>
+        <property id="cursorInitialPosition"/>
+        <property id="edgeConstraint">
+          <property id="top" value="0.5"/>
+          <property id="right" value="0.5"/>
+          <property id="bottom" value="0.5"/>
+          <property id="left" value="0.5"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Panel2"/>
+        <property id="panelShape">
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="roundness" value="1.0"/>
+          <property id="offset"/>
+        </property>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <handler generated="true" handlerName="ChangeCursorBrowserDefault">
+          <callbacks>onPanelEnter</callbacks>
+        </handler>
+        <attachment key="uuid" value="1cbef914-133c-4630-b172-0e070d777367"/>
+        <node name="CC_Image2" nodeTypeId="lumin.ui.image">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="color" value="1 1 1 0.5"/>
+          <property id="frameResource">
+            <property id="model" value="undefined"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="CC_Image2"/>
+          <property id="position"/>
+          <property id="resource" value="ad60d597-9fb6-407b-8559-da39b7c69778"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="systemIcon"/>
+          <property id="texCoords">
+            <property id="x">
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="y">
+              <property id="x" value="1.0"/>
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="z">
+              <property id="x" value="1.0"/>
+            </property>
+            <property id="w"/>
+          </property>
+          <attachment key="uuid" value="f0877269-213d-4dce-855e-e98fdc39381d"/>
+          <node name="CC_Shell2" nodeTypeId="lumin.ui.image">
+            <property id="alignment">
+              <property id="verticalAlignment" value="Center"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+            <property id="frameResource">
+              <property id="model" value="undefined"/>
+            </property>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="CC_Shell2"/>
+            <property id="position">
+              <property id="z" value="-0.001"/>
+            </property>
+            <property id="resource" value="206bde46-dcd5-45a0-a6a5-35fa67d55396"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="size">
+              <property id="x" value="0.2"/>
+              <property id="y" value="0.2"/>
+            </property>
+            <property id="systemIcon"/>
+            <property id="texCoords">
+              <property id="x">
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="y">
+                <property id="x" value="1.0"/>
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="z">
+                <property id="x" value="1.0"/>
+              </property>
+              <property id="w"/>
+            </property>
+            <attachment key="uuid" value="e0142b92-b6aa-4250-9d06-b3b7961a7e64"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="CC_LinearLayout3" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="CC_LinearLayout3"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <attachment key="uuid" value="0ce8f18d-b5b3-41e2-b02a-fe64c35a96f4"/>
+      <node name="CC_Text3" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="boundsSize">
+          <property id="x" value="0.2"/>
+          <property id="y" value="0.1"/>
+        </property>
+        <property id="fontSelector">
+          <property id="fontParameters">
+            <property id="style" value="Italic"/>
+            <property id="weight" value="Bold"/>
+          </property>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Text3"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Browser Pointer"/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="c1cde521-20ed-41c6-81f5-aaa9268338f6"/>
+      </node>
+      <node name="CC_Panel3" nodeTypeId="lumin.ui.panel">
+        <property id="cursorConstrained" value="true"/>
+        <property id="cursorInitialPosition"/>
+        <property id="edgeConstraint">
+          <property id="top" value="0.5"/>
+          <property id="right" value="0.5"/>
+          <property id="bottom" value="0.5"/>
+          <property id="left" value="0.5"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Panel3"/>
+        <property id="panelShape">
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="roundness" value="1.0"/>
+          <property id="offset"/>
+        </property>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <handler generated="true" handlerName="ChangeCursorBrowserPointer">
+          <callbacks>onPanelEnter</callbacks>
+        </handler>
+        <attachment key="uuid" value="31d27071-ef80-48bc-9a9a-1f923bef9c53"/>
+        <node name="CC_Image3" nodeTypeId="lumin.ui.image">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="color" value="1 1 1 0.5"/>
+          <property id="frameResource">
+            <property id="model" value="undefined"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="CC_Image3"/>
+          <property id="position"/>
+          <property id="resource" value="ad60d597-9fb6-407b-8559-da39b7c69778"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="systemIcon"/>
+          <property id="texCoords">
+            <property id="x">
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="y">
+              <property id="x" value="1.0"/>
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="z">
+              <property id="x" value="1.0"/>
+            </property>
+            <property id="w"/>
+          </property>
+          <attachment key="uuid" value="50d0912e-dc6f-434c-a8d2-b39ee935439f"/>
+          <node name="CC_Shell3" nodeTypeId="lumin.ui.image">
+            <property id="alignment">
+              <property id="verticalAlignment" value="Center"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+            <property id="frameResource">
+              <property id="model" value="undefined"/>
+            </property>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="CC_Shell3"/>
+            <property id="position">
+              <property id="z" value="-0.001"/>
+            </property>
+            <property id="resource" value="206bde46-dcd5-45a0-a6a5-35fa67d55396"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="size">
+              <property id="x" value="0.2"/>
+              <property id="y" value="0.2"/>
+            </property>
+            <property id="systemIcon"/>
+            <property id="texCoords">
+              <property id="x">
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="y">
+                <property id="x" value="1.0"/>
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="z">
+                <property id="x" value="1.0"/>
+              </property>
+              <property id="w"/>
+            </property>
+            <attachment key="uuid" value="e6aba597-4d49-4e09-9ccb-4ec5442ef52a"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="CC_LinearLayout4" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="CC_LinearLayout4"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <attachment key="uuid" value="dd53f626-c771-4448-9699-1cb9c9571a09"/>
+      <node name="CC_Text4" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="boundsSize">
+          <property id="x" value="0.2"/>
+          <property id="y" value="0.1"/>
+        </property>
+        <property id="fontSelector">
+          <property id="fontParameters">
+            <property id="style" value="Italic"/>
+            <property id="weight" value="Bold"/>
+          </property>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Text4"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Text Input"/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="e385f05b-14f2-4ea9-8f1f-56e700f328ba"/>
+      </node>
+      <node name="CC_Panel4" nodeTypeId="lumin.ui.panel">
+        <property id="cursorConstrained" value="true"/>
+        <property id="cursorInitialPosition"/>
+        <property id="edgeConstraint">
+          <property id="top" value="0.5"/>
+          <property id="right" value="0.5"/>
+          <property id="bottom" value="0.5"/>
+          <property id="left" value="0.5"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Panel4"/>
+        <property id="panelShape">
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="roundness" value="1.0"/>
+          <property id="offset"/>
+        </property>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <handler generated="true" handlerName="ChangeCursorTextInput">
+          <callbacks>onPanelEnter</callbacks>
+        </handler>
+        <attachment key="uuid" value="edc5959b-b06c-4a07-9deb-082ceadacfb4"/>
+        <node name="CC_Image4" nodeTypeId="lumin.ui.image">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="color" value="1 1 1 0.5"/>
+          <property id="frameResource">
+            <property id="model" value="undefined"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="CC_Image4"/>
+          <property id="position"/>
+          <property id="resource" value="ad60d597-9fb6-407b-8559-da39b7c69778"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="systemIcon"/>
+          <property id="texCoords">
+            <property id="x">
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="y">
+              <property id="x" value="1.0"/>
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="z">
+              <property id="x" value="1.0"/>
+            </property>
+            <property id="w"/>
+          </property>
+          <attachment key="uuid" value="ae1ed182-865f-468a-9471-600e3bd5a79a"/>
+          <node name="CC_Shell4" nodeTypeId="lumin.ui.image">
+            <property id="alignment">
+              <property id="verticalAlignment" value="Center"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+            <property id="frameResource">
+              <property id="model" value="undefined"/>
+            </property>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="CC_Shell4"/>
+            <property id="position">
+              <property id="z" value="-0.001"/>
+            </property>
+            <property id="resource" value="206bde46-dcd5-45a0-a6a5-35fa67d55396"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="size">
+              <property id="x" value="0.2"/>
+              <property id="y" value="0.2"/>
+            </property>
+            <property id="systemIcon"/>
+            <property id="texCoords">
+              <property id="x">
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="y">
+                <property id="x" value="1.0"/>
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="z">
+                <property id="x" value="1.0"/>
+              </property>
+              <property id="w"/>
+            </property>
+            <attachment key="uuid" value="68d50016-1fe7-4542-b027-09fe09cadc9a"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="CC_LinearLayout5" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="CC_LinearLayout5"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <attachment key="uuid" value="fff7ad3c-fb38-4d85-b6b5-127b1cfaa83a"/>
+      <node name="CC_Text5" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="boundsSize">
+          <property id="x" value="0.2"/>
+          <property id="y" value="0.1"/>
+        </property>
+        <property id="fontSelector">
+          <property id="fontParameters">
+            <property id="style" value="Italic"/>
+            <property id="weight" value="Bold"/>
+          </property>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Text5"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Crosshair"/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="46ff71db-db4f-4b57-97d6-8bb136ae9eee"/>
+      </node>
+      <node name="CC_Panel5" nodeTypeId="lumin.ui.panel">
+        <property id="cursorConstrained" value="true"/>
+        <property id="cursorInitialPosition"/>
+        <property id="edgeConstraint">
+          <property id="top" value="0.5"/>
+          <property id="right" value="0.5"/>
+          <property id="bottom" value="0.5"/>
+          <property id="left" value="0.5"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Panel5"/>
+        <property id="panelShape">
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="roundness" value="1.0"/>
+          <property id="offset"/>
+        </property>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <handler generated="true" handlerName="ChangeCursorCrosshair">
+          <callbacks>onPanelEnter</callbacks>
+        </handler>
+        <attachment key="uuid" value="e6d0df94-2543-4a55-aec6-7de195bf9fa8"/>
+        <node name="CC_Image5" nodeTypeId="lumin.ui.image">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="color" value="1 1 1 0.5"/>
+          <property id="frameResource">
+            <property id="model" value="undefined"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="CC_Image5"/>
+          <property id="position"/>
+          <property id="resource" value="ad60d597-9fb6-407b-8559-da39b7c69778"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="systemIcon"/>
+          <property id="texCoords">
+            <property id="x">
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="y">
+              <property id="x" value="1.0"/>
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="z">
+              <property id="x" value="1.0"/>
+            </property>
+            <property id="w"/>
+          </property>
+          <attachment key="uuid" value="e7084b24-a028-4aa7-a621-54f90a351e66"/>
+          <node name="CC_Shell5" nodeTypeId="lumin.ui.image">
+            <property id="alignment">
+              <property id="verticalAlignment" value="Center"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+            <property id="frameResource">
+              <property id="model" value="undefined"/>
+            </property>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="CC_Shell5"/>
+            <property id="position">
+              <property id="z" value="-0.001"/>
+            </property>
+            <property id="resource" value="206bde46-dcd5-45a0-a6a5-35fa67d55396"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="size">
+              <property id="x" value="0.2"/>
+              <property id="y" value="0.2"/>
+            </property>
+            <property id="systemIcon"/>
+            <property id="texCoords">
+              <property id="x">
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="y">
+                <property id="x" value="1.0"/>
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="z">
+                <property id="x" value="1.0"/>
+              </property>
+              <property id="w"/>
+            </property>
+            <attachment key="uuid" value="280635a5-fdd6-4794-b114-59d74f8d5acb"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="CC_LinearLayout6" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="CC_LinearLayout6"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <attachment key="uuid" value="4b3f92ec-6754-4081-b177-b608ce04f26f"/>
+      <node name="CC_Text6" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="boundsSize">
+          <property id="x" value="0.2"/>
+          <property id="y" value="0.1"/>
+        </property>
+        <property id="fontSelector">
+          <property id="fontParameters">
+            <property id="style" value="Italic"/>
+            <property id="weight" value="Bold"/>
+          </property>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Text6"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Move"/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="64bf3f03-59e8-417a-8f53-92535df5064d"/>
+      </node>
+      <node name="CC_Panel6" nodeTypeId="lumin.ui.panel">
+        <property id="cursorConstrained" value="true"/>
+        <property id="cursorInitialPosition"/>
+        <property id="edgeConstraint">
+          <property id="top" value="0.5"/>
+          <property id="right" value="0.5"/>
+          <property id="bottom" value="0.5"/>
+          <property id="left" value="0.5"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Panel6"/>
+        <property id="panelShape">
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="roundness" value="1.0"/>
+          <property id="offset"/>
+        </property>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <handler generated="true" handlerName="ChangeCursorMove">
+          <callbacks>onPanelEnter</callbacks>
+        </handler>
+        <attachment key="uuid" value="4016e8fa-b4cf-409c-a106-e473aa41a0da"/>
+        <node name="CC_Image6" nodeTypeId="lumin.ui.image">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="color" value="1 1 1 0.5"/>
+          <property id="frameResource">
+            <property id="model" value="undefined"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="CC_Image6"/>
+          <property id="position"/>
+          <property id="resource" value="ad60d597-9fb6-407b-8559-da39b7c69778"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="systemIcon"/>
+          <property id="texCoords">
+            <property id="x">
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="y">
+              <property id="x" value="1.0"/>
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="z">
+              <property id="x" value="1.0"/>
+            </property>
+            <property id="w"/>
+          </property>
+          <attachment key="uuid" value="96cf5535-a0d1-4cba-ad3f-c9f80188d945"/>
+          <node name="CC_Shell6" nodeTypeId="lumin.ui.image">
+            <property id="alignment">
+              <property id="verticalAlignment" value="Center"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+            <property id="frameResource">
+              <property id="model" value="undefined"/>
+            </property>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="CC_Shell6"/>
+            <property id="position">
+              <property id="z" value="-0.001"/>
+            </property>
+            <property id="resource" value="206bde46-dcd5-45a0-a6a5-35fa67d55396"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="size">
+              <property id="x" value="0.2"/>
+              <property id="y" value="0.2"/>
+            </property>
+            <property id="systemIcon"/>
+            <property id="texCoords">
+              <property id="x">
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="y">
+                <property id="x" value="1.0"/>
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="z">
+                <property id="x" value="1.0"/>
+              </property>
+              <property id="w"/>
+            </property>
+            <attachment key="uuid" value="3eaf4b0c-0d50-4fc0-9500-2fa6750ba648"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="CC_LinearLayout7" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="verticalAlignment" value="Bottom"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="CC_LinearLayout7"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <attachment key="uuid" value="4287d9b0-c3d0-416b-a2fe-3157f0388812"/>
+      <node name="CC_Text7" nodeTypeId="lumin.ui.text">
+        <property id="alignment">
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="boundsSize">
+          <property id="x" value="0.2"/>
+          <property id="y" value="0.1"/>
+        </property>
+        <property id="fontSelector">
+          <property id="fontParameters">
+            <property id="style" value="Italic"/>
+            <property id="weight" value="Bold"/>
+          </property>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Text7"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Scroll"/>
+        <property id="textSize" value="0.05"/>
+        <attachment key="uuid" value="8358c5b7-c7b9-40e9-a29f-0d2db3d58289"/>
+      </node>
+      <node name="CC_Panel7" nodeTypeId="lumin.ui.panel">
+        <property id="cursorConstrained" value="true"/>
+        <property id="cursorInitialPosition"/>
+        <property id="edgeConstraint">
+          <property id="top" value="0.5"/>
+          <property id="right" value="0.5"/>
+          <property id="bottom" value="0.5"/>
+          <property id="left" value="0.5"/>
+        </property>
+        <property id="external" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="CC_Panel7"/>
+        <property id="panelShape">
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="roundness" value="1.0"/>
+          <property id="offset"/>
+        </property>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <handler generated="true" handlerName="ChangeCursorScroll">
+          <callbacks>onPanelEnter</callbacks>
+        </handler>
+        <attachment key="uuid" value="1a752d51-78b6-4d0b-99af-027c4c138af5"/>
+        <node name="CC_Image7" nodeTypeId="lumin.ui.image">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="color" value="1 1 1 0.5"/>
+          <property id="frameResource">
+            <property id="model" value="undefined"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="CC_Image7"/>
+          <property id="position"/>
+          <property id="resource" value="ad60d597-9fb6-407b-8559-da39b7c69778"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2"/>
+            <property id="y" value="0.2"/>
+          </property>
+          <property id="systemIcon"/>
+          <property id="texCoords">
+            <property id="x">
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="y">
+              <property id="x" value="1.0"/>
+              <property id="y" value="1.0"/>
+            </property>
+            <property id="z">
+              <property id="x" value="1.0"/>
+            </property>
+            <property id="w"/>
+          </property>
+          <attachment key="uuid" value="9449e8b5-3b2b-42ee-8d28-b803705bb3d7"/>
+          <node name="CC_Shell7" nodeTypeId="lumin.ui.image">
+            <property id="alignment">
+              <property id="verticalAlignment" value="Center"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+            <property id="frameResource">
+              <property id="model" value="undefined"/>
+            </property>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="CC_Shell7"/>
+            <property id="position">
+              <property id="z" value="-0.001"/>
+            </property>
+            <property id="resource" value="206bde46-dcd5-45a0-a6a5-35fa67d55396"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="size">
+              <property id="x" value="0.2"/>
+              <property id="y" value="0.2"/>
+            </property>
+            <property id="systemIcon"/>
+            <property id="texCoords">
+              <property id="x">
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="y">
+                <property id="x" value="1.0"/>
+                <property id="y" value="1.0"/>
+              </property>
+              <property id="z">
+                <property id="x" value="1.0"/>
+              </property>
+              <property id="w"/>
+            </property>
+            <attachment key="uuid" value="1b39d806-29dd-4a30-8ed3-131ae4680427"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="CC_ColorPicker" nodeTypeId="lumin.ui.colorPicker">
+      <property id="color" value="1 1 1 0.5"/>
+      <property id="external" value="true"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="height" value="0.3"/>
+      <property id="name" value="CC_ColorPicker"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <handler generated="true" handlerName="ColorChanged">
+        <callbacks>onCancel</callbacks>
+        <callbacks>onColorChanged</callbacks>
+      </handler>
+      <attachment key="uuid" value="9f876cea-9605-4939-a923-78cf0ad1da23"/>
+    </node>
+  </node>
+</design:rootNode>

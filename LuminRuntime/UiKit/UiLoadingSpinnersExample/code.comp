@@ -1,0 +1,5 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/UiLoadingSpinnersExample.cpp \
+    	code/src/core/ParticleAndSpriteSpinners.cpp \
+      code/src/core/BaseExample.cpp \

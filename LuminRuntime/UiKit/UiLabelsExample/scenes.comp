@@ -1,0 +1,3 @@
+DATAS = \
+	scenes/EclipseLabelsPrefab.scene.res.xml : assets/scenes/EclipseLabelsPrefab.scene.res.xml \
+	scenes/EclipseLabelsPrefab.scene.xml : assets/scenes/EclipseLabelsPrefab.scene.xml

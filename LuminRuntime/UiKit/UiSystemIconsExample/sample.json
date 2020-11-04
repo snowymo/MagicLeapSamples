@@ -1,0 +1,7 @@
+{
+	"label": "UiSystemIcons Example",
+	"description": "This example project showcases Lumin Runtime UiKit's System Icons",
+	"projectFile": "UiSystemIconsExample.package",
+	"additionalFiles" : ["README.md"],
+	"initialFilesToOpen": ["README.md"]
+}

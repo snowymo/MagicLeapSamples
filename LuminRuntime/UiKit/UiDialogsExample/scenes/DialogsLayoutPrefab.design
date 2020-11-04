@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="DialogsLayout" nodeTypeId="lumin.root" modelId="lumin" version="1.12.0">
+  <property id="name" value="DialogsLayout"/>
+  <attachment key="uuid" value="091c726c-6a04-4ec0-a0f1-8f3a6a93b41f"/>
+  <node name="DS_LinearLayout1" nodeTypeId="lumin.ui.linearLayout">
+    <property id="alignment">
+      <property id="verticalAlignment" value="Center"/>
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemAlignment"/>
+    <property id="defaultItemPadding">
+      <property id="top" value="0.01"/>
+      <property id="right" value="0.01"/>
+      <property id="bottom" value="0.01"/>
+      <property id="left" value="0.01"/>
+    </property>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="itemAlignment"/>
+    <property id="itemPadding"/>
+    <property id="name" value="DS_LinearLayout1"/>
+    <property id="position"/>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="size"/>
+    <attachment key="uuid" value="38f5c1b0-c5f1-4f8d-a9b3-0cc6ac53c6dd"/>
+    <node name="DS_LinearLayout2" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="verticalAlignment" value="Center"/>
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="DS_LinearLayout2"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <attachment key="uuid" value="836e1586-5bea-4cb6-9eda-84a5db57294e"/>
+      <node name="SADS_Tab" nodeTypeId="lumin.eclipse.tab">
+        <property id="external" value="true"/>
+        <property id="gravityWellEnabled" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+          <property id="gravityWellSnap" value="Center"/>
+        </property>
+        <property id="name" value="SADS_Tab"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Single Action Dialog"/>
+        <handler generated="true" handlerName="SingleActionDialogTabHandlers">
+          <callbacks>onActivate</callbacks>
+        </handler>
+        <attachment key="uuid" value="d0ca2da3-b1db-4ede-b413-1a355ed403b6"/>
+      </node>
+      <node name="DADS_Tab" nodeTypeId="lumin.eclipse.tab">
+        <property id="external" value="true"/>
+        <property id="gravityWellEnabled" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+          <property id="gravityWellSnap" value="Center"/>
+        </property>
+        <property id="name" value="DADS_Tab"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Dual Action Dialog"/>
+        <handler generated="true" handlerName="DualActionDialogTabHandlers">
+          <callbacks>onActivate</callbacks>
+        </handler>
+        <attachment key="uuid" value="bd698f05-b8fa-4eab-ab2c-9a2bb4ab21a8"/>
+      </node>
+      <node name="TDS_Tab" nodeTypeId="lumin.eclipse.tab">
+        <property id="external" value="true"/>
+        <property id="gravityWellEnabled" value="true"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+          <property id="gravityWellSnap" value="Center"/>
+        </property>
+        <property id="name" value="TDS_Tab"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="text" value="Timed Dialog"/>
+        <handler generated="true" handlerName="TimedDialogTabHandlers">
+          <callbacks>onActivate</callbacks>
+        </handler>
+        <attachment key="uuid" value="950322ca-2420-45d8-8e6f-abd162cec774"/>
+      </node>
+      <node name="DS_RectLayout" nodeTypeId="lumin.ui.rectLayout">
+        <property id="alignment"/>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="name" value="DS_RectLayout"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size">
+          <property id="x" value="0.5"/>
+          <property id="y" value="0.13"/>
+        </property>
+        <attachment key="uuid" value="62e6dc7f-ba56-4aa4-859b-417d2b49fb1b"/>
+        <node name="DS_ListView" nodeTypeId="lumin.ui.listView">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment"/>
+          <property id="defaultItemPadding">
+            <property id="top" value="0.01"/>
+            <property id="right" value="0.01"/>
+            <property id="bottom" value="0.01"/>
+            <property id="left" value="0.01"/>
+          </property>
+          <property id="external" value="true"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="itemAlignment"/>
+          <property id="itemPadding"/>
+          <property id="name" value="DS_ListView"/>
+          <property id="orientation" value="Horizontal"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size"/>
+          <attachment key="uuid" value="b253b32c-4518-4711-975b-83d05c0a598b"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</design:rootNode>

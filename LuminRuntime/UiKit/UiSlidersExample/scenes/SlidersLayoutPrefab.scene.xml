@@ -1,0 +1,233 @@
+<ObjectModel name="SlidersLayoutPrefab" version="1">
+    <TransformNode/>
+    <UiGridLayout alignment="Center, Center" columns="2" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Top, Center" name="SL_GridLayout">
+        <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+            <UiText eclipse="true" eclipseLabelType="T1" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Label1" style="Italic" text="Horizontal Sliders:" textSize="0.040513" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="SL_Transform1"/>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Label2" text="Default" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="SL_Transform2">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Left" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="SL_LinearLayout1" orientation="Horizontal">
+                    <Content itemPadding="0.010000, 0.020000, 0.010000, 0.020000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout1" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiSlider gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Slider1" size="0.200000, 0.007000"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout2" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SE_Label1" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Label4" text="Horizontal+Labels" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="SL_Transform3">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Left" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="SL_LinearLayout2" orientation="Horizontal">
+                    <Content itemPadding="0.010000, 0.020000, 0.010000, 0.020000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout3" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiSlider eclipse="true" eclipseSliderType="HorizontalWithLabel" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" labelText1="Label1" labelText2="Label2" name="SL_Slider2" size="0.200000, 0.007000" systemIcon1="Actions" systemIcon2="Actions"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout4" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SE_Label2" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Label6" text="Horizontal+Icon" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="SL_Transform4">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Left" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="SL_LinearLayout3" orientation="Horizontal">
+                    <Content itemPadding="0.010000, 0.020000, 0.010000, 0.020000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout5" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiSlider eclipse="true" eclipseSliderType="HorizontalWithIcon" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Slider3" size="0.200000, 0.007000" systemIcon1="Heart" systemIcon2="Star"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout6" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SE_Label3" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.000000, 0.020000, 0.000000">
+            <LineNode castShadow="false" color="0.9046025,0.9046025,0.9046025,0.9" name="SL_Line3" opaque="false" points="0.000000, 0.000000, 0.000000, 0.370000, 0.000000, 0.000000" receiveShadow="false" shader="Line"/>
+        </Content>
+        <Content itemAlignment="Top, Left" itemPadding="0.020000, 0.000000, 0.020000, 0.000000">
+            <LineNode castShadow="false" color="0.9046025,0.9046025,0.9046025,0.9" name="SL_Line4" opaque="false" points="0.000000, 0.000000, 0.000000, 0.530000, 0.000000, 0.000000" receiveShadow="false" shader="Line"/>
+        </Content>
+        <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+            <UiText eclipse="true" eclipseLabelType="T1" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Label8" style="Italic" text="Radial Sliders:" textSize="0.040513" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="SL_Transform5"/>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Label9" text="Radial+Icon" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="SL_Transform6">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Left" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="SL_LinearLayout4" orientation="Horizontal">
+                    <Content itemPadding="0.010000, 0.020000, 0.010000, 0.020000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout7" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiSlider eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" name="SL_Slider4" systemIcon1="Heart" systemIcon2="Star"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout8" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SE_Label4" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Label11" text="Small Radial+Icon" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="SL_Transform7">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Left" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="SL_LinearLayout5" orientation="Horizontal">
+                    <Content itemPadding="0.010000, 0.020000, 0.010000, 0.020000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout9" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiSlider eclipse="true" eclipseSliderType="RadialWithIconSmall" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" name="SL_Slider5" systemIcon1="Heart" systemIcon2="Star"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout10" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SE_Label5" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.000000, 0.020000, 0.000000">
+            <LineNode castShadow="false" color="0.9046025,0.9046025,0.9046025,0.9" name="SL_Line5" opaque="false" points="0.000000, 0.000000, 0.000000, 0.370000, 0.000000, 0.000000" receiveShadow="false" shader="Line"/>
+        </Content>
+        <Content itemAlignment="Top, Left" itemPadding="0.020000, 0.000000, 0.020000, 0.000000">
+            <LineNode castShadow="false" color="0.9046025,0.9046025,0.9046025,0.9" name="SL_Line6" opaque="false" points="0.000000, 0.000000, 0.000000, 0.530000, 0.000000, 0.000000" receiveShadow="false" shader="Line"/>
+        </Content>
+        <Content itemPadding="0.010000, 0.010000, 0.010000, 0.010000">
+            <UiText eclipse="true" eclipseLabelType="T1" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Label13" style="Italic" text="Progress Bar:" textSize="0.040513" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="SL_Transform8"/>
+        </Content>
+        <Content itemAlignment="Top, Right" itemPadding="0.020000, 0.030000, 0.020000, 0.020000">
+            <UiText alignment="Top, Right" eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_Label14" text="Default" textSize="0.034143" weight="Bold"/>
+        </Content>
+        <Content>
+            <TransformNode name="SL_Transform9">
+                <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Bottom, Left" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="SL_LinearLayout6" orientation="Horizontal">
+                    <Content itemPadding="0.010000, 0.020000, 0.010000, 0.020000">
+                        <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout11" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiProgressBar endColor="0.000000, 1.000000, 0.000000, 1.000000" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" max="100.000000" name="SL_ProgressBar" size="0.200000, 0.007000" startColor="0.000000, 1.000000, 1.000000, 1.000000">
+                                        <UiNode eventPassThrough="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000">
+                                            <UiNode eventPassThrough="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000">
+                                                <TransformNode pos="0,-0.0035,0" scale="0.386,0.014,1">
+                                                    <ModelNode castShadow="false" color="1,1,1,0.4" opaque="false" receiveShadow="false"/>
+                                                </TransformNode>
+                                                <TransformNode pos="-1.490116e-08,0.0035,0" scale="0.386,0.014,1">
+                                                    <ModelNode castShadow="false" color="1,1,1,0.4" opaque="false" receiveShadow="false" rot="-0,0,1,-4.371139e-08"/>
+                                                </TransformNode>
+                                                <TransformNode pos="-0.093,0,0" scale="0.014,0.0001,1" visible="false">
+                                                    <ModelNode castShadow="false" color="1,1,1,0.4" opaque="false" receiveShadow="false" rot="0,0,0.7071068,0.7071068"/>
+                                                </TransformNode>
+                                                <TransformNode pos="0.093,0,0" scale="0.014,0.0001,1" visible="false">
+                                                    <ModelNode castShadow="false" color="1,1,1,0.4" opaque="false" receiveShadow="false" rot="0,0,-0.7071068,0.7071068"/>
+                                                </TransformNode>
+                                                <TransformNode scale="0.386,0.0001,1" visible="false">
+                                                    <ModelNode castShadow="false" color="1,1,1,0.4" opaque="false" receiveShadow="false"/>
+                                                </TransformNode>
+                                                <TransformNode pos="0.093,-0.0035,0" scale="0.014,0.014,1">
+                                                    <ModelNode castShadow="false" color="1,1,1,0.4" opaque="false" receiveShadow="false"/>
+                                                </TransformNode>
+                                                <TransformNode pos="-0.093,-0.0035,0" scale="0.014,0.014,1">
+                                                    <ModelNode castShadow="false" color="1,1,1,0.4" opaque="false" receiveShadow="false" rot="0,0,0.7071068,0.7071068"/>
+                                                </TransformNode>
+                                                <TransformNode pos="-0.093,0.003499999,0" scale="0.014,0.014,1">
+                                                    <ModelNode castShadow="false" color="1,1,1,0.4" opaque="false" receiveShadow="false" rot="-0,0,1,-4.371139e-08"/>
+                                                </TransformNode>
+                                                <TransformNode pos="0.093,0.003499999,0" scale="0.014,0.014,1">
+                                                    <ModelNode castShadow="false" color="1,1,1,0.4" opaque="false" receiveShadow="false" rot="0,0,-0.7071068,0.7071068"/>
+                                                </TransformNode>
+                                                <ModelNode castShadow="false" color="1,1,1,0.4" opaque="false" receiveShadow="false" scale="0.2,0.007,1" visible="false"/>
+                                            </UiNode>
+                                            <ModelNode castShadow="false" color="0,1,1,1" opaque="false" pos="-0.0965,0,0.001" receiveShadow="false" rot="0,0,0.7071068,0.7071068" scale="0.007,0.007,1"/>
+                                            <QuadNode aPos="0,0.5,0" castShadow="false" opaque="false" pos="-0.0965,0,0.002" receiveShadow="false" scale="0.0001,0.007,1" shader="MAX"/>
+                                            <ModelNode castShadow="false" color="0,1,0,1" opaque="false" pos="-0.0965,0,0.001" receiveShadow="false" rot="0,0,-0.7071068,0.7071068" scale="0.007,0.007,1"/>
+                                        </UiNode>
+                                    </UiProgressBar>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                    <Content>
+                        <UiRectLayout contentAlignment="Center, Left" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SL_RectLayout12" size="0.216667, 0.054167">
+                            <Content>
+                                <TransformNode>
+                                    <UiText eclipse="true" eclipseLabelType="B4" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SE_Label6" text="Placeholder Text" textSize="0.029812"/>
+                                </TransformNode>
+                            </Content>
+                        </UiRectLayout>
+                    </Content>
+                </UiLinearLayout>
+            </TransformNode>
+        </Content>
+    </UiGridLayout>
+</ObjectModel>

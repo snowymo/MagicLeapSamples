@@ -1,0 +1,11 @@
+REFS = SimpleNativeApp
+
+# See the `certgen` tool for generating this
+# MLCERT = path/to/your/developer.cert
+
+# Including data files in your package:
+#
+# DATAS = subdir/image.png   # add this to 'subdir/image.png' \
+#         path/to/input.in : path/to/output.out   # add a file and change its name \
+#         path/to/input_file : output/dir/  # add a file and only change its directory 
+

@@ -1,0 +1,17 @@
+KIND = program
+
+INCS = inc/
+
+SRCS = \
+  src/main.cpp \
+  src/ControllerScene.cpp \
+  src/ControllerExample.cpp \
+  src/ExamplesHelpers.cpp \
+  src/ControllerEventWrapper.cpp \
+  src/ControllerVisualizer.cpp \
+
+USES = \
+    lumin_runtime \
+
+OPTIONS = \
+  standard-c++/14

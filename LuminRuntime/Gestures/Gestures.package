@@ -1,0 +1,5 @@
+REFS = Gestures
+DATAS = pipeline/portal_icon/ : assets/icon/
+USES = \
+	pipeline/cache/AssetManifest \
+	scenes

@@ -1,0 +1,23 @@
+{
+  "id": "51814a0d-2b2c-4d6d-920e-b30d066b164b",
+  "processor": "lap/types/processor/files_array_builder",
+  "input": {
+    "file": [
+      {
+        "path": "SourceArt/sphere.kmat",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "files": [
+      {
+        "path": "389xCtNKdr4/sphere.kmat.files",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

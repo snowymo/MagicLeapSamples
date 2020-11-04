@@ -1,0 +1,9 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/AudioExample.cpp \
+      code/src/core/LabelFader.cpp \
+      code/src/core/AudioScene.cpp \
+      code/src/core/AudioGizmos.cpp \
+      code/src/core/BaseExampleController.cpp \
+      code/src/core/BasePrismController.cpp \
+      code/src/core/ExamplesHelpers.cpp

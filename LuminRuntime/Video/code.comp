@@ -1,0 +1,8 @@
+SRCS= \
+      code/src/core/main.cpp \
+      code/src/core/VideoExample.cpp \
+	    code/src/core/ExamplesHelpers.cpp \
+	    code/src/core/LabelFader.cpp \
+	    code/src/core/VideoScene.cpp \
+	    code/src/core/BaseExampleController.cpp \
+	    code/src/core/BasePrismController.cpp \

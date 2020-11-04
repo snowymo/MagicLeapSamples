@@ -1,0 +1,12 @@
+SRCS= \
+      code/src/gen/prefabs.cpp \
+      code/src/gen/scenes.cpp \
+      code/src/gen/TextEditPrefabBase.cpp \
+      code/src/prefabs/TextEditPrefab.cpp \
+      code/src/gen_static/DesignManager.cpp \
+      code/src/gen_static/PrefabBase.cpp \
+      code/src/gen_static/PrefabDescriptor.cpp \
+      code/src/gen_static/PrefabManager.cpp \
+      code/src/gen_static/SceneBase.cpp \
+      code/src/gen_static/SceneDescriptor.cpp \
+      code/src/gen_static/SceneManager.cpp

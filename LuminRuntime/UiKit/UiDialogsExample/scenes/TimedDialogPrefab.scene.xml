@@ -1,0 +1,27 @@
+<ObjectModel name="TimedDialogPrefab" version="1">
+    <TransformNode/>
+    <UiDialog buttonType="TextWithIcon" cancelIcon="Close" cancelText="Cancel" confirmIcon="Check" dialogLayout="Standard" dialogType="Timed" expireTime="5.000000" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TDN_Dialog" pos="0,0,0.3" scrolling="false">
+        <Content>
+            <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" name="contentContainer" padding="0.000100, 0.000100, 0.000100, 0.000100">
+                <Content>
+                    <TransformNode>
+                        <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="TDN_LinearLayout">
+                            <Content>
+                                <UiText eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TDN_Label1" text="Modeless Timed Dialog" textSize="0.034143" weight="Bold"/>
+                            </Content>
+                            <Content>
+                                <UiText eclipse="true" eclipseLabelType="B2" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TDN_Label2" text="Dialog will expire in:" textAlignment="Center" textSize="0.025480"/>
+                            </Content>
+                            <Content>
+                                <UiText eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="TDN_Label3" text="5.0" textSize="0.034143" weight="Bold"/>
+                            </Content>
+                            <Content>
+                                <UiSlider eclipse="true" gravityWellEnabled="true" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" max="5.000000" name="TDN_Slider" systemIcon1="Heart" systemIcon2="Heart"/>
+                            </Content>
+                        </UiLinearLayout>
+                    </TransformNode>
+                </Content>
+            </UiRectLayout>
+        </Content>
+    </UiDialog>
+</ObjectModel>

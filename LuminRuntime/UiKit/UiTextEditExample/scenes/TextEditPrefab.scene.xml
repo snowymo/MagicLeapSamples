@@ -1,0 +1,42 @@
+<ObjectModel name="TextEditPrefab" version="1">
+    <TransformNode/>
+    <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Center, Left" name="uiLinearLayout1">
+        <Content itemPadding="0.000000, 0.000000, 0.010000, 0.000000">
+            <UiText font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SingleLine" style="Italic" text="Single Line:" textSize="0.050000" weight="Bold"/>
+        </Content>
+        <Content itemPadding="0.000000, 0.000000, 0.020000, 0.000000">
+            <UiTextEdit charLimit="140" font="DefaultRes_Font_LominoUI_Rg" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SingleLineTextEdit" scrollSpeed="0.500000" size="0.700000, 0.050000" text="Single Line Text Edit." textSize="0.025000"/>
+        </Content>
+        <Content itemPadding="0.000000, 0.000000, 0.010000, 0.000000">
+            <UiText alignment="Bottom, Left" font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="MultiLine" style="Italic" text="Multiple Line:" textSize="0.050000" weight="Bold"/>
+        </Content>
+        <Content itemPadding="0.000000, 0.000000, 0.020000, 0.000000">
+            <UiTextEdit charLimit="140" font="DefaultRes_Font_LominoUI_Rg" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" multiline="true" name="MultiLineTextEdit" scrollBarVisibility="Always" scrollSpeed="0.500000" size="0.700000, 0.100000" text="Multiple Line Text Edit.\nLine 2.\nLine 3." textSize="0.025000"/>
+        </Content>
+        <Content itemAlignment="Bottom, Right">
+            <UiText alignment="Bottom, Left" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="CharRatio" text="40/140" textSize="0.030000"/>
+        </Content>
+        <Content itemPadding="0.000000, 0.000000, 0.010000, 0.000000">
+            <UiText font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="Password" style="Italic" text="Password Mode:" textSize="0.050000" weight="Bold"/>
+        </Content>
+        <Content itemPadding="0.000000, 0.000000, 0.020000, 0.000000">
+            <UiTextEdit charLimit="140" font="DefaultRes_Font_LominoUI_Rg" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="PasswordTextEdit" password="true" scrollSpeed="0.500000" size="0.700000, 0.050000" textSize="0.025000">
+                <UiText alignment="Bottom, Left" boundsSize="0.200000, 0.500000" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="PasswordRequirements" pos="-0.3,-0.08,0" text="Password Requirements:  8-14 characters.  Must include at least one number and one special character." textSize="0.030000" visible="false"/>
+            </UiTextEdit>
+        </Content>
+        <Content itemPadding="0.000000, 0.000000, 0.010000, 0.000000">
+            <UiText font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="URLMode" style="Italic" text="URL Mode:" textSize="0.050000" weight="Bold"/>
+        </Content>
+        <Content itemPadding="0.000000, 0.000000, 0.020000, 0.000000">
+            <UiTextEdit charLimit="140" font="DefaultRes_Font_LominoUI_Rg" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="URLTextEdit" scrollSpeed="0.500000" size="0.700000, 0.050000" text="http://creator.magicleap.com" textEntryMode="URL" textSize="0.025000"/>
+        </Content>
+        <Content itemPadding="0.000000, 0.000000, 0.010000, 0.000000">
+            <UiText font="DefaultRes_Font_LominoUI_BdIt" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="Numeric" style="Italic" text="Numeric Mode:" textSize="0.050000" weight="Bold"/>
+        </Content>
+        <Content itemPadding="0.000000, 0.000000, 0.020000, 0.000000">
+            <UiTextEdit charLimit="6" font="DefaultRes_Font_LominoUI_Rg" gravityWellEnabled="true" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="NumericTextEdit" scrollSpeed="0.500000" size="0.700000, 0.050000" text="1234" textEntryMode="Numeric" textSize="0.025000">
+                <UiText alignment="Bottom, Left" boundsSize="0.200000, 0.500000" font="DefaultRes_Font_LominoUI_Rg" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="NumericRequirements" pos="-0.3,-0.03,0" text="Enter 6 digit pin code:" textSize="0.030000" visible="false"/>
+            </UiTextEdit>
+        </Content>
+    </UiLinearLayout>
+</ObjectModel>

@@ -1,0 +1,23 @@
+{
+  "id": "07d2eed0-c674-4847-ad4d-5982f8754dd5",
+  "processor": "lap/types/processor/texture_from_png",
+  "input": {
+    "image": [
+      {
+        "path": "SourceArt/Gesture_C.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "image": [
+      {
+        "path": "NLCjltmxMhU/Gesture_C.png",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

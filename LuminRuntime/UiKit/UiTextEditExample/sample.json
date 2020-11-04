@@ -1,0 +1,7 @@
+{
+	"label": "UiTextEdit Example",
+	"description": "This example project showcases Lumin Runtime UiKit's Text Edit Widgets",
+	"projectFile": "UiTextEditExample.package",
+	"additionalFiles" : ["README.md", "UiTextEditExample.mlproject"],
+	"initialFilesToOpen": ["README.md"]
+}

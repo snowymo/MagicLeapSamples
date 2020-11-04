@@ -1,0 +1,7 @@
+{
+	"label": "Controller Example",
+	"description": "This example project showcases Lumin Runtime's Controller Events",
+	"projectFile": "ControllerExample.package",
+	"additionalFiles" : ["README.md"],
+	"initialFilesToOpen": ["README.md"]
+}

@@ -1,0 +1,36 @@
+<ObjectModel name="LoadingSpinners" version="1">
+    <TransformNode/>
+    <UiLinearLayout alignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Top, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="TopLayout">
+        <Content>
+            <UiGridLayout alignment="Top, Center" columns="2" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" itemAlignment="Top, Center" itemPadding="0.010000, 0.010000, 0.010000, 0.010000" name="LoadingSpinnerLayout">
+                <Content itemPadding="0.010000, 0.100000, 0.010000, 0.040000">
+                    <UiText eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ParticleTitle" text="Particle Spinner" textSize="0.034143" weight="Bold"/>
+                </Content>
+                <Content>
+                    <UiText eclipse="true" eclipseLabelType="T3" font="DefaultRes_Font_LominoUI_Bd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SpriteTitle" text="Sprite Spinner" textSize="0.034143" weight="Bold"/>
+                </Content>
+                <Content itemPadding="0.010000, 0.100000, 0.000000, 0.040000">
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ParticleLayout" size="0.210000, 0.210000">
+                        <Content>
+                            <TransformNode>
+                                <UiLoadingSpinner gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="ParticleSpinner" res="DefaultRes_Particle_loadingSpinnerDemo"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+                <Content itemPadding="0.000000, 0.000000, 0.020000, 0.000000">
+                    <UiRectLayout contentAlignment="Center, Center" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SpriteLayout" size="0.210000, 0.210000">
+                        <Content>
+                            <TransformNode>
+                                <UiLoadingSpinner gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="SpriteSpinner" resPath="Indeterminant.json" size="0.070000, 0.070000" type="k2dSpriteAnimation"/>
+                            </TransformNode>
+                        </Content>
+                    </UiRectLayout>
+                </Content>
+            </UiGridLayout>
+        </Content>
+        <Content>
+            <UiText alignment="Top, Center" eclipse="true" eclipseLabelType="T2" font="DefaultRes_Font_LominoUI_XBd" gravityWellRoundness="0.000000" gravityWellSize="0.000000, 0.000000" gravityWellSnap="ClosestEdge" name="prismMovingTitle" text="Try moving the prism!" textSize="0.046883" weight="ExtraBold"/>
+        </Content>
+    </UiLinearLayout>
+</ObjectModel>
